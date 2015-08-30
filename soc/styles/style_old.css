@@ -1,0 +1,194 @@
+/* Styles go here */
+
+
+
+body
+{
+  background-color:white;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  font-size:20px;
+  font-family: 'Open Sans', arial, serif;
+  text-align:center;
+}
+
+.ih-item
+{
+  margin:20px 60px 30px 60px;
+  display:inline-block;
+}
+
+.blocks
+{
+  height: 100%;
+  overflow:hidden;
+  font-size:inherit;
+  padding:80px 0px;
+}
+
+.odd
+{
+  height: 100%;
+  color:#210539;
+}
+.even
+{
+  height: 100%;
+  background-color:#A5C843;
+  color:white;
+}
+
+#zgl
+{
+  color:white;
+  font-size:19pt;
+}
+#logo
+{
+  vertical-align:bottom;
+  background-image:url("http://vk.cc/47TtRY");
+  background-size:cover;
+  background-position: center top; /* Положение фона */
+  background-repeat: no-repeat;
+}
+#menu
+{
+  margin-top:10%;
+  margin-bottom:-100px;
+}
+#menu LI
+{
+  width:120px;
+  display:inline-block;
+  text-decoration: none;
+  color: #210539;
+  padding:10px 10px 10px 10px;
+  margin:2px 2px 0px 2px;
+  font-size:20pt;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all .5s ease-out;
+}
+
+#menu LI:hover
+{
+  transition: all .5s ease-out;
+  background-color: #fff;
+  background-color: RGBA(255, 255, 255, 1);
+}
+
+
+
+.hided
+{
+  display:none;
+}
+.egg:hover .hided
+{
+  display:inline;
+}
+.effect13
+{
+  margin: -40px 60px 0px 60px;
+}
+
+.leader
+{
+  margin-top:30px;
+}
+
+H1
+{
+  text-shadow: 1px 1px 2px black;
+  margin-top:-20px;
+}
+H1 hr
+{
+   width:40%;
+   transition: all .4s ease-out;
+}
+
+H1:hover hr
+{
+  width:60%;
+  transition: all .4s ease-out;
+}
+
+#mgh
+{
+  width:300px;
+  height:500px;
+  color:white;
+  font-size:200%;
+  text-align:center;
+}
+#mgh div
+{
+  width:300px;
+  height:400px;
+  transition: all .5s ease-out;
+  background-image:url('https://4.downloader.disk.yandex.ru/preview/ec16ac651507be36a948033231b5c274e97b71783bc33621ca944b8bde1f0404/inf/5zUX0HbyG-oX9WdWEt2GD1VyiFhaJde43WQd0gAD6CqF5fC5QWRhz0_Qd36J3PRHaUH0y-xZazXu3C1MEO5KLw%3D%3D?uid=0&filename=%D0%A1%D1%82%D1%83%D0%BF%D0%B5%D0%BD%D1%8CProduction%D0%91%D0%95%D0%9B%D0%AB%D0%99png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1180x672');
+  background-size:cover;
+}
+#mgh:hover div
+{
+  transition: all .5s ease-out;
+  background-image:url('https://3.downloader.disk.yandex.ru/preview/8785eb6888e97a5b453881e7a929af0effffe1fd34a4e4d729e536cdb9113c83/inf/hXNfKkAPSbBezIiqy_TPQTEgsMBDDFYcex4YBOfeI497yDq8VQcaWIIX4VQgmfEenwNE4H_1rGBe9s_bZEfNpw%3D%3D?uid=0&filename=%D0%A1%D1%82%D1%83%D0%BF%D0%B5%D0%BD%D1%8CProduction%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D0%BE%D0%B9png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1180x672');
+  background-size:cover;
+}
+
+
+.nw
+{
+  display:inline-block;
+  width:250px;
+  height:500px;
+  vertical-align:top;
+}
+
+.nw img
+{
+  border-radius: 50%;
+}
+footer
+{
+  margin-top:70px;
+  font-size:9pt;
+  margin-bottom:-70px;
+}
+
+footer a
+{
+  color:white;
+}
+
+#m_menu
+{
+  display:none;
+}
+
+
+@media handheld, screen and (max-width: 850px) {
+
+body{font-size:14px;}
+
+#m_menu
+{
+  display:block;
+  position:fixed
+}
+#m_menu:hover body
+{
+  margin-left:200px;
+  transition: all .5s ease-out;
+}
+
+/*.menu{display:none;}*/
+.effect13
+{
+  margin:0 auto;
+}
+
+
+}

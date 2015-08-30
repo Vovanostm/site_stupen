@@ -1,0 +1,1101 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"python",
+				"python3"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"b",
+				"break"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"G",
+				"getElementById"
+			],
+			[
+				"roo",
+				"rooms_div"
+			],
+			[
+				"po",
+				"porty"
+			],
+			[
+				"state",
+				"state"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"is",
+				"is_alive"
+			],
+			[
+				"v",
+				"Value"
+			],
+			[
+				"da",
+				"datetime"
+			],
+			[
+				"s",
+				"state"
+			],
+			[
+				"State",
+				"state"
+			],
+			[
+				"Te",
+				"Temperatures"
+			],
+			[
+				"Ro",
+				"room"
+			],
+			[
+				"th",
+				"th"
+			],
+			[
+				"_",
+				"_sentd"
+			],
+			[
+				"M",
+				"MultiP"
+			],
+			[
+				"pa",
+				"pass"
+			],
+			[
+				"Nr",
+				"NRoom"
+			],
+			[
+				"rele",
+				"releName"
+			],
+			[
+				"rea",
+				"read_RT_state"
+			],
+			[
+				"ht",
+				"HttpResponse"
+			],
+			[
+				"pro",
+				"procRT"
+			],
+			[
+				"false",
+				"false"
+			],
+			[
+				"pr",
+				"procRT"
+			],
+			[
+				"no",
+				"now"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"set",
+				"setpref"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"e",
+				"except"
+			],
+			[
+				"port",
+				"portState"
+			],
+			[
+				"read",
+				"read_p_s"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ca",
+				"check_smartphone"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"Ge",
+				"GET"
+			],
+			[
+				"ti",
+				"time"
+			],
+			[
+				"op",
+				"openport"
+			],
+			[
+				"_at",
+				"_dat"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"get",
+				"getGraph"
+			],
+			[
+				"new",
+				"new_str"
+			],
+			[
+				"rq",
+				"request"
+			],
+			[
+				"ge",
+				"GET"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"con",
+				"confirm"
+			],
+			[
+				"co",
+				"confirm"
+			],
+			[
+				"re",
+				"readOnOff"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"om",
+				"onmouseout	Attr"
+			],
+			[
+				"onmo",
+				"onmouseout	Attr"
+			],
+			[
+				"onm",
+				"onmouseup	Attr"
+			],
+			[
+				"tim",
+				"timezone"
+			],
+			[
+				"Th",
+				"TH"
+			],
+			[
+				"Temp",
+				"TempHum"
+			],
+			[
+				"Float",
+				"floatDate"
+			],
+			[
+				"TEmp",
+				"TempHum"
+			],
+			[
+				"W",
+				"white"
+			],
+			[
+				"w",
+				"writeVal"
+			],
+			[
+				"o",
+				"objects"
+			],
+			[
+				"fa",
+				"False"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"S",
+				"SmartBase"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"Re",
+				"Rel"
+			],
+			[
+				"Se",
+				"SELECT"
+			],
+			[
+				"Sma",
+				"SmartBase"
+			],
+			[
+				"C",
+				"Checked"
+			],
+			[
+				"RE",
+				"Reles"
+			],
+			[
+				"Sm",
+				"SmarCoursor"
+			],
+			[
+				"I",
+				"INSERT"
+			],
+			[
+				"T",
+				"Tpm"
+			],
+			[
+				"se",
+				"secure"
+			],
+			[
+				"sra",
+				"start"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"stat",
+				"server_static_img"
+			],
+			[
+				"a",
+				"alert"
+			],
+			[
+				"now",
+				"NowTime"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6346,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "logo_ef.css",
+			"settings":
+			{
+				"buffer_size": 3509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news.html",
+			"settings":
+			{
+				"buffer_size": 1375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 390,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 3021,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test.html",
+			"settings":
+			{
+				"buffer_size": 485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hover_all.css",
+			"settings":
+			{
+				"buffer_size": 113291,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hover.css",
+			"settings":
+			{
+				"buffer_size": 4593,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"rsub",
+				"Preferences: Key Bindings - User"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"rsub",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/Создание сайтов/Сайты/фонд/index.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/Создание сайтов/Сайты/фонд/help_sms.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/Создание сайтов/Сайты/фонд/news.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/Создание сайтов/Сайты/фонд/style.css",
+		"/Users/Vovanostm/Downloads/bootstrap/css/bootstrap.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/from_zero.sh",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/C++/Освоение/Lesson4_7/up_1.cpp",
+		"/Users/Vovanostm/Desktop/p7zip_9.38.1 3/install.sh",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/C++/Освоение/Hello world/freq_mit.cpp",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/C++/Освоение/Hello world/hello_world_iterator.cpp",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/C++/Освоение/Hello world/iterators.cpp",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/C++/Освоение/Hello world/inch_cm.cpp",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/C++/Освоение/Hello world/hello_world.cpp",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/Создание сайтов/Сайты/фонд/about.htm",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/Создание сайтов/Сайты/фонд/Сайт_тест.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/Создание сайтов/Сайты/фонд/main.htm",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/Создание сайтов/Сайты/фонд/styles.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/МШП/Создание сайтов/Сайты/фонд/untitled.sublime-project",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/JQradio.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/pref.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/apps.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/daemon/c++_start.cpp",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/daemon/daemon_2.cpp",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/daemon/main_daemon.cpp",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/views.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/mobile_css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/style.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/preferences.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/login.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/urls.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/smarthouse/settings.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/rewrite_models.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/modal_pref_room.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/old_preferences.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/manage.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/pref.old.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/ModalTemp.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/ModalWindowAuto.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/ModalWindowPort.js",
+		"/Users/Vovanostm/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/JQlabels.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/ButtonScript.js",
+		"/Users/Vovanostm/Desktop/HTML+CSS/HTML/Материалы для урока 1/pic/Для разбора.html",
+		"/Users/Vovanostm/Dropbox/Diplom/graphicsmptp.cpp",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/admin.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/smarthouse/__init__.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/for_Terminal",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/__init__.py",
+		"/Users/Vovanostm/Dropbox/Diplom/packact.h",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/pref_old",
+		"/Applications/Arduino.app/Contents/Resources/Java/libraries/SmRead/SmartHouse.h",
+		"/Applications/Arduino.app/Contents/Resources/Java/libraries/SmRead/SmartHouse.cpp",
+		"/Users/Vovanostm/Downloads/web-server/script",
+		"/Users/Vovanostm/Desktop/Реле",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/log.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/JQbutton.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/startconnection.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/sm_h_cub/manage.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/Smart-H.sublime-project",
+		"/Users/Vovanostm/Desktop/Книга1.xlsx",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/db.sqlite3",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/jqplot.canvasAxisTickRenderer.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/ModalTemp.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/style_old.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/jquery.jqplot.min.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/mobilestyle.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/newstyle.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/preferences_new.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/preferences_last.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/open_port.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/jQradio",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/timer.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/pref2.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/login_test.html",
+		"/Users/Vovanostm/Downloads/tkbacktracer-2.020.tcl",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/jquery.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sublimes_Projects/Smart_House/Sm_1",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/PcDuino/ReadMe",
+		"/Users/Vovanostm/Downloads/lsm303/README.textile",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Pref.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Testing.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Start connection.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Login.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/style.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/web5.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Pref_oldv2.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/scripts.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/untitled.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/webs.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/tryj.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/te1.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Pref_old.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Test.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/client.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Pref_2.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" <DIV class=\"part_n\">",
+			"<DIV class=\"part_n\">",
+			"news",
+			"char",
+			"news",
+			"int",
+			"bcontainer",
+			"ave_Prefs",
+			"updateTimes()",
+			"Rooms",
+			"<",
+			">\n",
+			"state",
+			"port",
+			"read",
+			"updateStates()",
+			"updateStates();",
+			".loginBody{",
+			"print",
+			"read",
+			"time.sle",
+			"print",
+			"22",
+			"rele.sa",
+			"rele",
+			"startcon",
+			"MultiP",
+			"procRS",
+			"sensorsPins",
+			"modes",
+			"date",
+			"ReadTemps",
+			"print",
+			"load",
+			"readti",
+			"upda",
+			"load",
+			"releAutolight",
+			"Timer",
+			"aler",
+			"38861B",
+			"write",
+			"locale",
+			"MultiP.objects.get(id=1)",
+			"wid",
+			"getgr",
+			"timezo",
+			"print",
+			"visibility:hidden",
+			"$close",
+			"Hh",
+			"onchange=\"ChangeStateButton(name, value)\"",
+			"input",
+			"gg",
+			"print",
+			"'#1240AB'",
+			"'green'",
+			"green",
+			")\n",
+			"logout",
+			"login",
+			"openPort",
+			"40",
+			"		\n",
+			"logo",
+			"background-color:#037F96",
+			"update",
+			"Ports",
+			"Sens",
+			"LightStreetChange",
+			"readdatafromhtml",
+			"ser.write",
+			"200",
+			"ser.isOpen()",
+			"redirect('/smarthouse')",
+			"redirect(\"/smarthouse\")",
+			"redirect('/smarthouse')",
+			"isopen",
+			"white",
+			"writeTo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<HR> <DIV class=\"part_n\">",
+			"part_n",
+			"",
+			"char",
+			"CubieLoop",
+			"releAutoLight",
+			"display:none",
+			"",
+			"submit",
+			"'#3196DE'",
+			"'#3196DE",
+			"'#396CE1'",
+			"'#1240AB'",
+			"#1240AB",
+			"background-color:#3A9693",
+			"background-color:#009B95",
+			"Reles",
+			"Ports"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "logo_ef.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "news.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "hover_all.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "hover.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Stupen.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

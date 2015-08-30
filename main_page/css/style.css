@@ -1,0 +1,90 @@
+body
+{
+	width: 100%
+	overflow: hidden;
+	background-color: #eeeeee;
+	background-image: url(pics/bg.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	font-family: "Open Sans" sans-serif;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+div
+{
+	overflow: hidden;
+}
+.logo
+{
+	height: 40%;
+}
+.logo font
+{
+	padding: 1% 5%;
+	/*background-color: white;*/
+	color: #fff;
+	text-shadow: 1px 1px 2px black;
+}
+.logo h3
+{
+	margin-top:5%;
+	margin-bottom: 3%;
+}
+
+nav
+{
+	height: 50%;
+}
+nav a
+{
+	display: inline-block;
+	margin: 3%;
+	color:#333;
+}
+
+.p_img
+{
+	width: 200px;
+	height: 200px;
+	
+	background-size: contain;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all .5s ease-out;
+	vertical-align: bottom;
+}
+nav a
+{
+	text-decoration: none;
+}
+#soc
+{
+	background-image: url(pics/logo_soc_gray.png);
+}
+#soc:hover
+{
+	background-image: url(pics/logo_soc_color.png);
+}
+#prod
+{
+	background-image: url(pics/logo_prod_gray.png);
+}
+#prod:hover
+{
+	background-image: url(pics/logo_prod_color.png);
+}
+
+
+footer
+{
+	font-size: 80%;
+	color: #333333;
+}
+footer a
+{
+	color: #333333;
+}
