@@ -25,7 +25,7 @@ body
 {
   margin: 0;
   min-height: 100%;
-  overflow:auto;
+  overflow:hidden;
   font-size:inherit;
 }
 
@@ -88,7 +88,6 @@ body
 }
 
 
-
 .hided
 {
   display:none;
@@ -123,28 +122,6 @@ H1:hover hr
   transition: all .4s ease-out;
 }
 
-#mgh
-{
-  width:300px;
-  height:500px;
-  color:white;
-  font-size:200%;
-  text-align:center;
-}
-#mgh div
-{
-  width:300px;
-  height:400px;
-  transition: all .5s ease-out;
-  background-image:url('https://4.downloader.disk.yandex.ru/preview/ec16ac651507be36a948033231b5c274e97b71783bc33621ca944b8bde1f0404/inf/5zUX0HbyG-oX9WdWEt2GD1VyiFhaJde43WQd0gAD6CqF5fC5QWRhz0_Qd36J3PRHaUH0y-xZazXu3C1MEO5KLw%3D%3D?uid=0&filename=%D0%A1%D1%82%D1%83%D0%BF%D0%B5%D0%BD%D1%8CProduction%D0%91%D0%95%D0%9B%D0%AB%D0%99png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1180x672');
-  background-size:cover;
-}
-#mgh:hover div
-{
-  transition: all .5s ease-out;
-  background-image:url('https://3.downloader.disk.yandex.ru/preview/8785eb6888e97a5b453881e7a929af0effffe1fd34a4e4d729e536cdb9113c83/inf/hXNfKkAPSbBezIiqy_TPQTEgsMBDDFYcex4YBOfeI497yDq8VQcaWIIX4VQgmfEenwNE4H_1rGBe9s_bZEfNpw%3D%3D?uid=0&filename=%D0%A1%D1%82%D1%83%D0%BF%D0%B5%D0%BD%D1%8CProduction%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D0%BE%D0%B9png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1180x672');
-  background-size:cover;
-}
 
 
 .s_new
@@ -225,11 +202,16 @@ H1:hover hr
   border-radius: 50%;
 }
 
+.nw a
+{
+  text-decoration: none;
+  color:#210539;
+}
+
 footer
 {
-  margin-top:70px;
+  margin-top: 100px;
   font-size:9pt;
-  margin-bottom:-70px;
 }
 
 footer a

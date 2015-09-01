@@ -1,4 +1,4 @@
-var x=1;
+var x=0;
 jQuery(function( $ ){
     /**
      * Demo binding and preparation, no need to read this part
@@ -22,16 +22,18 @@ jQuery(function( $ ){
     
 });
 
-var $area = $('#block_news');
 
-function scrolldown()
+
+function scrolldown(area)
 {
-   x=x<=1?1:x-1;
+  var $area = $('#'+area);
+   x=x<=1?0:x-1;
    $area.scrollTo('div:eq('+x+')', 900, { axis:'x' });
 }
 
-function scrollup()
+function scrollup(area)
 {
+  var $area = $('#'+area);
    x=x+1;
    $area.scrollTo('div:eq('+x+')', 900, { axis:'x' });
 }
