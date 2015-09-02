@@ -129,6 +129,11 @@ H1:hover hr
   transition: all .4s ease-out;
 }
 
+H2 a
+{ text-decoration: none;
+  color:inherit;
+}
+
 footer
 {
   margin-top:70px;
