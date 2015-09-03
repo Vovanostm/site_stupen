@@ -37,7 +37,7 @@ body
 
 #news
 {
-  padding:30px 20%;
+  padding: 20px 20% 20px 0%;
   text-align: left;
 }
 
@@ -239,6 +239,22 @@ footer a
 {
   text-decoration: none;
   color:#210539;
+}
+.vs_ph a
+{
+  text-decoration: none;
+  color:#210539;
+}
+
+.pluso
+{
+  float: left;
+  margin: 170px 50px 30px 18%;
+  }
+time
+{
+  color:gray;
+  font-style: italic;
 }
 
 @media handheld, screen and (max-width: 850px) {
