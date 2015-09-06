@@ -14,18 +14,11 @@
 
   <!-- <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 -->
-
-
-
-
 <script type='text/javascript' src='scripts/jQ1_8_3.js'></script>
 
 <script type="text/javascript" src="scripts/jQ_scrollTo.js"></script>
 <script type="text/javascript" src="scripts/scroll.js"></script>
 <script type="text/javascript" src="scripts/mobile_menu.js"></script>
-
-
-
 
 </head>
 <body id="m_bd">
@@ -33,7 +26,13 @@
   <img src="img/mob.png" width="40" height="40"></div>
 <section class="blocks" id="logo">
   <div >
-<br><br><br><br><br><br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="image-effect-circle">
       <img src="img/logo_st.png" width=500 height=300>
       <div class="share-layer">
@@ -59,7 +58,7 @@
           <a href="pages/media.html">
             <LI>Медиа</LI>
           </a>
-          <a href="pages/contacts.html">
+          <a onclick="navTo('#contacts')">
             <LI>Контакты</LI>
           </a>
         </UL>
@@ -68,9 +67,12 @@
   </div>
 </section>
 <section class="blocks even" id="projects">
-  <br><br>
+  <br>
+  <br>
   <div >
-    <H1><a>Наши проекты</a> <hr></H1>
+    <H1>
+      <a>Наши проекты</a>
+      <hr></H1>
     <br>
     <div class="row">
       <div class="ih-item circle colored effect3 left_to_right">
@@ -138,12 +140,14 @@
 
 <section class="blocks odd" id="news">
   <br>
-  <H1>Новости<hr></H1>
+  <H1>
+    Новости
+    <hr></H1>
   <div>
-  <div onclick="scrolldown('block_news')" class="div_srelka">
-    <div class="strelka_all strelka_left"></div>
-  </div>
-  <div id="block_news" class="vs_nw">
+    <div onclick="scrolldown('block_news')" class="div_srelka">
+      <div class="strelka_all strelka_left"></div>
+    </div>
+    <div id="block_news" class="vs_nw">
       <div class = nw >
         <a href="pages/news/start_now.html">
           <img src="img/now/start.jpg" width="200" height="200">
@@ -151,7 +155,7 @@
           <H4>
             Старт проекта
             <br>"СЕЙЧАС В МЫТИЩАХ"</H4>
-            <time>30.08.2015</time>
+          <time>30.08.2015</time>
           <P>
             Сегодня стартовал проект 
 "Сейчас в Мытищах",
@@ -162,22 +166,29 @@
             <br>Подробнее о проекте...</a>
           <br></P>
       </div>
-<div class = nw>
+      <div class = nw>
         <a href="pages/news/sushka_13.10.13.html">
-        <img src="img/Sush/foto_proj (6).jpg" width="200" height="200">
-        <H4>СУШКА в Мытищах.<br>
-          Открытая мастерская.</H4>
+          <img src="img/Sush/foto_proj (6).jpg" width="200" height="200">
+          <H4>
+            СУШКА в Мытищах.
+            <br>Открытая мастерская.</H4>
           <time>13.10.2013</time>
-        <P>Дорогие друзья! 7 октября арт-студии «Ступень» исполнился 1 год. В честь этого события мы устроили настоящий праздник, который состоялся 13 октября.<br>Подробнее о мероприятии... </P></a>
+          <P>
+            Дорогие друзья! 7 октября арт-студии «Ступень» исполнился 1 год. В честь этого события мы устроили настоящий праздник, который состоялся 13 октября.
+            <br>Подробнее о мероприятии...</P>
+        </a>
       </div>
       <div class = nw>
-      <a href="pages/news/sushka_26.06.13.html">
-        <img src="img/Sush/foto_proj (1).jpg" width="200" height="200">
-        <H4>Первая "Сушка в Мытищах"</H4>
-        <time>26.05.2013</time>
-        <P>Опоздав, под проливным дождем мы начали натягивать веревки...<br> 
-К нашему удивлению уже к 12 часам появились первые фотографы, а мы еще были неготовы.<br>
-Подробнее о мероприятии...</P></a>
+        <a href="pages/news/sushka_26.06.13.html">
+          <img src="img/Sush/foto_proj (1).jpg" width="200" height="200">
+          <H4>Первая "Сушка в Мытищах"</H4>
+          <time>26.05.2013</time>
+          <P>
+            Опоздав, под проливным дождем мы начали натягивать веревки...
+            <br>
+            К нашему удивлению уже к 12 часам появились первые фотографы, а мы еще были неготовы.
+            <br>Подробнее о мероприятии...</P>
+        </a>
       </div>
       <div class = nw>
         <img src="http://vk.cc/485qQ8" width="200" height="200">
@@ -271,127 +282,137 @@
           <br></P>
       </div>
     </div>
-  <div class = "div_srelka">
-    <div  onclick="scrollup('block_news')" class="strelka_all strelka_right"></div>
+    <div class = "div_srelka">
+      <div  onclick="scrollup('block_news')" class="strelka_all strelka_right"></div>
+    </div>
   </div>
-  </div>
- 
+
 </section>
 
 <section class="blocks even" id="about">
-<div>
-  <H1>О нас
-  <hr >
-  </H1>
-  <P>
-    <H2>
-      Общественная организация Арт-студия «Ступень» - это
-      <br>
-      объединение людей неравнодушных к творчеству и нашему региону.
-      <br>
-      В настоящий момент организация осуществляет свою работу на территории Мытищинского района.
-      <br>
-      <br>
-      Основными задачами нашего проекта являются создание общественно-актуальных
-      <br>
-      культурных мероприятий и акций, привлекающих как молодёжь, так и людей
-      <br>
-      старшего поколения, поднятие событийности в городе и районе и инициативности у населения.
-    </H2>
-  </P>
   <div>
-    <H1>Наша команда</H1>
-    <div>
-    <div class="ih-item circle colored effect13 from_left_and_right leader">
-      <a href="http://vk.com/mav9503">
-        <div class="img">
-          <img src="img/our_photos/ava_mav.jpg" height="301" width="300" alt="Тошка"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Антон Муравьёв</h3>
-            <p>
-              Руководитель, двигатель прогресса <font class=egg><font class=hided>, летяй</font></font> 
-            </p>
-          </div>
+    <H1>О нас<hr></H1>
+    <P>
+      <H2>
+        Общественная организация Арт-студия «Ступень» - это
+        <br>
+        объединение людей неравнодушных к творчеству и нашему региону.
+        <br>
+        В настоящий момент организация осуществляет свою работу на территории Мытищинского района.
+        <br>
+        <br>
+        Основными задачами нашего проекта являются создание общественно-актуальных
+        <br>
+        культурных мероприятий и акций, привлекающих как молодёжь, так и людей
+        <br>
+        старшего поколения, поднятие событийности в городе и районе и инициативности у населения.
+      </H2>
+    </P>
+    <div style="padding: 40px;">
+      <H1>Наша команда <hr></H1>
+      <div>
+        <div class="ih-item circle colored effect13 from_left_and_right leader">
+          <a href="http://vk.com/mav9503">
+            <div class="img">
+              <img src="img/our_photos/ava_mav.jpg" height="301" width="300" alt="Тошка"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>Антон Муравьёв</h3>
+                <p>
+                  Руководитель, двигатель прогресса <font class=egg><font class=hided>, летяй</font></font> 
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-  </div>
-  <div>
-    <div class="ih-item circle colored effect13 from_left_and_right">
-      <a href="#">
-        <div class="img">
-          <img src="img/our_photos/ava_shva.jpg" height="301" width="300" alt="Вова"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Владимир Шеламов</h3>
-            <p>IT-мозг, аналитик</p>
-          </div>
+      </div>
+      <div>
+        <div class="ih-item circle colored effect13 from_left_and_right">
+          <a href="#">
+            <div class="img">
+              <img src="img/our_photos/ava_shva.jpg" height="301" width="300" alt="Вова"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>Владимир Шеламов</h3>
+                <p>IT-мозг, аналитик</p>
+              </div>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="ih-item circle colored effect13 from_left_and_right">
-      <a href="#">
-        <div class="img">
-          <img src="img/our_photos/ava_voi.jpg" height="301" width="300" alt="Олежка"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Олег Воробьёв</h3>
-            <p>Поддержка и опора</p>
-          </div>
+        <div class="ih-item circle colored effect13 from_left_and_right">
+          <a href="#">
+            <div class="img">
+              <img src="img/our_photos/ava_voi.jpg" height="301" width="300" alt="Олежка"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>Олег Воробьёв</h3>
+                <p>Поддержка и опора</p>
+              </div>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-  </div>
-  <div>
-    <div class="ih-item circle colored effect13 from_left_and_right">
-      <a href="#">
-        <div class="img">
-          <img src="img/our_photos/ava_dhsl.jpg" height="301" width="300" alt="Соня"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>София Дич</h3>
-            <p>Фотограф, психолог, критик</p>
-          </div>
+      </div>
+      <div>
+        <div class="ih-item circle colored effect13 from_left_and_right">
+          <a href="#">
+            <div class="img">
+              <img src="img/our_photos/ava_dhsl.jpg" height="301" width="300" alt="Соня"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>София Дич</h3>
+                <p>Фотограф, психолог, критик</p>
+              </div>
+            </div>
+          </a>
         </div>
-      </a>
+
+        <div class="ih-item circle colored effect13 from_left_and_right">
+          <a href="#">
+            <div class="img">
+              <img src="img/our_photos/ava_iam.jpg" alt="Аня"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>Анна Игнатьева</h3>
+                <p>Работа с общественностью, PR - менеджер</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="ih-item circle colored effect13 from_left_and_right">
+          <a href="#">
+            <div class="img">
+              <img src="img/our_photos/ava_mev.jpg" height="300" width="300" alt="Лиза"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>Елизавета Муравьёва</h3>
+                <p>Художник, дизайнер, фотограф</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="ih-item circle colored effect13 from_left_and_right">
-      <a href="#">
-        <div class="img">
-          <img src="img/our_photos/ava_iam.jpg" alt="Аня"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Анна Игнатьева</h3>
-            <p>Работа с общественностью, PR - менеджер</p>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="ih-item circle colored effect13 from_left_and_right">
-      <a href="#">
-        <div class="img">
-          <img src="img/our_photos/ava_mev.jpg" height="300" width="300" alt="Лиза"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Елизавета Муравьёва</h3>
-            <p>Художник, дизайнер, фотограф</p>
-          </div>
-        </div>
-      </a>
-    </div>
+   
   </div>
-  </div>
-  <footer>
-    &copy; Арт-студия "Ступень" 2012-2015 г.
-    <br>
-    Сайт разработан
-    <a href=mailto:admin@арт-ступень.рф?subject:Вопросы по сайту>"Ступень Production"</a>
-  </footer>
-</div>
 </section>
+<section id="contacts" class="odd">
+  <H1>Наши контакты <hr> </H1>
+  <H2>Руководитель - Муравьёв Антон Вячеславович</H2>
+  <H3>
+    Мобильный телефон:
+    <a href="tel:8(929)676-04-77">8(929)676-04-77</a>
+  </H3>
+    Почтовый адрес:
+    <a href="mailto:admin@xn----7sbq6aieigck6h.xn--p1ai">admin@арт-ступень.рф</a>
+  </section>
 
+ <footer class = "even">
+      &copy; Арт-студия "Ступень" 2012-2015 г.
+      <br>
+      Сайт разработан
+      <a href=mailto:admin@арт-ступень.рф?subject:Вопросы по сайту>"Ступень Production"</a>
+    </footer>
 </body>
 </html>
