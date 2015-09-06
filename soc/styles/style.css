@@ -233,6 +233,23 @@ font-size:18pt;
   cursor:pointer;
 }
 
+.volonter
+{
+  display: inline-block;
+
+  margin: 20px;
+}
+.volonter img, .volonter div
+{
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+}
+.volonter img
+{
+  border-radius: 50%;
+}
+
 footer
 {
   margin-top: 100px;
