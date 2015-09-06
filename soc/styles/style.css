@@ -115,19 +115,22 @@ H1, H2, H3, H4, H5
 
 H1
 {
+  display: inline-block;
+width: auto;
 font-size: 25pt;
 text-decoration: none;
 }
 
 H1 hr
 {
-   width:40%;
+  margin-top:0px;
+   width:60%;
    transition: all .4s ease-out;
 }
 
 H1:hover hr
 {
-  width:60%;
+  width:100%;
   transition: all .4s ease-out;
 }
 
