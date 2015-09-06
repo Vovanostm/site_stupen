@@ -124,11 +124,10 @@ H1:hover hr
   transition: all .4s ease-out;
 }
 
-Х
+
 
 H5
 {
-text-shadow: 0.5px 0.5px 1.5px black;
 font-size:18pt;
 }
 
@@ -213,7 +212,7 @@ font-size:18pt;
 .nw a
 {
   text-decoration: none;
-  color:blac;
+  color:black;
 }
 
 footer
