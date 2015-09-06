@@ -14,3 +14,12 @@ function open_menu()
 		hided=true;
 	}
 }
+$(window).scroll(function()
+    { 	
+    	console.log($('#menu').position().top);
+    	console.log($('#menu')[0].getBoundingClientRect().top);
+    	console.log($('#menu').height()+$('#menu')[0].getBoundingClientRect().top);
+ 		if (($('#menu').height()+$('#menu')[0].getBoundingClientRect().top)<0)
+        	document.getElementById("toTop").style.opacity = "1";
+        else document.getElementById("toTop").style.opacity = "0.0";
+    });

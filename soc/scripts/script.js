@@ -10,9 +10,12 @@ $(document).ready(function(){
     });
     $(window).resize(function(){
         var w = $(window).width();
+        
         if(w > 760 && menu.is(':hidden')) {
             menu.removeAttr('style');
         }
     });
+    
+
  
 });
