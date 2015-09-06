@@ -236,7 +236,7 @@ font-size:18pt;
 .volonter
 {
   display: inline-block;
-  border-style: solid;
+
   margin: 20px;
 }
 .volonter img, .volonter div
@@ -244,6 +244,10 @@ font-size:18pt;
   display: inline-block;
   vertical-align: top;
   margin: 5px;
+}
+.volonter img
+{
+  border-radius: 50%;
 }
 
 footer
