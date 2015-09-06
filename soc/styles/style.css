@@ -358,7 +358,6 @@ body{font-size:14px;}
   top:5px;
   display: inline;
   position:fixed;
-  
   z-index: 21;
 }
 
@@ -387,6 +386,7 @@ body{font-size:14px;}
   margin-top:60px;
   background-color: white;
   z-index: 20;
+  box-shadow: 10px 0 50px rgba(0,0,0,0.7);
 }
 
 
