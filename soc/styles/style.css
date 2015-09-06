@@ -236,11 +236,12 @@ font-size:18pt;
 .volonter
 {
   display: inline-block;
-
-  margin: 20px;
+  margin: 10px 10px 40px 10px; 
 }
+
 .volonter img, .volonter div
 {
+  text-align: left;
   display: inline-block;
   vertical-align: top;
   margin: 5px;
