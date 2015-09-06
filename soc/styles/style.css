@@ -188,27 +188,24 @@ font-size:18pt;
   transition: all .5s ease-out;
   background-size: cover;
   cursor:pointer;
+  margin-top: 200px;
+  margin-top: 200px;
 }
+
 .strelka_left
 {
-  margin-top: 200px;
-
   background-image: url('../img/srelki/strelkaL.png');
 }
 .strelka_left:hover
 {
-
   background-image: url('../img/srelki/strelkaL_H.png');
 }
 .strelka_right
 {
-  margin-top: 200px;
-
   background-image: url('../img/srelki/strelkaR.png');
 }
 .strelka_right:hover
 {
-
   background-image: url('../img/srelki/strelkaR_H.png');
 }
 
@@ -233,18 +230,63 @@ font-size:18pt;
   cursor:pointer;
 }
 
+#volonters
+{
+  margin-bottom: 30px;
+}
 .volonter
 {
+  width:240px;
   display: inline-block;
   margin: 10px 10px 40px 10px; 
+   white-space: nowrap;
 }
 
-.volonter img, .volonter div
+#v_peoples
+{
+  white-space: nowrap;
+  display: inline-block;
+  width: 800px;
+  height: 120px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+#volonters .div_srelka
+{
+  height: 100px;
+}
+
+#volonters .strelka_all
+{
+  margin-top: 40px;
+}
+
+#volonters .strelka_left
+{
+  background-image: url('../img/srelki/strelkawL.png');
+}
+#volonters .strelka_left:hover
+{
+  background-image: url('../img/srelki/strelkaL_H.png');
+}
+#volonters .strelka_right
+{
+  background-image: url('../img/srelki/strelkaWR.png');
+}
+#volonters .strelka_right:hover
+{
+  background-image: url('../img/srelki/strelkaR_H.png');
+}
+
+.volonter img
+{
+  float: left;
+  margin: 10px;
+}
+.volonter h3
 {
   text-align: left;
-  display: inline-block;
-  vertical-align: top;
-  margin: 5px;
 }
 .volonter img
 {
