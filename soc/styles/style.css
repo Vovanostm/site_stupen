@@ -14,8 +14,18 @@ body
   font-size:100%;
   font-family: 'Open Sans';
   text-align:center;
-
 }
+
+#toTop
+{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  right:20px;
+  bottom: 80px;
+  background-color: gray;
+}
+
 .ih-item
 {
   margin:20px 60px 30px 60px;
@@ -340,6 +350,8 @@ time
 
 body{font-size:14px;}
 
+#toTop{display: none;}
+
 #m_menu
 {
   left: 0;
@@ -373,9 +385,16 @@ body{font-size:14px;}
   width:200px;
   height: 100%;
   left:0px;
-  top:0px;
+  margin-top:60px;
   background-color: white;
   z-index: 20;
+}
+
+
+#menu LI
+{
+  margin-top:30px;
+  margin-left: -30px;
 }
 
 }
