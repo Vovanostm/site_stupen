@@ -5,13 +5,13 @@ html
 }
 body
 {
-  background-color:white;
+  background-color: #f5f5f5;
   width:100%;
   height: 100%;
   margin:0px;
   padding:0px;
   font-size:100%;
-  font-family: 'Open Sans', arial, serif;
+  font-family: 'Open Sans';
   text-align:center;
 
 }
@@ -35,7 +35,7 @@ body
 }
 .even
 {
-  background-color:#A5C843;
+  background-color:#478430;
   color:white;
 }
 
@@ -108,8 +108,10 @@ body
 
 H1
 {
-  text-shadow: 1px 1px 2px black;
+font-size: 25pt;
+text-decoration: none;
 }
+
 H1 hr
 {
    width:40%;
@@ -122,7 +124,13 @@ H1:hover hr
   transition: all .4s ease-out;
 }
 
+Х
 
+H5
+{
+text-shadow: 0.5px 0.5px 1.5px black;
+font-size:18pt;
+}
 
 .s_new
 {
@@ -141,7 +149,7 @@ H1:hover hr
   vertical-align: middle;
   display: inline-block;
   width: 878px;
-  height: 420px;
+  height: 500px;
   display: inline-block;
   white-space: nowrap;
   overflow-x:hidden;
@@ -167,7 +175,7 @@ H1:hover hr
 }
 .strelka_left
 {
-  margin-top: 160px;
+  margin-top: 200px;
 
   background-image: url('../img/srelki/strelkaL.png');
 }
@@ -178,7 +186,7 @@ H1:hover hr
 }
 .strelka_right
 {
-  margin-top: 160px;
+  margin-top: 200px;
 
   background-image: url('../img/srelki/strelkaR.png');
 }
@@ -205,7 +213,7 @@ H1:hover hr
 .nw a
 {
   text-decoration: none;
-  color:#210539;
+  color:blac;
 }
 
 footer
@@ -225,6 +233,16 @@ footer a
 {
   display:none;
 }
+
+time
+{
+  color:gray;
+  font-style: italic;
+}
+
+
+
+
 
 @media handheld, screen and (max-width: 1100px) {
 
