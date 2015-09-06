@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Styles go here */
 html
 {
@@ -295,3 +296,301 @@ body{font-size:14px;}
 
 
 }
+=======
+/* Styles go here */
+html
+{
+  height: 100%;
+}
+body
+{
+  background-color: #f5f5f5;
+  width:100%;
+  height: 100%;
+  margin:0px;
+  padding:0px;
+  font-size:100%;
+  font-family: 'Open Sans';
+  text-align:center;
+
+}
+.ih-item
+{
+  margin:20px 60px 30px 60px;
+  display:inline-block;
+}
+
+.blocks
+{
+  margin: 0;
+  min-height: 100%;
+  overflow:hidden;
+  font-size:inherit;
+}
+
+.odd
+{
+  color:#210539;
+}
+.even
+{
+  background-color:#478430;
+  color:white;
+}
+
+.even p, .even UL
+{
+  padding-left: 0;
+  text-shadow: 1px 1px 2px black;
+}
+
+#zgl
+{
+  color:white;
+  font-size:19pt;
+}
+#logo
+{
+  vertical-align:bottom;
+  background-image:url("../img/bg.jpg");
+  background-size:cover;
+  background-position: center top; /* Положение фона */
+  background-repeat: no-repeat;
+}
+
+
+.menu
+{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+#menu LI
+{
+  width:120px;
+  display:inline-block;
+  text-decoration: none;
+  color: #210539;
+  padding:10px 10px 10px 10px;
+  margin:2px 2px 0px 2px;
+  font-size:20pt;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all .5s ease-out;
+}
+
+#menu LI:hover
+{
+  transition: all .5s ease-out;
+  background-color: #fff;
+  background-color: RGBA(255, 255, 255, 1);
+}
+
+
+.hided
+{
+  display:none;
+}
+.egg:hover .hided
+{
+  display:inline;
+}
+.effect13
+{
+  margin: -40px 60px 0px 60px;
+}
+
+.leader
+{
+  margin-top:30px;
+}
+
+H1
+{
+font-size: 25pt;
+text-decoration: none;
+}
+
+H1 hr
+{
+   width:40%;
+   transition: all .4s ease-out;
+}
+
+H1:hover hr
+{
+  width:60%;
+  transition: all .4s ease-out;
+}
+
+
+
+H5
+{
+font-size:18pt;
+}
+
+.s_new
+{
+  display: inline-block;
+  width: 50px;
+  height: 200px;
+  background-color: black;
+}
+
+#s_ar
+{
+  left: 0px;
+}
+.vs_nw
+{
+  vertical-align: middle;
+  display: inline-block;
+  width: 878px;
+  height: 500px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x:hidden;
+  overflow-y:hidden;
+
+}
+
+.div_srelka
+{
+  vertical-align: top;
+  display: inline-block;
+  height: 420px;
+  width: 50px;
+  line-height: 420px;
+}
+
+.strelka_all
+{
+  height: 50px;
+  border-radius: 50%;
+  transition: all .5s ease-out;
+  background-size: cover;
+}
+.strelka_left
+{
+  margin-top: 200px;
+
+  background-image: url('../img/srelki/strelkaL.png');
+}
+.strelka_left:hover
+{
+
+  background-image: url('../img/srelki/strelkaL_H.png');
+}
+.strelka_right
+{
+  margin-top: 200px;
+
+  background-image: url('../img/srelki/strelkaR.png');
+}
+.strelka_right:hover
+{
+
+  background-image: url('../img/srelki/strelkaR_H.png');
+}
+
+.nw
+{
+  display:inline-block;
+  width:260px;
+  padding: 0 15px;
+  vertical-align:top;
+  white-space: normal;
+}
+
+.nw img
+{
+  border-radius: 50%;
+}
+
+.nw a
+{
+  text-decoration: none;
+  color:black;
+}
+
+footer
+{
+  margin-top: 100px;
+  font-size:9pt;
+}
+
+footer a
+{
+  color:white;
+}
+
+
+
+#m_menu
+{
+  display:none;
+}
+
+time
+{
+  color:gray;
+  font-style: italic;
+}
+
+
+
+
+
+@media handheld, screen and (max-width: 1100px) {
+
+.vs_nw
+{
+ width: 600px;
+}
+
+
+
+@media handheld, screen and (max-width: 850px) {
+
+body{font-size:14px;}
+
+#m_menu
+{
+  left: 0;
+  top:0;
+  display: inline;
+  position:fixed;
+  background-color: black;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 21;
+}
+
+/*.menu{display:none;}*/
+.effect13
+{
+  margin:0 auto;
+}
+
+.vs_nw
+{
+ width: 290px;
+}
+
+#menu
+{
+  display: none;
+  position: fixed;
+  width:200px;
+  height: 100%;
+  left:0px;
+  top:0px;
+  background-color: white;
+  z-index: 20;
+}
+
+}
+
+
+}
+>>>>>>> c43b93d924c4445ef14133b9e177c9f38145109a
