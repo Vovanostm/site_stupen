@@ -115,7 +115,7 @@ H1, H2, H3, H4, H5
 
 H1
 {
-  display: inline-block;
+display: inline-block;
 width: auto;
 font-size: 25pt;
 text-decoration: none;
@@ -123,7 +123,7 @@ text-decoration: none;
 
 H1 hr
 {
-  margin-top:0px;
+  margin-top:4px;
    width:60%;
    transition: all .4s ease-out;
 }
