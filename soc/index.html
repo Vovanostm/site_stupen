@@ -20,6 +20,12 @@
 <script type="text/javascript" src="scripts/scroll.js"></script>
 <script type="text/javascript" src="scripts/mobile_menu.js"></script>
 
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?117"></script>
+
+<script type="text/javascript">
+VK.init({apiId: 5059564, onlyWidgets: true});
+</script>
+
 </head>
 <body id="m_bd">
 <div onClick = "open_menu()" id="m_menu">
@@ -266,6 +272,10 @@
   <div class = "div_srelka">
     <div  onclick="scrollup('block_news')" class="strelka_all strelka_right"></div>
   </div>
+  <div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: "*"});
+</script>
 </section>
 
 <section class="blocks even" id="about">
