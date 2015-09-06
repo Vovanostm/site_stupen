@@ -80,6 +80,7 @@ body
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.7);
   transition: all .5s ease-out;
+  cursor:pointer;
 }
 
 #menu LI:hover
@@ -124,6 +125,9 @@ text-decoration: none;
 H1 hr
 {
   margin-top:4px;
+   
+  border:0px none;
+  height:1px;
    width:60%;
    transition: all .4s ease-out;
 }
@@ -132,9 +136,11 @@ H1:hover hr
 {
   width:100%;
   transition: all .4s ease-out;
+
 }
 
-
+.odd hr {background-color:black; color: black;}
+.even hr {background-color:white; color: white;}
 
 H5
 {
@@ -181,6 +187,7 @@ font-size:18pt;
   border-radius: 50%;
   transition: all .5s ease-out;
   background-size: cover;
+  cursor:pointer;
 }
 .strelka_left
 {
@@ -223,6 +230,7 @@ font-size:18pt;
 {
   text-decoration: none;
   color:black;
+  cursor:pointer;
 }
 
 footer
