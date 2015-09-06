@@ -8,6 +8,10 @@
   <meta charset = "utf-8">
   <title>Старт проекта "Сейчас в Мытищах</title>
   <script type='text/javascript' src='../../scripts/jQ1_8_3.js'></script>
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?117"></script>
+<script type="text/javascript">
+  VK.init({apiId: 5059564, onlyWidgets: true});
+</script>
 
 <script type="text/javascript" src="../../scripts/jQ_scrollTo.js"></script>
 <script type="text/javascript" src="../../scripts/scroll.js"></script>
@@ -65,10 +69,10 @@
 возможность видеть любимый город здесь и СЕЙЧАС глазами многих людей с разных интересных и неожиданных точек зрения.<br>
 Правила проекта и публикации:<br>
 Вы увидели интересное событие, место или состояние природы в нашем городе? Вам удалось сделать необычный кадр в Мытищах? Тогда вам сюда!<br> 
-
-На главной странице проекта нажимаете кнопку ПРЕДЛОЖИТЬ НОВОСТЬ и в «пост» пишите:<br>
+<div id="vk_post_-82363701_6" style="float:right" ></div><script type="text/javascript">  (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "http://vk.com/js/api/openapi.js?117"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'vk_openapi_js'));  (function() {    if (!window.VK || !VK.Widgets || !VK.Widgets.Post || !VK.Widgets.Post("vk_post_-82363701_6", -82363701, 6, 'bp_uI8SX30ehLBCj2Ts3BU4TLMg', {width: 300})) setTimeout(arguments.callee, 50);  }());</script> 
+На главной странице проекта нажимаете кнопку ПРЕДЛОЖИТЬ НОВОСТЬ и в «пост» пишите:<br> 
 • Время и дату события, запечатлённого в кадре.<br>
-Пример: ...31.08.2015. 19:10<br><br>
+Пример: ...31.08.2015. 19:10<br>
 • Место в Мытищах, где сделано фото.<br>
 Пример: Центральный парк.<br>
 • По желанию ваш комментарий.<br>
@@ -77,19 +81,9 @@
 И, конечно, сам фотокадр!<br>
 Как только вы предложили запись, ваша миссия выполнена! Наши администраторы обязательно рассмотрят все записи.</P>
 
+<br>
 Группа проекта ВКонтакте: <a href=https://vk.com/now_myt>vk.com/now_myt</a><br> 
 Страница проекта на сайте: <a href=../projects/now.html>Проект "Сейчас в Мытищах"</a>
-
-<!-- Put this script tag to the <head> of your page -->
-<script type="text/javascript" src="//vk.com/js/api/openapi.js?117"></script>
-<script type="text/javascript">
-  VK.init({apiId: 5059564, onlyWidgets: true});
-</script>
-<!-- Put this div tag to the place, where the Comments block will be -->
-<div id="vk_comments"></div>
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: "*"});
-</script>
 
     <!--Блок фотографий -->
 
@@ -122,7 +116,21 @@ VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: "*"});
       <div class = "div_srelka">
     <div  onclick="scrollup('block_photos')" class="strelka_all strelka_right"></div>
   </div>
-    <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="scripts/news_open.js"></script>
+<center>
+<div style:"text-align:center; width:100%; margin:auto;">
+  <div id="vk_comments" style:"display:inline-block;margin:30%;" ></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "700", attach: "*"});
+</script>
+</center>
+</div>
+<div class="even">
+  <footer>
+    &copy; Арт-студия "Ступень" 2012-2015 г.
+    <br>
+    Сайт разработан
+    <a href=mailto:admin@арт-ступень.рф?subject:Вопросы по сайту>"Ступень Production"</a>
+  </footer>
+
 </body>
 </html>
