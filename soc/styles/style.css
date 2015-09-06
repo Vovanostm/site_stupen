@@ -328,6 +328,10 @@ time
 {
  width: 600px;
 }
+#v_peoples
+{
+  width: 500px;
+}
 
 
 
@@ -355,6 +359,10 @@ body{font-size:14px;}
 .vs_nw
 {
  width: 290px;
+}
+#v_peoples
+{
+  width: 260px;
 }
 
 #menu
