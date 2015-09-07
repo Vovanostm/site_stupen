@@ -391,15 +391,15 @@
 			"file": "soc/index.html",
 			"settings":
 			{
-				"buffer_size": 12819,
+				"buffer_size": 12587,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "soc/styles/hover.css",
+			"file": "soc/styles/style.css",
 			"settings":
 			{
-				"buffer_size": 4593,
+				"buffer_size": 4781,
 				"line_ending": "Windows"
 			}
 		}
@@ -464,6 +464,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Антон/Documents/site_stupen/soc/styles/hover.css",
+		"/C/Users/Антон/Documents/site_stupen/soc/index.html",
 		"/C/Users/Антон/Documents/site_stupen/soc/styles/style.css",
 		"/C/Users/Антон/Documents/site_stupen/soc/pages/projects/now.html",
 		"/C/Users/Антон/Documents/site_stupen/soc/pages/projects/sushka.html",
@@ -473,8 +475,6 @@
 		"/C/Users/Антон/Documents/site_stupen/soc/styles/papers.css",
 		"/C/Users/Антон/Documents/site_stupen/style.css",
 		"/C/Users/Антон/Documents/site_stupen/soc/styles/style_old.css",
-		"/C/Users/Антон/Documents/site_stupen/soc/styles/hover.css",
-		"/C/Users/Антон/Documents/site_stupen/soc/index.html",
 		"/C/Users/Антон/Documents/site_stupen/index.html",
 		"/C/Users/Антон/Documents/site_stupen/hover.css",
 		"/C/Users/Антон/zg",
@@ -733,15 +733,15 @@
 					"file": "soc/index.html",
 					"settings":
 					{
-						"buffer_size": 12819,
+						"buffer_size": 12587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4700,
-								4700
+								12380,
+								12380
 							]
 						],
 						"settings":
@@ -841,25 +841,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1508.0,
+						"translation.y": 3885.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "soc/styles/hover.css",
+					"file": "soc/styles/style.css",
 					"settings":
 					{
-						"buffer_size": 4593,
+						"buffer_size": 4781,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1211,
-								1217
+								3705,
+								3705
 							]
 						],
 						"settings":
@@ -954,10 +954,12 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 7225.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 3354.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
