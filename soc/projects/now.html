@@ -29,34 +29,32 @@
 <body>
 
   <div onClick = "open_menu()" id="m_menu">
-    <img src="img/mpb_menu.png" width="70" height="70">
-  </div>
-
+    <img src="../img/mpb_menu.png" width="70" height="70"></div>
   <div class="logo" id="logo_news">
     <H1 id="zgl">ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ</H1>
-    <a href="../../index.html">
-      <img src="../../img/min_logo_st.png" width=250 height=150></a>
-    <nav class="menu" id="menu">
+    <a href="../index.html">
+      <img src="../img/min_logo_st.png" width=250 height=150></a>
+    <nav class="page_menu" id="menu">
       <UL>
-        <a href="../../index.html#projects">
+        <a href="../index.html#projects">
           <LI>Проекты</LI>
         </a>
-        <a href="../../index.html#news">
+        <a href="../index.html#news">
           <LI>Новости</LI>
         </a>
-        <a href="../../index.html#about">
+        <a href="../index.html#about">
           <LI>О нас</LI>
         </a>
         <a href="../media.html">
           <LI>Медиа</LI>
         </a>
-        <a href="../../index.html#contacts">
+        <a href="../index.html#contacts">
           <LI>Контакты</LI>
         </a>
       </UL>
     </nav>
   </div>
-  <script type="text/javascript">(function() {
+  <script async type="text/javascript">(function() {
   if (window.pluso)if (typeof window.pluso.start == "function") return;
   if (window.ifpluso==undefined) { window.ifpluso = 1;
     var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
@@ -67,14 +65,14 @@
   }})();</script>
 
   <div class="pluso" data-background="transparent" data-options="big,round,line,vertical,nocounter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"></div>
-  <div id="news" class="blocks odd">
+  <div class="blocks odd pages">
     <H2>
       Проект
       <br>
       <a href=https://vk.com/now_myt>"Сейчас в Мытищах..."</a>
     </H2>
     <P>
-      <img src="../../img/projects/Logo_now_blac.png" height="300" width="300" style="float:left">
+      <img src="../img/projects/Logo_now_blac.png" height="300" width="300" style="float:left">
       Суть проекта:
       <br>
       Любой пользователь социальной сети ВКонтакте может стать частичкой сборника мгновений «СЕЙЧАС в Мытищах»,
@@ -85,7 +83,7 @@
       Задачи проекта:
       <br>
       <a href="https://vk.com/now_myt">
-        <img src="../../img/Now/now_myt_qr.png" height="150" style="float:right"></a>
+        <img src="../img/Now/now_myt_qr.png" height="150" style="float:right"></a>
       Создание многопользовательского проекта позволяющего жителям самостоятельно публиковать и обмениваться самыми свежими
       новостями и фотозаметками.
       <br>
@@ -95,8 +93,10 @@
       Вы увидели интересное событие, место или состояние природы в нашем городе? Вам удалось сделать необычный кадр в Мытищах? Тогда вам сюда!
       <br>
       <br>
+    </P>
       <div id="vk_post_-82363701_6" style="float:right" ></div>
       <script type="text/javascript">  (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "http://vk.com/js/api/openapi.js?117"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'vk_openapi_js'));  (function() {    if (!window.VK || !VK.Widgets || !VK.Widgets.Post || !VK.Widgets.Post("vk_post_-82363701_6", -82363701, 6, 'bp_uI8SX30ehLBCj2Ts3BU4TLMg', {width: 300})) setTimeout(arguments.callee, 50);  }());</script>
+      <P>
       На главной
       <a href="https://vk.com/now_myt">странице проекта ВКОНТАКТЕ</a>
       нажимаете кнопку ПРЕДЛОЖИТЬ НОВОСТЬ и в «пост» пишите:
@@ -123,28 +123,29 @@
     <br></div>
   <div>
     <H2>Фотографии</H2>
-    <!--Блок фотографий --> </div>
+  </div>
+    <!--Блок фотографий --> 
   <div>
     <div onclick="scrolldown('block_photos')" class="div_srelka">
       <div class="strelka_all strelka_left"></div>
     </div>
     <div id="block_photos" class="vs_ph">
       <div class = ph >
-        <img src="../../img/now/start.JPG" width="150" height="150"></div>
+        <img src="../img/now/start.JPG" width="150" height="150"></div>
       <div class = ph>
-        <img src="../../img/now/start (1).JPG" width="150" height="150"></div>
+        <img src="../img/now/start (1).JPG" width="150" height="150"></div>
       <div class = ph>
-        <img src="../../img/now/start (2).JPG" width="150" height="150"></div>
+        <img src="../img/now/start (2).JPG" width="150" height="150"></div>
       <div class = ph id="4">
-        <img src="../../img/now/start (3).JPG" width="150" height="150"></div>
+        <img src="../img/now/start (3).JPG" width="150" height="150"></div>
       <div class = ph>
-        <img src="../../img/now/start (4).JPG" width="150" height="150"></div>
+        <img src="../img/now/start (4).JPG" width="150" height="150"></div>
     </div>
     <div class = "div_srelka">
       <div  onclick="scrollup('block_photos')" class="strelka_all strelka_right"></div>
     </div>
-    <script type="text/javascript" src="../scripts/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="../scripts/news_open.js"></script>
+    <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="scripts/news_open.js"></script>
     <section>
       <H2>Архив новостей</H2>
       <!--Блок фотографий -->
@@ -167,13 +168,16 @@
             <br></P>
         </div>
         <div class = "div_srelka"></div>
-      </section>
-      <div class="even">
-        <footer>
-          &copy; Арт-студия "Ступень" 2012-2015 г.
-          <br>
-          Сайт разработан
-          <a href=mailto:admin@арт-ступень.рф?subject:Вопросы по сайту>"Ступень Production"</a>
-        </footer>
+      </div>
+    </section>
+  </div>
+    <div class="even">
+      <footer>
+        &copy; Арт-студия "Ступень" 2012-2015 г.
+        <br>
+        Сайт разработан
+        <a href=mailto:admin@арт-ступень.рф?subject:Вопросы по сайту>"Ступень Production"</a>
+      </footer>
+    </div>
 </body>
-      </html>
+  </html>

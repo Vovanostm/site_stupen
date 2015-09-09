@@ -4,6 +4,7 @@ html
 {
   height: 100%;
 }
+
 body
 {
   background-color: #f7f7f7;
@@ -16,7 +17,8 @@ body
   text-align:center;
 }
 
-#toTop
+
+#toTop /* Кнопочка "Наверх" */
 {
   position: fixed;
   width: 40px;
@@ -27,43 +29,23 @@ body
   opacity: 0.0;
 }
 
-.ih-item
+.ih-item /*Hover картинки*/
 {
-  margin:20px 60px 30px 60px;
+  margin:20px 40px 30px 40px;
   display:inline-block;
 }
 
-
-.blocks
+.blocks /*Основные блоки*/
 {
-  margin: 0;
   min-height: 100%;
   overflow:hidden;
-  font-size:inherit;
+  padding:6%;
 }
 
-.odd
-{
-  color:#210539;
-}
+.odd {color:#210539;} /* Нечётные блоки */
 
-.even
-{
-  background-color:#478430;
-  color:white;
-}
+.even {background-color:#478430; color:white;} /* Чётниые блоки */
 
-.even p, .even UL
-{
-  padding-left: 0;
-  text-shadow: 1px 1px 2px black;
-}
-
-#zgl
-{
-  color:white;
-  font-size:19pt;
-}
 #logo
 {
   vertical-align:bottom;
@@ -73,13 +55,9 @@ body
   background-repeat: no-repeat;
 }
 
+/* Мнею примагничивается к низу */
+.menu { position: absolute; bottom: 0px; width: 100%; }
 
-.menu
-{
-  position: absolute;
-  width: 100%;
-  bottom: 0px;
-}
 #menu LI
 {
   width:120px;
@@ -95,82 +73,45 @@ body
   cursor:pointer;
 }
 
-#menu LI:hover
-{
-  transition: all .5s ease-out;
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, 1);
-}
-
+#menu LI:hover {background-color: rgba(255, 255, 255, 1);}
 
 .hided
-{
-  display:none;
-}
-.egg:hover .hided
-{
-  display:inline;
-}
+{display:none;}
+
 .effect13
-{
-  margin: -40px 60px 0px 60px;
-}
+{ margin: -40px 60px 0px 60px; }
+
 
 .leader
-{
-  margin-top:30px;
-}
+{ margin-top:30px;}
 
-H1, H2, H3, H4, H5
-{
-  font-weight:normal;
-}
+H1, H2, H3, H4, H5 { font-weight:normal; }
 
 H1
-{
-display: inline-block;
-width: auto;
-font-size: 25pt;
-text-decoration: none;
+{ 
+  display: inline-block; 
+  width: auto; 
+  font-size: 25pt; 
+  text-decoration: none;
 }
 
 H1 hr
 {
   margin-top:4px;
-   
   border:0px none;
   height:1px;
-   width:60%;
-   transition: all .4s ease-out;
-}
-
-H1:hover hr
-{
-  width:100%;
+  width:60%;
   transition: all .4s ease-out;
-
 }
+
+H1:hover hr {width:100%;}
 
 .odd hr {background-color:black; color: black;}
 .even hr {background-color:white; color: white;}
 
-H5
-{
-font-size:18pt;
-}
+H5 {font-size:18pt;}
 
-.s_new
-{
-  display: inline-block;
-  width: 50px;
-  height: 200px;
-  background-color: black;
-}
 
-#s_ar
-{
-  left: 0px;
-}
 .vs_nw
 {
   vertical-align: middle;
@@ -205,23 +146,15 @@ font-size:18pt;
 }
 
 .strelka_left
-{
-  background-image: url('../img/srelki/strelkaL.png');
-}
+{background-image: url('../img/srelki/strelkaL.png');}
 .strelka_left:hover
-{
-  background-image: url('../img/srelki/strelkaL_H.png');
-}
+{background-image: url('../img/srelki/strelkaL_H.png');}
 .strelka_right
-{
-  background-image: url('../img/srelki/strelkaR.png');
-}
+{background-image: url('../img/srelki/strelkaR.png');}
 .strelka_right:hover
-{
-  background-image: url('../img/srelki/strelkaR_H.png');
-}
+{background-image: url('../img/srelki/strelkaR_H.png');}
 
-.nw
+.nw /* Блок проматывающихся новостей */
 {
   display:inline-block;
   width:260px;
@@ -230,28 +163,18 @@ font-size:18pt;
   white-space: normal;
 }
 
-.nw img
-{
-  border-radius: 50%;
-}
+.nw img { border-radius: 50%; }
 
-.nw a
-{
-  text-decoration: none;
-  color:black;
-  cursor:pointer;
-}
+.nw a {text-decoration: none; color:black; cursor:pointer;}
 
-#volonters
-{
-  margin-bottom: 30px;
-}
+#volonters {margin-bottom: 30px;}
+
 .volonter
 {
   width:240px;
   display: inline-block;
   margin: 10px 10px 40px 10px; 
-   white-space: nowrap;
+  white-space: nowrap;
 }
 
 #v_peoples
@@ -264,46 +187,24 @@ font-size:18pt;
   overflow-y:hidden;
 }
 
-#volonters .div_srelka
-{
-  height: 100px;
-}
+#volonters .div_srelka {height: 100px;}
 
 #volonters .strelka_all
-{
-  margin-top: 40px;
-}
+{margin-top: 40px;}
 
 #volonters .strelka_left
-{
-  background-image: url('../img/srelki/strelkawL.png');
-}
+{background-image: url('../img/srelki/strelkawL.png');}
 #volonters .strelka_left:hover
-{
-  background-image: url('../img/srelki/strelkaL_H.png');
-}
+{background-image: url('../img/srelki/strelkaL_H.png');}
 #volonters .strelka_right
-{
-  background-image: url('../img/srelki/strelkawR.png');
-}
+{background-image: url('../img/srelki/strelkawR.png');}
 #volonters .strelka_right:hover
-{
-  background-image: url('../img/srelki/strelkaR_H.png');
-}
+{background-image: url('../img/srelki/strelkaR_H.png');}
 
-.volonter img
-{
-  float: left;
-  margin: 10px;
-}
-.volonter h3
-{
-  text-align: left;
-}
-.volonter img
-{
-  border-radius: 50%;
-}
+.volonter img {float: left; margin: 10px; border-radius: 50%;}
+
+.volonter h3 {text-align: left;}
+
 
 footer
 {
@@ -312,40 +213,170 @@ footer
   padding:10px;
 }
 
-footer a
-{
-  color:white;
-}
+footer a {color:white;}
 
 
-
-#m_menu
+#m_menu /*Отключить показ значка мобильного меню*/
 {
   display:none;
 }
 
-time
+
+time /*Стиль для даты и времени*/
 {
   color:gray;
   font-style: italic;
 }
 
 
+/*Стили для страницы новостей и проектов*/
+/* Картинки в шкапке */
+#logo_news {background-image: url(../img/bg_news.jpg);}
+#logo_contacts {background-image: url(http://plus200.ru/images/contac.jpg);}
+#logo_media {background-image: url(http://digitalbuzz.ie/wp-content/uploads/videoproduction.png);}
+#logo_news, #logo_contacts, #logo_media
+{
+  background-position: center top;
+  background-size: cover;
+}
 
+.logo img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
+.logo h1
+{
+  padding-top: 30px;
+  height: 50px;
+  font-size: 200%;
+}
 
-@media handheld, screen and (max-width: 1100px) {
+#zgl
+{
+  color:white;
+  font-size:19pt;
+}
+
+.page_menu
+{
+  margin-bottom: -14px;
+}
+
+.pluso
+{
+  float: left;
+  margin: 100px -8% 30px 9%;
+}
+
+.vs_nw, .vs_ph
+{
+  vertical-align: middle;
+  display: inline-block;
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  margin-bottom: 30px;
+}
 
 .vs_nw
 {
- width: 600px;
+  width: 644px;
+  height: 550px;
+  margin-bottom: 30px;
 }
-#v_peoples
+
+.vs_ph
 {
-  width: 500px;
+  width: 648px;
+  height: 150px;
 }
 
 
+.nw, .ph
+{
+  display:inline-block;
+  width:150px;
+  padding: 0 5px;
+  vertical-align:top;
+  white-space: normal;
+}
+
+.nw
+{
+  width: 200px;
+}
+
+.nw img, .ph img
+{
+  border-radius: 50%;
+}
+
+.nw a, nav a
+{
+  text-decoration: none;
+  color:#210539;
+}
+.vs_ph a
+{
+  text-decoration: none;
+  color:#210539;
+}
+
+.pages {padding:2% 10%;}
+.pages p {text-align:left;}
+
+
+.pages .div_srelka
+{
+
+  height: 150px;
+  width: 50px;
+}
+
+.strelka_all
+{
+  height: 50px;
+  border-radius: 50%;
+  transition: all .5s ease-out;
+  background-size: cover;
+}
+.strelka_left
+{
+  margin-top: 50px;
+  background-image: url('../img/srelki/strelkaL.png');
+}
+.strelka_left:hover
+{
+
+  background-image: url('../img/srelki/strelkaL_H.png');
+}
+.strelka_right
+{
+  margin-top: 50px;
+
+  background-image: url('../img/srelki/strelkaR.png');
+}
+.strelka_right:hover
+{
+
+  background-image: url('../img/srelki/strelkaR_H.png');
+}
+
+
+
+
+
+@media handheld, screen and (max-width: 1200px) {
+
+.vs_nw {width: 600px;}
+
+#v_peoples{width: 500px;}
+
+}
 
 @media handheld, screen and (max-width: 850px) {
 
@@ -353,6 +384,7 @@ body{font-size:14px;}
 
 #toTop{display: none;}
 
+/*Включить показ мобильного меню*/
 #m_menu
 {
   left: 5px;
@@ -362,21 +394,16 @@ body{font-size:14px;}
   z-index: 21;
 }
 
-/*.menu{display:none;}*/
 .effect13
-{
-  margin:0 auto;
-}
+{margin:0 auto;}
 
 .vs_nw
-{
- width: 290px;
-}
-#v_peoples
-{
-  width: 260px;
-}
+{width: 290px;}
 
+#v_peoples
+{width: 260px;}
+
+/*Стиль мобильного меню, выезжает сбоку*/
 #menu
 {
   display: none;
@@ -390,14 +417,10 @@ body{font-size:14px;}
   box-shadow: 10px 0 50px rgba(0,0,0,0.7);
 }
 
-
 #menu LI
 {
   margin-top:30px;
   margin-left: -30px;
 }
-
-}
-
 
 }
