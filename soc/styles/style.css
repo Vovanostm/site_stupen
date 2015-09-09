@@ -39,8 +39,9 @@ body
 {
   min-height: 100%;
   overflow:hidden;
-  
 }
+
+.blocks  h2 {padding:0 10%;}
 
 .odd {color:#210539;} /* Нечётные блоки */
 
@@ -112,18 +113,15 @@ H1:hover hr {width:100%;}
 H5 {font-size:18pt;}
 
 
-.vs_nw
+.vs_nw, .vs_ph /*настройка для блоков проматывающихся новостей*/
 {
   vertical-align: middle;
-  display: inline-block;
-  width: 878px;
-  height: 500px;
   display: inline-block;
   white-space: nowrap;
   overflow-x:hidden;
   overflow-y:hidden;
-
 }
+.vs_nw{width: 878px; height: 500px;}
 
 .div_srelka
 {
@@ -157,13 +155,17 @@ H5 {font-size:18pt;}
 .strelka_right:hover
 {background-image: url('../img/srelki/strelkaR_H.png');}
 
-.nw /* Блок проматывающихся новостей */
+.nw, .ph /* Блок проматывающихся новостей */
 {
   display:inline-block;
-  width:260px;
-  padding: 0 15px;
   vertical-align:top;
   white-space: normal;
+}
+
+.nw
+{
+  width:260px;
+  padding: 0 15px;
 }
 
 .nw img { border-radius: 50%; }
@@ -274,23 +276,6 @@ time /*Стиль для даты и времени*/
   margin: 100px -8% 30px 9%;
 }
 
-.vs_nw, .vs_ph
-{
-  vertical-align: middle;
-  display: inline-block;
-  display: inline-block;
-  white-space: nowrap;
-  overflow-x:hidden;
-  overflow-y:hidden;
-  margin-bottom: 30px;
-}
-
-.vs_nw
-{
-  width: 644px;
-  height: 550px;
-  margin-bottom: 30px;
-}
 
 .vs_ph
 {
@@ -298,20 +283,12 @@ time /*Стиль для даты и времени*/
   height: 150px;
 }
 
-
-.nw, .ph
+.ph
 {
-  display:inline-block;
   width:150px;
-  padding: 0 5px;
-  vertical-align:top;
-  white-space: normal;
+   padding: 0 5px;
 }
 
-.nw
-{
-  width: 200px;
-}
 
 .nw img, .ph img
 {
@@ -323,6 +300,7 @@ time /*Стиль для даты и времени*/
   text-decoration: none;
   color:#210539;
 }
+
 .vs_ph a
 {
   text-decoration: none;
@@ -345,9 +323,10 @@ time /*Стиль для даты и времени*/
 
 
 
-@media handheld, screen and (max-width: 1200px) {
+@media handheld, screen and (max-width: 1100px) {
 
 .vs_nw {width: 600px;}
+.vs_ph {width: 490px;}
 
 #v_peoples{width: 500px;}
 
@@ -373,7 +352,9 @@ body{font-size:14px;}
 {margin:0 auto;}
 
 .vs_nw
-{width: 290px;}
+{width: 280px;}
+
+.vs_ph {width: 320px;}
 
 #v_peoples
 {width: 260px;}
