@@ -39,7 +39,7 @@ body
 {
   min-height: 100%;
   overflow:hidden;
-  padding:6%;
+  
 }
 
 .odd {color:#210539;} /* Нечётные блоки */
@@ -330,20 +330,7 @@ time /*Стиль для даты и времени*/
 .pages p {text-align:left;}
 
 
-.pages .div_srelka
-{
 
-  height: 150px;
-  width: 50px;
-}
-
-.strelka_all
-{
-  height: 50px;
-  border-radius: 50%;
-  transition: all .5s ease-out;
-  background-size: cover;
-}
 .strelka_left
 {
   margin-top: 50px;
