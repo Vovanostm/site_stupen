@@ -141,7 +141,10 @@ H5 {font-size:18pt;}
   transition: all .5s ease-out;
   background-size: cover;
   cursor:pointer;
-  margin-top: 200px;
+}
+
+.main_p_strelka
+{
   margin-top: 200px;
 }
 
@@ -331,27 +334,12 @@ time /*Стиль для даты и времени*/
 
 
 
-.page_strelka .strelka_left
+.str_page_mr
 {
   margin-top: 50px;
-  background-image: url('../img/srelki/strelkaL.png');
 }
-.strelka_left:hover
-{
 
-  background-image: url('../img/srelki/strelkaL_H.png');
-}
-.page_strelka .strelka_right
-{
-  margin-top: 50px;
 
-  background-image: url('../img/srelki/strelkaR.png');
-}
-.strelka_right:hover
-{
-
-  background-image: url('../img/srelki/strelkaR_H.png');
-}
 
 
 
