@@ -330,7 +330,7 @@ time /*Стиль для даты и времени*/
 }
 
 .pages {padding:2% 10%;}
-.pages p {text-align:left;}
+.pages p {text-align:justify;}
 
 
 
@@ -386,11 +386,14 @@ body{font-size:14px;}
   width:200px;
   height: 100%;
   left:0px;
-  margin-top:60px;
+  margin:0px;
+  padding-top:60px;
+  top:0px;
   background-color: white;
   z-index: 20;
   box-shadow: 10px 0 50px rgba(0,0,0,0.7);
 }
+
 
 #menu LI
 {
