@@ -1,5 +1,10 @@
 
 
+
+function openNews()
+{
+  document.getElementById("h_news").style.height = "auto";
+}
 var x=0;
 jQuery(function( $ ){
     /**

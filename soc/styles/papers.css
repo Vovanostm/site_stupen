@@ -22,6 +22,7 @@ body
   background-position: center top;
   background-size: cover;
 }
+
 .logo img
 {
   position: absolute;
@@ -64,6 +65,7 @@ body
   color:white;
   font-size:19pt;
 }
+
 #logo
 {
   vertical-align:bottom;
