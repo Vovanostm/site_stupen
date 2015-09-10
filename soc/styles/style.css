@@ -318,6 +318,28 @@ time /*Стиль для даты и времени*/
 }
 
 
+/* Блок новостей  */
+
+.button
+{
+  cursor:pointer;
+}
+input[name^="shadow-"] {display: none;}
+.allnews
+{
+  text-align:center;
+}
+.anews
+{
+  height: 0;
+  margin:0 20%;
+  transition: all 0.9s ease-out;
+}
+[name^="shadow-"]:checked + .key1 ~ .anews,
+[name^="shadow-"]:checked + .key1 ~ * .anews {
+    height: 300px;
+    overflow:auto;
+}
 
 
 
