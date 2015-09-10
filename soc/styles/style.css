@@ -35,13 +35,19 @@ body
   display:inline-block;
 }
 
+.warning
+{
+  min-height: 30%;
+  background-color:white;
+}
+
 .blocks /*Основные блоки*/
 {
   min-height: 100%;
   overflow:hidden;
 }
 
-.blocks  h2 {padding:0 10%;}
+.blocks h2 {padding:0 10%;}
 
 .odd {color:#210539;} /* Нечётные блоки */
 
