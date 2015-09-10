@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="styles/hover.css">
   <link rel="stylesheet" href="styles/logo_ef.css">
   <!-- Различные метаданные -->
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=0.5">
   <script type="text/javascript" src="http://vk.com/js/api/openapi.js?117"></script>
   <meta charset = "utf-8">
   <meta name='yandex-verification' content='68325a946a55b6d2' />
@@ -35,7 +35,7 @@
   <div onClick = "open_menu()" id="m_menu">
     <img src="img/mpb_menu.png" width="90" height="90">
   </div>
-  <section class="blocks" id="logo">
+  <div class="blocks" id="logo">
     <div >
       <br>
       <br>
@@ -45,7 +45,7 @@
       <br>
       <br>
       <div class="image-effect-circle">
-        <img src="img/logo_st.png" width=500 height=300>
+        <img id="logo_pic" src="img/logo_st.png" width="500" height="300">
         <div class="share-layer">
           <h3 class="soc">Мы в соц. сетях</h3>
           <a href="http://www.youtube.com/user/ArtStupen" class="share-button share-via-y"></a>
@@ -79,8 +79,8 @@
         </nav>
       </div>
     </div>
-  </section>
-  <section class="blocks even" id="projects">
+  </div>
+  <div class="blocks even" id="projects">
     <br>
     <br>
     <div >
@@ -146,9 +146,9 @@
 
       </p>
     </div>
-  </section>
+  </div>
 
-  <section class="blocks odd" id="news">
+  <div class="blocks odd" id="news">
     <br>
     <H1>
       Новости
@@ -160,7 +160,7 @@
       <div id="block_news" class="vs_nw">
         <div class = nw >
           <a href="news/start_now.html">
-            <img src="img/now/start.jpg" width="200" height="200">
+            <img class="news_photo"src="img/now/start.jpg" width="200" height="200">
 
             <H4>
               Старт проекта
@@ -178,7 +178,7 @@
         </div>
         <div class = nw>
           <a href="news/sushka_13.10.13.html">
-            <img src="img/sush/foto_proj (6).jpg" width="200" height="200">
+            <img class="news_photo" src="img/sush/foto_proj (6).jpg" width="200" height="200">
             <H4>
               СУШКА в Мытищах.
               <br>Открытая мастерская.</H4>
@@ -190,7 +190,7 @@
         </div>
         <div class = nw>
           <a href="news/sushka_26.06.13.html">
-            <img src="img/sush/foto_proj (1).jpg" width="200" height="200">
+            <img class="news_photo" src="img/sush/foto_proj (1).jpg" width="200" height="200">
             <H4>Первая "Сушка в Мытищах"</H4>
             <time>26.05.2013</time>
             <P>
@@ -246,10 +246,9 @@
         </div>
       </div>
     </div>
+  </div>
 
-  </section>
-
-  <section class="blocks even" id="about">
+  <div class="blocks even" id="about">
       <H1>
         О нас
         <hr></H1>
@@ -328,7 +327,6 @@
               </div>
             </a>
           </div>
-
           <div class="ih-item circle colored effect13 from_left_and_right">
             <a href="#">
               <div class="img">
@@ -341,7 +339,6 @@
               </div>
             </a>
           </div>
-
           <div class="ih-item circle colored effect13 from_left_and_right">
             <a href="#">
               <div class="img">
@@ -408,8 +405,8 @@
 
         </div>
       </div>
-  </section>
-  <section id="contacts" class="odd">
+  </div>
+  <div id="contacts" class="odd">
     <H1>
       Наши контакты<hr>
     </H1>
@@ -434,7 +431,7 @@
       
     </div>
   </div>
-  </section>
+  </div>
   <br>
   <br>
 
