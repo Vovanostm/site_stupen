@@ -349,6 +349,23 @@ input[name^="shadow-"] {display: none;}
 }
 
 
+/*Навигационное меню справа*/
+.smartnav
+{
+  position:fixed;
+  right: 10px;
+  top: 30%;
+  height: 100px;
+}
+.navsq
+{
+  width: 15px;
+  height: 15px;
+  border-radius:50%;
+  background-color: #000;
+  margin: 20px;
+}
+
 
 
 
