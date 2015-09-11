@@ -391,15 +391,7 @@
 			"file": "soc/index.html",
 			"settings":
 			{
-				"buffer_size": 12587,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "soc/styles/style.css",
-			"settings":
-			{
-				"buffer_size": 4781,
+				"buffer_size": 14920,
 				"line_ending": "Windows"
 			}
 		}
@@ -464,9 +456,9 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Антон/Documents/site_stupen/soc/styles/hover.css",
-		"/C/Users/Антон/Documents/site_stupen/soc/index.html",
 		"/C/Users/Антон/Documents/site_stupen/soc/styles/style.css",
+		"/C/Users/Антон/Documents/site_stupen/soc/index.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/styles/hover.css",
 		"/C/Users/Антон/Documents/site_stupen/soc/pages/projects/now.html",
 		"/C/Users/Антон/Documents/site_stupen/soc/pages/projects/sushka.html",
 		"/C/Users/Антон/Documents/site_stupen/soc/pages/news/sushka_26.06.13.html",
@@ -733,15 +725,15 @@
 					"file": "soc/index.html",
 					"settings":
 					{
-						"buffer_size": 12587,
+						"buffer_size": 14920,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12380,
-								12380
+								3316,
+								3316
 							]
 						],
 						"settings":
@@ -841,125 +833,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3885.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "soc/styles/style.css",
-					"settings":
-					{
-						"buffer_size": 4781,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3705,
-								3705
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"devel": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": "load-save",
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3354.0,
+						"translation.y": 857.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
