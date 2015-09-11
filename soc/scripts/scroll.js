@@ -48,4 +48,4 @@ function navTo(block_id)
     $.scrollTo(block_id, 900, { axis:'y' });
 }
 
-//scrollwr();
+scrollwr();
