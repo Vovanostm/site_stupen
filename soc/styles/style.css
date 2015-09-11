@@ -100,6 +100,8 @@ H1
   width: auto; 
   font-size: 25pt; 
   text-decoration: none;
+  margin-top: 50px;
+  position: relative;
 }
 
 H1 hr
@@ -109,6 +111,7 @@ H1 hr
   height:1px;
   width:60%;
   transition: all .4s ease-out;
+  position: relative;
 }
 
 H1:hover hr {width:100%;}
@@ -338,8 +341,9 @@ input[name^="shadow-"] {display: none;}
 }
 .anews
 {
-  height: 0;
-  margin:0 20%;
+  height: 0px;
+  margin:0 20% 0 20%;
+  padding:10px;
   transition: all 0.9s ease-out;
 }
 [name^="shadow-"]:checked + .key1 ~ .anews,
@@ -357,19 +361,72 @@ input[name^="shadow-"] {display: none;}
   top: 30%;
   height: 100px;
 }
+/* Радужная полоска */
+.rbw_img
+{
+  margin-left:0px;
+  height: 230px;
+  width:3px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1000e+0,ff9500+25,00ae00+50,1b3df1+73,7000b7+100 */
+  background: #c1000e; /* Old browsers */
+  background: -moz-linear-gradient(top, #c1000e 0%, #ff9500 25%, #00ae00 50%, #1b3df1 73%, #7000b7 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c1000e), color-stop(25%,#ff9500), color-stop(50%,#00ae00), color-stop(73%,#1b3df1), color-stop(100%,#7000b7)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #c1000e 0%,#ff9500 25%,#00ae00 50%,#1b3df1 73%,#7000b7 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #c1000e 0%,#ff9500 25%,#00ae00 50%,#1b3df1 73%,#7000b7 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #c1000e 0%,#ff9500 25%,#00ae00 50%,#1b3df1 73%,#7000b7 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #c1000e 0%,#ff9500 25%,#00ae00 50%,#1b3df1 73%,#7000b7 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1000e', endColorstr='#7000b7',GradientType=0 ); /* IE6-9 */
+  opacity:0.7;
+  z-index:10;
+}
+#radu_nv
+{
+  position: absolute;
+  width:5px;
+  margin:46px;
+  height:500px;
+  z-index:30;
+  opacity:0;
+  /*overflow: visible;*/
+  overflow: hidden;
+  transition-property: opacity;
+  transition-duration: .3s;
+}
+
+/*Круглые кнопочки справа*/
 .navsq
 {
-  width: 15px;
-  height: 15px;
+  position: relative;
+  width: 16px;
+  height: 16px;
   border-radius:50%;
   background-color: #000;
-  margin: 20px;
+  margin: 40px;
+  cursor: pointer;
+  opacity:0.0;
+  transition: all .3s ease-out;
+  z-index:31;
+  opacity:0.4;
+}
+
+
+/*Партнеры*/
+.partner
+{
+  display:inline-block;
+  margin:3%;
+}
+
+.partner a img
+{
+  height:200px;
+  width:200px;
 }
 
 
 
-
-@media handheld, screen and (max-width: 1100px) {
+@media handheld, screen and (max-width: 1100px) 
+{
 
 .vs_nw {width: 600px;}
 .vs_ph {width: 490px;}
@@ -378,7 +435,8 @@ input[name^="shadow-"] {display: none;}
 
 }
 
-@media handheld, screen and (max-width: 850px) {
+@media handheld, screen and (max-width: 850px) 
+{
 
 body{font-size:14px;}
 
@@ -424,13 +482,22 @@ body{font-size:14px;}
 
 #menu LI
 {
-  margin-top:30px;
+  margin-top:3%;
   margin-left: -30px;
 }
 
 .logo img
+{position: relative;}
+
+.partner a img
 {
-  position: relative;
+  height:100px;
+  width:100px;
+
+}
+.smartnav
+{
+  display: none;
 }
 
 }

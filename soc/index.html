@@ -35,15 +35,20 @@
   <div onClick = "open_menu()" id="m_menu">
     <img src="img/mpb_menu.png" width="90" height="90">
   </div>
+
+ 
   <div class="smartnav">
-    <div class="navsq" onclick="navTo(body)"></div>
-    <div class="navsq" onclick="navTo(#projects)"></div>
-    <div class="navsq"></div>
-    <div class="navsq"></div>
-    <div class="navsq"></div>
-    <div class="navsq"></div>
-    <div class="navsq"></div>
+    <div id="radu_nv"><div class="rbw_img"></div></div>
+    <div id="body_nv" class="navsq" onclick="navTo('body')"></div>
+    <div id="proj_nv" class="navsq" onclick="navTo('#projects')"></div>
+    <div id="news_nv" class="navsq" onclick="navTo('#news')"></div>
+    <div id="abou_nv" class="navsq" onclick="navTo('#about')"></div>
+    <div id="cont_nv" class="navsq" onclick="navTo('#contacts')"></div>
   </div>
+
+  <div id="toTop" onclick="navTo('#m_bd')">
+        <img src="img/vverh.png" width="45px"></div>
+
   <div class="blocks" id="logo">
     <div >
       <br>
@@ -63,8 +68,7 @@
         </div>
       </div>
       <div class="free_space"></div>
-      <div id="toTop" onclick="navTo('#m_bd')">
-        <img src="img/vverh.png" width="45px"></div>
+      
       <div class= "menu" >
 
         <nav class="menu" id="menu">
@@ -98,9 +102,6 @@
     <br><br>
   </div>
   <div class="blocks even" id="projects">
-    <br>
-    <br>
-    <div >
       <H1>
         <a>Наши проекты</a>
         <hr></H1>
@@ -162,11 +163,9 @@
       <p>
 
       </p>
-    </div>
   </div>
 
   <div class="blocks odd" id="news">
-    <br>
     <H1>
       Новости
       <hr></H1>
@@ -423,7 +422,7 @@
         </div>
       </div>
   </div>
-  <div id="contacts" class="odd">
+  <div id="contacts" class="blocks odd">
     <H1>
       Наши контакты<hr>
     </H1>
@@ -434,18 +433,26 @@
     </H3>
     Почтовый адрес:
     <a href="mailto:admin@xn----7sbq6aieigck6h.xn--p1ai">admin@арт-ступень.рф</a>
-  <div class="partners">
-    <H1>
+    <div>
+      <H1>
       Наши партнеры<hr>
-    </H1>
+      </H1>
+    </div>
+  <div class="partners">
     <div class="partner">
-      
+    <a href="http://mosbrew.ru/company/about">
+      <img src="http://www.mostaho-tachograph.ru/wp-content/uploads/2015/05/мпк.jpg" alt="Моспиво">
+    </a>
     </div>
     <div class="partner">
-      
+    <a href="https://vk.com/mitishitip">
+      <img src="https://pp.vk.me/c622118/v622118574/41419/8wCLKwKRAHE.jpg" alt="Типичные Мытищи">
+    </a>
     </div>
     <div class="partner">
-      
+      <a href="http://socialmytischi.ru">
+      <img src="http://socialmytischi.ru/templates/jbecolift_new/images/logo.png" alt="Наши Мытищи">
+    </a>
     </div>
   </div>
   </div>

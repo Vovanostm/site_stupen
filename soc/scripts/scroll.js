@@ -26,7 +26,7 @@ jQuery(function( $ ){
 function scrollwr()
 {
   var $area = $('body');
-   $area.scrollTo('#wr', 3000, { axis:'y' });
+   $area.scrollTo('#wr', 2500, { axis:'y' });
 }
 
 function scrolldown(area)
@@ -48,4 +48,4 @@ function navTo(block_id)
     $.scrollTo(block_id, 900, { axis:'y' });
 }
 
-scrollwr();
+//scrollwr();
