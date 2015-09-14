@@ -156,13 +156,13 @@ H5 {font-size:18pt;}
 }
 
 .strelka_left
-{background-image: url('../img/srelki/strelkaL.png');}
+{background-image: url('../img/srelki/strelkal.png');}
 .strelka_left:hover
-{background-image: url('../img/srelki/strelkaL_H.png');}
+{background-image: url('../img/srelki/strelkal_h.png');}
 .strelka_right
-{background-image: url('../img/srelki/strelkaR.png');}
+{background-image: url('../img/srelki/strelkar.png');}
 .strelka_right:hover
-{background-image: url('../img/srelki/strelkaR_H.png');}
+{background-image: url('../img/srelki/strelkar_h.png');}
 
 .nw, .ph /* Блок проматывающихся новостей */
 {
@@ -208,13 +208,13 @@ H5 {font-size:18pt;}
 {margin-top: 40px;}
 
 #volonters .strelka_left
-{background-image: url('../img/srelki/strelkawL.png');}
+{background-image: url('../img/srelki/strelkawl.png');}
 #volonters .strelka_left:hover
-{background-image: url('../img/srelki/strelkaL_H.png');}
+{background-image: url('../img/srelki/strelkal_h.png');}
 #volonters .strelka_right
-{background-image: url('../img/srelki/strelkawR.png');}
+{background-image: url('../img/srelki/strelkawr.png');}
 #volonters .strelka_right:hover
-{background-image: url('../img/srelki/strelkaR_H.png');}
+{background-image: url('../img/srelki/strelkar_h.png');}
 
 .volonter img {float: left; margin: 10px; border-radius: 50%;}
 
@@ -545,4 +545,44 @@ body{font-size:13px;}
 .ph {width: 90px;}
 
 .ph img {margin-top:30px;width:90px;height: 90px;}
+}
+
+/*Стили тени*/
+
+.lifted {
+        position: relative;
+        width:40%;
+        padding:1em;
+        background:#fff;
+ 
+}
+ 
+.lifted:before,
+.lifted:after {
+        content:"";
+        position:absolute;
+        z-index:-2;
+        bottom:15px;
+        left:10px;
+        width:100%;
+        height:20%;
+        max-width:300px;
+    -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+       -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+            box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform:rotate(-3deg);
+       -moz-transform:rotate(-3deg);
+        -ms-transform:rotate(-3deg);
+         -o-transform:rotate(-3deg);
+            transform:rotate(-3deg);
+}
+ 
+.lifted:after {
+    right:10px;
+    left:auto;
+    -webkit-transform:rotate(3deg);
+       -moz-transform:rotate(3deg);
+        -ms-transform:rotate(3deg);
+         -o-transform:rotate(3deg);
+            transform:rotate(3deg);
 }
