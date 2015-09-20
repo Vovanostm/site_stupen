@@ -116,6 +116,8 @@ H1 hr
 
 H1:hover hr {width:100%;}
 
+H1 a {cursor:pointer; text-decoration: none; color:inherit;}
+
 .odd hr {background-color:black; color: black;}
 .even hr {background-color:white; color: white;}
 
@@ -132,14 +134,16 @@ H5 {font-size:18pt;}
 }
 .vs_nw{width: 878px; height: 500px;}
 
-.div_srelka
+.div_srelka, .page_div_strelka
 {
   vertical-align: top;
-  display: inline-block;
-  height: 420px;
+  display: inline-block;  
   width: 50px;
-  line-height: 420px;
 }
+
+.div_strelka {height: 420px;height: 420px;}
+
+.page_div_strelka {height: 220px;height: 220px;}
 
 .strelka_all
 {
@@ -317,8 +321,12 @@ time /*Стиль для даты и времени*/
   color:#210539;
 }
 
-.pages {padding:2% 10%;}
-.pages p {text-align:justify;}
+.pages {padding:2% 10% 2% 10%;}
+.pages p {text-align:justify; padding:10px;}
+.pages div {text-align:justify; padding: 20px;}
+.pages img{text-align:justify; padding: 20px;}
+
+
 
 
 
@@ -349,7 +357,6 @@ input[name^="shadow-"] {display: none;}
 [name^="shadow-"]:checked + .key1 ~ .anews,
 [name^="shadow-"]:checked + .key1 ~ * .anews {
     height: 300px;
-    overflow-style: ;
 }
 
 
@@ -424,6 +431,12 @@ input[name^="shadow-"] {display: none;}
 }
 
 
+#outer_alignment
+{
+  display:inline-block;
+  margin:auto,auto;
+  text-align:center;
+}
 
 @media handheld, screen and (max-width: 1100px) 
 {
