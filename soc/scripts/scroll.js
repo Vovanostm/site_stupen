@@ -57,7 +57,7 @@ $(window).scroll(function()
         }
         else document.getElementById("body_nv").style.backgroundColor = "#000";
 
-        if (($('#projects')[0].getBoundingClientRect().top)<200)
+        if (($('#projects')[0].getBoundingClientRect().top)<30)
         { pos_nv=1;
           document.getElementById("proj_nv").style.backgroundColor = "#FF9500";
           
@@ -65,7 +65,7 @@ $(window).scroll(function()
         }
         else document.getElementById("proj_nv").style.backgroundColor = "#000";
           
-        if (($('#news')[0].getBoundingClientRect().top)<200)
+        if (($('#news')[0].getBoundingClientRect().top)<30)
         {
           pos_nv=2;
           document.getElementById("news_nv").style.backgroundColor = "#00AE00";
@@ -73,7 +73,7 @@ $(window).scroll(function()
           document.getElementById("news_nv").style.opacity = "1";
         }
         else document.getElementById("news_nv").style.backgroundColor = "#000";
-        if (($('#about')[0].getBoundingClientRect().top)<200)
+        if (($('#about')[0].getBoundingClientRect().top)<30)
         { 
           pos_nv=3;
           document.getElementById("abou_nv").style.backgroundColor = "#1B3DF1";
@@ -81,7 +81,7 @@ $(window).scroll(function()
           document.getElementById("abou_nv").style.opacity = "1";
         }
         else document.getElementById("abou_nv").style.backgroundColor = "#000";     
-        if (($('#contacts')[0].getBoundingClientRect().top)<200)
+        if (($('#contacts')[0].getBoundingClientRect().top)<30)
         { 
           pos_nv=4;
           document.getElementById("cont_nv").style.backgroundColor = "#7000B7";
@@ -91,15 +91,15 @@ $(window).scroll(function()
         else document.getElementById("cont_nv").style.backgroundColor = "#000";
         
         if (pos_nv==0)
-          otst_nv=(-(($('#logo')[0].getBoundingClientRect().top)+200)/$('#logo').height())*(16+40);
+          otst_nv=(-(($('#logo')[0].getBoundingClientRect().top)+400)/$('#logo').height())*(16+40);
 
         else if (pos_nv==1)
-          otst_nv=(-($('#projects')[0].getBoundingClientRect().top)+200)/($('#projects').height())*(16+40);
+          otst_nv=(-($('#projects')[0].getBoundingClientRect().top)+30)/($('#projects').height())*(16+40);
 
         else if (pos_nv==2)
-          otst_nv=(-(($('#news')[0].getBoundingClientRect().top)-200)/$('#news').height())*(16+40);
+          otst_nv=(-(($('#news')[0].getBoundingClientRect().top)-30)/$('#news').height())*(16+40);
         else if (pos_nv==3)
-          otst_nv=(-(($('#about')[0].getBoundingClientRect().top)-200)/$('#about').height())*(16+40);
+          otst_nv=(-(($('#about')[0].getBoundingClientRect().top)-30)/$('#about').height())*(16+40);
         else 
           otst_nv=0;
         // if (pos_nv==4)
@@ -140,4 +140,4 @@ function navTo(block_id)
     $.scrollTo(block_id, 900, { axis:'y' });
 }
 
-scrollwr();
+//scrollwr();

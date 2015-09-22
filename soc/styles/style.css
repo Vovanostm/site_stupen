@@ -431,12 +431,23 @@ input[name^="shadow-"] {display: none;}
 }
 
 
-#outer_alignment
+#outer_alignment, .cnts
 {
   display:inline-block;
-  margin:auto,auto;
-  text-align:center;
+  margin:10px 10px;
+  vertical-align:top;
 }
+.cnts
+{
+  margin-top: 20px;
+  text-align:left;
+}
+
+.btn:hover
+{
+  background: none 0% 50% repeat rgb(5, 120, 48);
+}
+
 
 @media handheld, screen and (max-width: 1100px) 
 {
