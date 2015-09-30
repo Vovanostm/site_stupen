@@ -45,6 +45,7 @@ body
 {
   min-height: 100%;
   overflow:hidden;
+  margin-bottom: 30px;
 }
 
 .blocks h2 {padding:0 10%;}
@@ -227,7 +228,7 @@ H5 {font-size:18pt;}
 
 footer
 {
-  margin-top: 100px;
+  /*margin-top: 100px;*/
   font-size:9pt;
   padding:10px;
 }
@@ -252,7 +253,7 @@ time /*Стиль для даты и времени*/
 /* Картинки в шкапке */
 #logo_news {background-image: url(../img/bg_news.jpg);}
 #logo_contacts {background-image: url(http://plus200.ru/images/contac.jpg);}
-#logo_media {background-image: url(http://digitalbuzz.ie/wp-content/uploads/videoproduction.png);}
+#logo_media {background-image: url(http://kazlogistics.kz/upload/iblock/458/458269676632e60e12e071d8a73aaf6d.jpg);}
 #logo_news, #logo_contacts, #logo_media
 {
   background-position: center top;
@@ -439,7 +440,7 @@ input[name^="shadow-"] {display: none;}
 }
 .cnts
 {
-  margin-top: 20px;
+  margin-top: 100px;
   text-align:left;
 }
 
