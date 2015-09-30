@@ -28,7 +28,7 @@ $(window).scroll(function()
 
     if (($('#menu')[0].getBoundingClientRect().top)<200)
     {
-          document.getElementById("toTop").style.opacity = "0.9";
+          // document.getElementById("toTop").style.opacity = "0.9";
           document.getElementById("body_nv").style.opacity = "0.4";
           document.getElementById("proj_nv").style.opacity = "0.4";
           document.getElementById("news_nv").style.opacity = "0.4";
@@ -38,7 +38,7 @@ $(window).scroll(function()
     }
         else 
         {
-          document.getElementById("toTop").style.opacity = "0.0";
+          // document.getElementById("toTop").style.opacity = "0.0";
           document.getElementById("body_nv").style.opacity = "0.0";
           document.getElementById("proj_nv").style.opacity = "0.0";
           document.getElementById("news_nv").style.opacity = "0.0";
