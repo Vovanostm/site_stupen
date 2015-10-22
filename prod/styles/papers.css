@@ -1,0 +1,283 @@
+body
+{
+  background-color: #f7f7f7;
+
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:0px;
+  font-family: 'Open Sans', arial, serif;
+  text-align:center;
+  font-size: 100%;
+  overflow: none;
+}
+
+
+
+#logo_news {background-image: url(../img/bg_news.jpg);}
+#logo_contacts {background-image: url(http://plus200.ru/images/contac.jpg);}
+#logo_media {background-image: url(http://digitalbuzz.ie/wp-content/uploads/videoproduction.png);}
+#logo_news, #logo_contacts, #logo_media
+{
+  background-position: center top;
+  background-size: cover;
+}
+
+.logo img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo h1
+{
+  padding-top: 30px;
+  height: 50px;
+  font-size: 200%;
+}
+
+#news
+{
+  padding: 20px 20% 20px 0%;
+  text-align: left;
+}
+
+.blocks
+{
+  overflow: hidden;
+  font-size:inherit;
+  font-size: 140%;
+}
+
+.odd
+{
+  color:#210539;
+}
+.even
+{
+  background-color:#478430;
+  color:white;
+}
+
+#zgl
+{
+  color:white;
+  font-size:19pt;
+}
+
+#logo
+{
+  vertical-align:bottom;
+  background-image:url("../img/logo_st.png");
+  background-size:cover;
+  background-position: center top; /* Положение фона */
+  background-repeat: no-repeat;
+}
+
+#menu
+{
+  margin-bottom: -14px
+}
+
+#menu LI
+{
+  width:120px;
+  display:inline-block;
+  text-decoration: none;
+  color: #210539;
+  padding:10px 10px 10px 10px;
+  margin:2px 2px 0px 2px;
+  font-size:20pt;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all .5s ease-out;
+}
+
+#menu LI:hover
+{
+  transition: all .5s ease-out;
+  background-color: #fff;
+  background-color: RGBA(255, 255, 255, 1);
+}
+
+
+
+.hided
+{
+  display:none;
+}
+.egg:hover .hided
+{
+  display:inline;
+}
+
+
+
+H1
+{
+  text-shadow: 1px 1px 2px black;
+
+}
+
+H1 hr
+{
+   width:40%;
+   transition: all .4s ease-out;
+}
+
+H1:hover hr
+{
+  width:60%;
+  transition: all .4s ease-out;
+}
+
+H2 a
+{ text-decoration: none;
+  color:inherit;
+}
+
+footer
+{
+  margin-top:70px;
+  font-size:9pt;
+   padding:10px;
+}
+
+footer a
+{
+  color:white;
+}
+
+#m_menu
+{
+  display:none;
+}
+
+
+
+.vs_nw, .vs_ph
+{
+  vertical-align: middle;
+  display: inline-block;
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  margin-bottom: 30px;
+}
+
+.vs_nw
+{
+  width: 644px;
+  height: 550px;
+  margin-bottom: 30px;
+}
+
+.vs_ph
+{
+  width: 648px;
+  height: 150px;
+}
+
+.div_srelka
+{
+  vertical-align: top;
+  display: inline-block;
+  height: 150px;
+  width: 50px;
+  line-height: 420px;
+}
+
+.strelka_all
+{
+  height: 50px;
+  border-radius: 50%;
+  transition: all .5s ease-out;
+  background-size: cover;
+}
+.strelka_left
+{
+  margin-top: 50px;
+  background-image: url('../img/srelki/strelkaL.png');
+}
+.strelka_left:hover
+{
+
+  background-image: url('../img/srelki/strelkaL_H.png');
+}
+.strelka_right
+{
+  margin-top: 50px;
+
+  background-image: url('../img/srelki/strelkaR.png');
+}
+.strelka_right:hover
+{
+
+  background-image: url('../img/srelki/strelkaR_H.png');
+}
+
+.nw, .ph
+{
+  display:inline-block;
+  width:150px;
+  padding: 0 5px;
+  vertical-align:top;
+  white-space: normal;
+}
+
+.nw
+{
+  width: 200px;
+}
+
+.nw img, .ph img
+{
+  border-radius: 50%;
+}
+
+.nw a, nav a
+{
+  text-decoration: none;
+  color:#210539;
+}
+.vs_ph a
+{
+  text-decoration: none;
+  color:#210539;
+}
+
+.pluso
+{
+  float: left;
+  margin: 170px 50px 30px 18%;
+  }
+time
+{
+  color:gray;
+  font-style: italic;
+}
+
+@media handheld, screen and (max-width: 850px) {
+
+body{font-size:14px;}
+
+#m_menu
+{
+  display:block;
+  position:fixed
+}
+#m_menu:hover body
+{
+  margin-left:200px;
+  transition: all .5s ease-out;
+}
+
+/*.menu{display:none;}*/
+.effect13
+{
+  margin:0 auto;
+}
+
+
