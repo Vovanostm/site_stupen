@@ -1,0 +1,725 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans';
+}
+
+a
+{
+	text-decoration: none;
+	color:inherit;
+}
+
+body
+{
+	background-color: #f4f4f4;
+	overflow: visible;
+
+}
+
+canvas
+{
+	position: absolute;
+	z-index: 0;
+}
+
+.block
+{
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2%;
+	position: relative;
+	text-align: center;
+	position: relative;
+}
+.n_block
+{
+	position: relative;
+	width: 80%;
+	height: 65%;
+	margin: 0;
+	text-align: center;
+	white-space: nowrap;
+  	overflow-x:hidden;
+  	overflow-y:hidden;
+  	z-index: 1;
+  	margin: 0 auto;
+}
+#newss h1
+{
+	margin-bottom: 0;
+	height: 80px;
+}
+
+#all_news
+{
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	background-color: #f4f4f4;
+	text-align: center;
+	z-index: 2;
+	margin: 0;
+	padding-top: 2%;
+	transition: all 0.3s;
+	overflow: none;
+}
+
+
+
+#a_n
+{
+	position: relative;
+	padding: 0px 20px 30px 20px;
+	cursor: pointer;
+	margin-top: -1ex;
+	overflow: hidden;
+	transition: all 0.3s;
+}
+
+
+#a_n H1
+{
+	margin: 0;	
+	margin-bottom: -30px;
+	padding:0;
+}
+
+#a_n I
+{
+	visibility: none;
+	/*visibility: visible;*/
+}
+
+.ar
+{
+	display: inline-block;
+	position: relative;
+	width: 10px;
+	height: 10px;
+	transition: all 1s;
+	background-image: url(../buttons/png/none.png);
+	/*background-color: #fff;*/
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+
+
+
+#all_news:hover 
+{
+	
+	border-color: rgba(0,0,0,1);
+}
+
+.none_ov {overflow: hidden;}
+
+#t_a_n{opacity: 0; display: none;}
+
+.n_a:hover
+{
+	text-decoration: underline;
+}
+
+
+.n_block .news
+{	
+	position: relative;
+	display: inline-block;
+	white-space: normal;
+  	width: 100%;
+  	height: 100%;
+  	margin: 0;
+  	padding: 0;
+  	overflow-x:hidden;
+  	overflow-y:hidden;
+  	text-align: center;
+}
+
+.news h2
+{
+	margin-top:0;
+}
+
+.n_n
+{
+	margin-bottom: 0;
+}
+.date
+{
+	display: block;
+	
+	font-size: 110%;
+	margin-top: 3%;
+	height: 4%;
+	margin-bottom: 3%;
+}
+
+.date::before { 
+	content:"       ";
+	position: relative;
+	top:-2px;
+	font-size: 90%;
+	background-image:url("../calendar.png"); 
+	background-repeat: no-repeat;
+	background-size:contain;
+
+	background-position: left top;
+}
+
+.n_w, .prjs
+{
+	margin: 0% 10% 0% 10%;
+	white-space: normal;
+}
+
+.n_w p
+{
+	padding:0;
+	margin-top: 0;
+}
+
+.n_left, .n_right
+{
+	position:absolute;
+	height: 100%;
+	width:10%;
+	top: 0%;
+	transition:all .5s ;
+	z-index: 4;
+	cursor: pointer;
+}
+.n_left:hover, .n_right:hover
+{
+	background-color: rgba(0,0,0,0.4);
+	transition:all .5s ;
+}
+.n_left {left:0;}
+.n_right{right:0;}
+.l_str, .r_str
+{
+	z-index: 5;
+	position: relative;
+	top:50%;
+	height: 10%;
+	text-align: center;
+}
+
+.l_str
+{
+	
+}
+.r_str
+{
+	
+}
+
+/*.n_w {position: relative;  height: 100%}*/
+
+.n_block .n_w .imgs
+{
+	display: block;
+	position: absolute;
+	width: 55%;
+	height: 80%;
+	left: 0;
+
+}
+.n_w .imgs img
+{
+	/*border:solid 1px black;*/
+	/*box-shadow: 0px 0px 5px black;*/
+	margin: 1%;
+}
+.n_block .n_w .sText
+{
+	display: block;
+	position: absolute;
+	width: 40%;
+	padding-right: 10px;
+	height: 80%;
+	right: 0;
+	text-align: justify;
+	overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 120%;
+}
+
+#t_a_n
+{
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 120%;
+}
+.ovf
+{
+	position: fixed;
+	background-color: #f4f4f4;
+	z-index: 200;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+	overflow: auto;
+}
+.ovf_hid
+{
+	width: 0%;
+	height: 0;
+	top:20%;
+	left:50%;
+	/*overflow: hidden;*/
+	visibility: none;
+}
+.ovf_vis
+{
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	visibility: visible;
+}
+
+#full_nws
+{
+	display: block;
+	position: relative;
+	width: 90%;
+	/*max-height: 90%;*/
+	margin: 30px auto;
+	padding:0 5%;
+}
+
+.fl_img
+{
+}
+
+#full_nws img
+{
+	width: 26%;
+}
+
+.img_ovf_hid
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.0);
+	visibility: none;
+	display: none;
+	top: 0;
+	left:0;
+}
+.img_ovf_vis
+{
+	width: 100%;
+	height: 100%;
+	background-position: 50% 50%;
+	top: 0;
+	left:0;
+	background-color: rgba(0,0,0,0.7);
+	visibility: visible;
+	display: block;
+}
+
+
+#full_new_img
+{
+	background-color: rgba(0,0,0,0.2);
+}
+
+#fl_nw_img
+{
+	/*background-image:url("../calendar.png");*/
+	/*position: absolute;*/
+
+}
+#i_img
+{
+	/*background-image:url("../calendar.png");*/
+	position: absolute;
+	background-color: #fff;
+	width: 400px;
+	height: 400px;
+
+}
+
+#fl_nw_img
+{
+	/*left: 5%;*/
+}
+
+#fl_nw_img
+{
+	width: 70%;
+	/*height: 70%;*/
+	margin: 80px auto 0;
+	background-position: center center;
+	background-size:contain;
+}
+.transit_5
+{
+	/*display: block;*/
+	width: 80%;
+	height: 80%;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	overflow: auto;
+	/*background-image:url("../calendar.png"); */
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+
+
+#close_nws,#close_imgs
+{
+	position: fixed;
+	cursor: pointer;
+	background-image:url(../buttons/png/krestik.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	-webkit-transition: width .5s;
+	-o-transition: width .5s;
+	transition: width .5s;
+
+	z-index: 120;
+}
+
+.cl_hided
+{
+	visibility: hidden;
+	
+	width: 0%;
+	height: 0%;
+	right: 45%;
+	top: 45%;
+
+}
+.cl_visbl
+{
+
+	visibility: visible;
+
+	width: 5%;
+	height: 5%;
+	right: 3%;
+	top: 5%;
+}
+
+
+
+
+
+.m_menu
+{
+	position:relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+	background-color: #4B688B;
+	white-space: nowrap;
+	background-image: url("../");
+	background-size:110%;
+  	background-position: center top; /* Положение фона */
+  	background-repeat: no-repeat;
+} 
+menu.static, menu.dynamic
+{
+	white-space: nowrap;
+	padding: 0;
+	width: 100%;
+	margin: 0;
+	transition: all 1s;
+	z-index: 100;
+}
+menu.static
+{
+	position: absolute;
+	bottom: 50px;
+}
+menu.dynamic
+{
+	position: fixed;
+	top:0;
+	background-color: #f4f4f4;
+	color:black;
+	height: 35px;
+	vertical-align: center;
+	overflow: hidden;
+	-webkit-box-shadow: 0 2px 10px gray;
+	box-shadow: 0 2px 10px gray;
+}
+
+menu.static .l_i
+{
+	color:#ccc;
+	font-size:140%;
+	padding: 20px 0 20px 0;
+}
+
+menu.dynamic .l_i
+{
+	color:#000;
+	font-size: 100%;
+	height: 100%;
+	padding: .5% 0;
+
+}
+
+.l_i
+{
+	display: inline-block;
+	opacity: 0.6;
+	background-color: rgba(255,255,255,0.0);
+	position: relative;
+	margin: 0;
+	width: 18%;
+	cursor: pointer;
+	transition:all .5s ;	
+}
+
+
+.m_menu menu.static:hover LI
+{
+	opacity: 0.7;
+	background-color: rgba(255,255,255,0.4);
+	color:#000;
+	font-weight: bolder;
+	text-shadow: #ccc, 1px,1px,1px;
+	
+}
+.m_menu menu.static LI:hover, .m_menu menu.dynamic LI:hover
+{
+	opacity: 1;
+	background-color: rgba(255,255,255,0.8);
+}
+
+
+
+
+
+
+/*#sec_menu */
+
+#bg_2
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/*top:10%;*/
+	/*background-image: url("../bg_1lt.png");*/
+	/*background-size:80%;*/
+  	/*background-position: center top; /* Положение фона */*/
+  	background-repeat:repeat-x;
+  	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+#bg_3
+{
+	/*top:10%;*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url("../bg1.jpg");
+
+	z-index: 20;
+	/*transition: all 3s;*/
+	/*background-size:100%;*/
+  	/*background-position: center top; /* Положение фона */*/
+  	/*background-repeat: no-repeat;*/
+}
+
+
+#logo
+{
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	top:30%;
+	left: 35%;
+	background-image: url("../Stupen-Production-BELYJ.png");
+	background-size: contain;
+	background-position: center center; /* Положение фона */
+  	background-repeat: no-repeat;
+  	transition: background-image 1s;
+}
+#logo:hover
+{
+	background-image: url("../logo_prod_color.png");
+}
+
+
+H1
+{ 
+  display: inline-block; 
+  width: auto; 
+  font-size: 25pt; 
+  text-decoration: none;
+  margin-top: 35px;
+  position: relative;
+}
+
+H1 hr
+{
+  margin-top:4px;
+  height:3px;
+  width:60%;
+  border-width: 0;
+  transition: all .4s ease-out;
+  position: relative;
+  background-color: black;
+}
+
+H1:hover  hr{width: 100%;}
+
+
+#about, #atten, footer
+{
+	background-color: #4270a5;
+	color: #f9f9f9;
+	z-index:5;
+}
+
+#about hr, #atten hr
+{
+	background-color: #f9f9f9;
+}
+ 
+
+
+.person
+{
+	display: inline-block;
+	margin: 30px;
+}
+.p_prj
+{
+	margin: 2%;	
+	display: inline-block;
+	font-size: 120%;
+}
+
+.p_prj img
+{
+	height: 100px;
+}
+
+ menu.a_ns
+ {
+	display: block;
+	margin:0;
+	padding:0;
+ }
+
+li.a_ns
+ {
+ 	display: inline-block;
+ 	width: 13%;
+ 	cursor: pointer;
+ 	font-size: 130%;
+ 	margin-left: 0 20px 0 20px;
+ }
+
+hr.a_ns
+ {
+ 	margin-left:0px;
+ 	position: relative;
+ 	padding: 0;
+	width:10%;
+	height: 1px;
+ }
+
+#a_ns_block
+{
+	white-space: nowrap;
+	position: relative;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	height: 70%;
+	padding:0;
+	margin: 0;
+}
+ section.a_ns
+ {
+ 	vertical-align: top;
+ 	padding-top: 30px;
+ 	padding-right: 10%;
+ 	padding-left: 10%;
+ 	text-align: justify;
+ 	white-space: normal;
+ 	position: relative;
+ 	display: inline-block;
+ 	width:80%;
+ 	height: 100%;
+ 	font-size: 120%;
+ 	margin: 0;
+ }
+
+
+
+footer
+{
+	padding:30px;
+	text-align: center;
+}
+footer a:hover
+{
+	text-decoration: underline;
+}
+
+
+svg {
+  position: absolute;
+  top:-90px;
+  
+  display: block;
+  margin:0 0 0 -5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media handheld, screen and (max-width: 500px) {
+
+menu.static, menu.dynamic
+{
+	display: none;
+}
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
