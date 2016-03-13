@@ -254,7 +254,7 @@ time /*Стиль для даты и времени*/
 #logo_news {background-image: url(../img/bg_news.jpg);}
 #logo_contacts {background-image: url(http://plus200.ru/images/contac.jpg);}
 #logo_media {background-image: url(http://kazlogistics.kz/upload/iblock/458/458269676632e60e12e071d8a73aaf6d.jpg);}
-#logo_news, #logo_contacts, #logo_media
+#logo_news, #logo_contacts, #logo_media, #logo_projects
 {
   background-position: center top;
   background-size: cover;

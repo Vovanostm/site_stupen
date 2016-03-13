@@ -682,6 +682,7 @@
 	],
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/Applications/AMPPS/www/site_stup/Stupen.sublime-workspace",
 		"/Users/vovanostm/Yandex.Disk.localized/МШП/Создание сайтов/Сайты/site_stup/Stupen.sublime-workspace",
 		"/Users/vovanostm/Yandex.Disk.localized/МШП/Создание сайтов/Сайты/site_stup/soc/news/news.html",
@@ -720,6 +721,27 @@
 		"/C/Users/Антон/Documents/site_stupen/soc/styles/papers.css",
 		"/C/Users/Антон/Documents/site_stupen/soc/styles/style.css",
 		"/C/Users/Антон/Documents/site_stupen/soc/index.html",
+=======
+		"/C/Users/Антон/Documents/site_stupen/soc/styles/style.css",
+		"/C/Users/Антон/Documents/site_stupen/soc/projects/oa_mc.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/projects/sushka.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/3_year.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/index.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/projects/now.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/media.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/obraz_oseni.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/sushka_09.05.2015.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/oa_mc2.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/start_now.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/oa_mc1.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/1_year.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/9.05.2013.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/op_3.0.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/sushka_1year.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/news/sushka_1god.html",
+		"/C/Users/Антон/Documents/site_stupen/soc/styles/hover.css",
+		"/C/Users/Антон/Documents/site_stupen/soc/pages/projects/now.html",
+>>>>>>> 01350de7ae23eec90d96e7ae46185d0e4d60b4cd
 		"/C/Users/Антон/Documents/site_stupen/soc/pages/projects/sushka.html",
 		"/C/Users/Антон/Documents/site_stupen/soc/pages/news/sushka_13.10.13.html",
 		"/C/Users/Антон/Documents/site_stupen/index.html",
@@ -809,7 +831,29 @@
 		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/jQradio",
 		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/timer.py",
 		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/pref2.js",
+<<<<<<< HEAD
 		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/login_test.html"
+=======
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/login_test.html",
+		"/Users/Vovanostm/Downloads/tkbacktracer-2.020.tcl",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/jquery.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sublimes_Projects/Smart_House/Sm_1",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/PcDuino/ReadMe",
+		"/Users/Vovanostm/Downloads/lsm303/README.textile",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Pref.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Testing.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Start connection.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Login.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/style.css",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/web5.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Pref_oldv2.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/scripts.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/untitled.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/webs.py",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/tryj.js",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/te1.html",
+		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Pref_old.html"
+>>>>>>> 01350de7ae23eec90d96e7ae46185d0e4d60b4cd
 	],
 	"find":
 	{

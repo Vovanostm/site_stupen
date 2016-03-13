@@ -1,0 +1,614 @@
+
+/* Styles go here */
+html
+{
+  height: 100%;
+}
+
+body
+{
+  background-color: #f7f7f7;
+  width:100%;
+  height: 100%;
+  margin:0px;
+  padding:0px;
+  font-size:100%;
+  font-family: 'Open Sans';
+  text-align:center;
+}
+
+
+#toTop /* Кнопочка "Наверх" */
+{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  left:20px;
+  top: 80px;
+  transition: all .9s ease-out;
+  opacity: 0.0;
+}
+
+.ih-item /*Hover картинки*/
+{
+  margin:20px 40px 30px 40px;
+  display:inline-block;
+}
+
+.warning
+{
+  min-height: 30%;
+  background-color:white;
+}
+
+.blocks /*Основные блоки*/
+{
+  min-height: 100%;
+  overflow:hidden;
+  
+}
+
+.blocks h2 {padding:0 10%;}
+
+.odd {color:#210539;} /* Нечётные блоки */
+
+.even {background-color:#26527C; color:white;} /* Чётниые блоки */
+
+#logo
+{
+  vertical-align:bottom;
+  background-image:url("bg2.jpg");
+  background-size:cover;
+  background-position: center top; /* Положение фона */
+  background-repeat: no-repeat;
+}
+
+/* Мнею примагничивается к низу */
+.menu { position: absolute; bottom: 0px; width: 100%; }
+
+#menu LI
+{
+  width:120px;
+  display:inline-block;
+  text-decoration: none;
+  color: #210539;
+  padding:10px 10px 10px 10px;
+  margin:2px 2px 0px 2px;
+  font-size:20pt;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all .5s ease-out;
+  cursor:pointer;
+}
+
+#menu LI:hover {background-color: rgba(255, 255, 255, 1);}
+
+.hided
+{display:none;}
+
+.effect13
+{ margin: -40px 60px 0px 60px; }
+
+
+.leader
+{ margin-top:30px;}
+
+H1, H2, H3, H4, H5 { font-weight:normal; }
+
+H1
+{ 
+  display: inline-block; 
+  width: auto; 
+  font-size: 25pt; 
+  text-decoration: none;
+  margin-top: 50px;
+  position: relative;
+}
+
+H1 hr
+{
+  margin-top:4px;
+  border:0px none;
+  height:1px;
+  width:60%;
+  transition: all .4s ease-out;
+  position: relative;
+}
+
+H1:hover hr {width:100%;}
+
+H1 a {cursor:pointer; text-decoration: none; color:inherit;}
+
+.odd hr {background-color:black; color: black;}
+.even hr {background-color:white; color: white;}
+
+H5 {font-size:18pt;}
+
+
+.vs_nw, .vs_ph /*настройка для блоков проматывающихся новостей*/
+{
+  vertical-align: middle;
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+.vs_nw{width: 878px; height: 500px;}
+
+.div_srelka, .page_div_strelka
+{
+  vertical-align: top;
+  display: inline-block;  
+  width: 50px;
+}
+
+.div_strelka {height: 420px;height: 420px;}
+
+.page_div_strelka {height: 220px;height: 220px;}
+
+.strelka_all
+{
+  height: 50px;
+  border-radius: 50%;
+  transition: all .5s ease-out;
+  background-size: cover;
+  cursor:pointer;
+}
+
+.main_p_strelka
+{
+  margin-top: 200px;
+}
+
+.strelka_left
+{background-image: url('../img/srelki/strelkal.png');}
+.strelka_left:hover
+{background-image: url('../img/srelki/strelkal_h.png');}
+.strelka_right
+{background-image: url('../img/srelki/strelkar.png');}
+.strelka_right:hover
+{background-image: url('../img/srelki/strelkar_h.png');}
+
+.nw, .ph /* Блок проматывающихся новостей */
+{
+  display:inline-block;
+  vertical-align:top;
+  white-space: normal;
+}
+
+.nw
+{
+  width:260px;
+  padding: 0 15px;
+}
+
+
+.nw img { border-radius: 50%; }
+
+.nw a {text-decoration: none; color:black; cursor:pointer;}
+
+#volonters {margin-bottom: 30px;}
+
+.volonter
+{
+  width:240px;
+  display: inline-block;
+  margin: 10px 10px 40px 10px; 
+  white-space: nowrap;
+}
+
+#v_peoples
+{
+  white-space: nowrap;
+  display: inline-block;
+  width: 800px;
+  height: 120px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+#volonters .div_srelka {height: 100px;}
+
+#volonters .strelka_all
+{margin-top: 40px;}
+
+#volonters .strelka_left
+{background-image: url('../img/srelki/strelkawl.png');}
+#volonters .strelka_left:hover
+{background-image: url('../img/srelki/strelkal_h.png');}
+#volonters .strelka_right
+{background-image: url('../img/srelki/strelkawr.png');}
+#volonters .strelka_right:hover
+{background-image: url('../img/srelki/strelkar_h.png');}
+
+.volonter img {float: left; margin: 10px; border-radius: 50%;}
+
+.volonter h3 {text-align: left;}
+
+
+footer
+{
+  /*margin-top: 100px;*/
+  font-size:9pt;
+  padding:10px;
+  background-color: white; 
+}
+
+footer a {color:white;}
+
+
+#m_menu /*Отключить показ значка мобильного меню*/
+{
+  display:none;
+}
+
+
+time /*Стиль для даты и времени*/
+{
+  color:gray;
+  font-style: italic;
+}
+
+
+/*Стили для страницы новостей и проектов*/
+/* Картинки в шкапке */
+#logo_news {background-image: url(../img/bg_news.jpg);}
+#logo_contacts {background-image: url(http://plus200.ru/images/contac.jpg);}
+#logo_media {background-image: url(http://kazlogistics.kz/upload/iblock/458/458269676632e60e12e071d8a73aaf6d.jpg);}
+#logo_news, #logo_contacts, #logo_media, #logo_projects
+{
+  background-position: center top;
+  background-size: cover;
+}
+
+.logo img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo h1
+{
+  padding-top: 30px;
+  height: 50px;
+  font-size: 200%;
+}
+
+#zgl
+{
+  color:white;
+  font-size:19pt;
+}
+
+.page_menu
+{
+  margin-bottom: -14px;
+}
+
+.pluso
+{
+  float: left;
+  margin: 100px -8% 30px 9%;
+}
+
+
+.vs_ph
+{
+  width: 648px;
+  height: 150px;
+}
+
+.ph
+{
+  width:150px;
+   padding: 0 5px;
+}
+
+
+.nw img, .ph img
+{
+  border-radius: 50%;
+}
+
+.nw a, nav a
+{
+  text-decoration: none;
+  color:#210539;
+}
+
+.vs_ph a
+{
+  text-decoration: none;
+  color:#210539;
+}
+
+.pages {padding:2% 10% 2% 10%;}
+.pages p {text-align:justify; padding:10px;}
+.pages div {text-align:justify; padding: 20px;}
+.pages img{text-align:justify; padding: 20px;}
+
+
+
+
+
+.str_page_mr
+{
+  margin-top: 50px;
+}
+
+
+/* Блок новостей  */
+
+.button
+{
+  cursor:pointer;
+}
+input[name^="shadow-"] {display: none;}
+.allnews
+{
+  text-align:center;
+}
+.anews
+{
+  height: 0px;
+  margin:0 20% 0 20%;
+  padding:10px;
+  transition: all 0.9s ease-out;
+}
+[name^="shadow-"]:checked + .key1 ~ .anews,
+[name^="shadow-"]:checked + .key1 ~ * .anews {
+    height: 300px;
+}
+
+
+/*Навигационное меню справа*/
+.smartnav
+{
+  position:fixed;
+  right: 10px;
+  top: 30%;
+  height: 100px;
+}
+/* Радужная полоска */
+.rbw_img
+{
+  margin-left:0px;
+  height: 230px;
+  width:3px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1000e+0,ff9500+25,00ae00+50,1b3df1+73,7000b7+100 */
+  background: #c1000e; /* Old browsers */
+  background: -moz-linear-gradient(top, #c1000e 0%, #ff9500 25%, #00ae00 50%, #1b3df1 73%, #7000b7 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c1000e), color-stop(25%,#ff9500), color-stop(50%,#00ae00), color-stop(73%,#1b3df1), color-stop(100%,#7000b7)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #c1000e 0%,#ff9500 25%,#00ae00 50%,#1b3df1 73%,#7000b7 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #c1000e 0%,#ff9500 25%,#00ae00 50%,#1b3df1 73%,#7000b7 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #c1000e 0%,#ff9500 25%,#00ae00 50%,#1b3df1 73%,#7000b7 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #c1000e 0%,#ff9500 25%,#00ae00 50%,#1b3df1 73%,#7000b7 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1000e', endColorstr='#7000b7',GradientType=0 ); /* IE6-9 */
+  opacity:0.7;
+  z-index:10;
+}
+#radu_nv
+{
+  position: absolute;
+  width:5px;
+  margin:46px;
+  height:500px;
+  z-index:30;
+  opacity:0;
+  /*overflow: visible;*/
+  overflow: hidden;
+  transition-property: opacity;
+  transition-duration: .3s;
+}
+
+/*Круглые кнопочки справа*/
+.navsq
+{
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius:50%;
+  background-color: #000;
+  margin: 40px;
+  cursor: pointer;
+  opacity:0.0;
+  transition: all .3s ease-out;
+  z-index:31;
+  opacity:0.4;
+}
+
+
+/*Партнеры*/
+.partner
+{
+  display:inline-block;
+  margin:3%;
+}
+
+.partner a img
+{
+  height:200px;
+  width:200px;
+}
+
+
+#outer_alignment, .cnts
+{
+  display:inline-block;
+  margin:10px 10px;
+  vertical-align:top;
+}
+.cnts
+{
+  margin-top: 100px;
+  text-align:left;
+}
+
+.btn:hover
+{
+  background: none 0% 50% repeat rgb(5, 120, 48);
+}
+
+
+@media handheld, screen and (max-width: 1100px) 
+{
+
+.vs_nw {width: 600px;}
+.vs_ph {width: 490px;}
+
+#v_peoples{width: 500px;}
+
+}
+
+@media handheld, screen and (max-width: 850px) 
+{
+
+body{font-size:14px;}
+
+#toTop{display: none;}
+
+/*Включить показ мобильного меню*/
+#m_menu
+{
+  left: 5px;
+  top:5px;
+  display: inline;
+  position:fixed;
+  z-index: 21;
+}
+
+.effect13
+{margin:0 auto;}
+
+.vs_nw
+{width: 280px;}
+
+.vs_ph {width: 320px;}
+
+#v_peoples
+{width: 260px;}
+
+/*Стиль мобильного меню, выезжает сбоку*/
+#menu
+{
+  display: none;
+  position: fixed;
+  width:200px;
+  height: 100%;
+  left:0px;
+  margin:0px;
+  padding-top:60px;
+  top:0px;
+  background-color: white;
+  z-index: 20;
+  box-shadow: 10px 0 50px rgba(0,0,0,0.7);
+}
+
+
+#menu LI
+{
+  margin-top:3%;
+  margin-left: -30px;
+}
+
+.logo img
+{position: relative;}
+
+.partner a img
+{
+  height:100px;
+  width:100px;
+
+}
+.smartnav
+{
+  display: none;
+}
+
+}
+
+@media handheld, screen and (max-width: 500px) {
+
+body{font-size:13px;}
+
+#toTop{display: none;}
+
+/*Включить показ мобильного меню*/
+#m_menu
+{
+  left: 5px;
+  top:5px;
+  display: inline;
+  position:fixed;
+  z-index: 21;
+}
+
+.effect13
+{margin:0 auto;}
+
+.vs_nw
+{width: 200px;}
+
+.vs_ph {width: 200px;}
+
+#v_peoples
+{width: 200px;}
+
+.news_photo
+{
+  width:150px;
+  height:150px;
+}
+
+.nw
+{
+  width:180px;
+}
+
+#logo_pic {width:350px;height:210px;}
+
+.ph {width: 90px;}
+
+.ph img {margin-top:30px;width:90px;height: 90px;}
+}
+
+/*Стили тени*/
+
+.lifted {
+        position: relative;
+        width:40%;
+        padding:1em;
+        background:#fff;
+ 
+}
+ 
+.lifted:before,
+.lifted:after {
+        content:"";
+        position:absolute;
+        z-index:-2;
+        bottom:15px;
+        left:10px;
+        width:100%;
+        height:20%;
+        max-width:300px;
+    -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+       -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+            box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform:rotate(-3deg);
+       -moz-transform:rotate(-3deg);
+        -ms-transform:rotate(-3deg);
+         -o-transform:rotate(-3deg);
+            transform:rotate(-3deg);
+}
+ 
+.lifted:after {
+    right:10px;
+    left:auto;
+    -webkit-transform:rotate(3deg);
+       -moz-transform:rotate(3deg);
+        -ms-transform:rotate(3deg);
+         -o-transform:rotate(3deg);
+            transform:rotate(3deg);
+}
