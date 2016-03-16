@@ -69,16 +69,16 @@ function clsr()
       // print(ps.x);
       console.log(ps.x,ps.y);
       var _offset = {
-        'x': (pos.x - _center.x)/50+50,
-        'y': (pos.y - _center.y )/50+50
+        'x': (pos.x - _center.x)/120+50,
+        'y': (pos.y - _center.y )/120+50
       }
       var lvals =
       {
       	'x': ps.x,
         'y': ps.y
       }
-      ps.x=ps.x+(_offset.x-ps.x)/20;
-      ps.y=ps.y+(_offset.y-ps.y)/20;
+      ps.x=ps.x+(_offset.x-ps.x)/70;
+      ps.y=ps.y+(_offset.y-ps.y)/70;
       
       if ((Math.abs(ps.x-lvals.x)<0.02)&&(Math.abs(ps.y-lvals.y)<0.02))
       {

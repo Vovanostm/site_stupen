@@ -392,29 +392,18 @@
 	"buffers":
 	[
 		{
-			"file": "prod/styles/style.css",
+			"file": "pro/nws/nws2.html",
 			"settings":
 			{
-				"buffer_size": 10170,
+				"buffer_size": 1147,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "# Copyright (c) 1993-2009 Microsoft Corp.\n#\n# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.\n#\n# This file contains the mappings of IP addresses to host names. Each\n# entry should be kept on an individual line. The IP address should\n# be placed in the first column followed by the corresponding host name.\n# The IP address and the host name should be separated by at least one\n# space.\n#\n# Additionally, comments (such as these) may be inserted on individual\n# lines or following the machine name denoted by a '#' symbol.\n#\n# For example:\n#\n#      102.54.94.97     rhino.acme.com          # source server\n#       38.25.63.10     x.acme.com              # x client host\n\n# localhost name resolution is handled within DNS itself.\n#	127.0.0.1       localhost\n#	::1             localhost\n\n",
-			"file": "/C/Windows/System32/drivers/etc/hosts",
-			"file_size": 1155,
-			"file_write_time": 130908821092543437,
+			"file": "pro/nws/nws3.html",
 			"settings":
 			{
-				"buffer_size": 804,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Антон/OneDrive/Документы/hosts",
-			"settings":
-			{
-				"buffer_size": 801,
+				"buffer_size": 1627,
 				"line_ending": "Windows"
 			}
 		}
@@ -483,6 +472,17 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Антон/Documents/site_stupen/pro/nws/nws1.html",
+		"/C/Users/Антон/Documents/site_stupen/pro/nws/nws3.html",
+		"/C/Users/Антон/Documents/site_stupen/pro/scripts/parallax.js",
+		"/C/Users/Антон/Documents/site_stupen/pro/styles/style.css",
+		"/C/Users/Антон/Documents/site_stupen/pro/index.php",
+		"/C/Program Files (x86)/Ampps/www/nws/nws2.html",
+		"/C/Program Files (x86)/Ampps/www/nws/nws1.html",
+		"/C/Program Files (x86)/Ampps/www/nws/nws5.html",
+		"/C/Users/Антон/Documents/site_stupen/prod/styles/style.css",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Антон/OneDrive/Документы/hosts",
 		"/C/Users/Антон/Documents/site_stupen/prod/index.html",
 		"/C/Users/Антон/Downloads/404.html",
 		"/C/Program Files/Git/etc/ssh/ssh_config",
@@ -599,18 +599,7 @@
 		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/preferences_last.html",
 		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/open_port.html",
 		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/jQradio",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/timer.py",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Static/setpref/pref2.js",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/Templates/setpref/login_test.html",
-		"/Users/Vovanostm/Downloads/tkbacktracer-2.020.tcl",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/jquery.js",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/Sublimes_Projects/Smart_House/Sm_1",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/PcDuino/ReadMe",
-		"/Users/Vovanostm/Downloads/lsm303/README.textile",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Pref.html",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Testing.html",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Start connection.html",
-		"/Users/Vovanostm/Documents/Яндекс.Диск/P_Serv_Sm/Login.html"
+		"/Users/Vovanostm/Documents/Яндекс.Диск/Sm_H/smarthouse/setpref/timer.py"
 	],
 	"find":
 	{
@@ -630,6 +619,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font-w",
 			"margin",
 			"\n<",
 			"180",
@@ -761,28 +751,23 @@
 	"groups":
 	[
 		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "prod/styles/style.css",
+					"file": "pro/nws/nws2.html",
 					"settings":
 					{
-						"buffer_size": 10170,
+						"buffer_size": 1147,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								795,
-								795
+								612,
+								608
 							]
 						],
 						"settings":
@@ -877,30 +862,29 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 429.0,
+						"translation.y": 177.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Windows/System32/drivers/etc/hosts",
+					"file": "pro/nws/nws3.html",
 					"settings":
 					{
-						"buffer_size": 804,
+						"buffer_size": 1627,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								769,
-								769
+								1465,
+								1465
 							]
 						],
 						"settings":
@@ -995,123 +979,8 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Антон/OneDrive/Документы/hosts",
-					"settings":
-					{
-						"buffer_size": 801,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								688,
-								688
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"devel": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": "load-save",
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1119,6 +988,11 @@
 					},
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1150,7 +1024,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.687237615449,
 			1.0
 		],
 		"rows":
