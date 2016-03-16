@@ -4,7 +4,13 @@ html, body
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 100;
+}
+*
+{
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 100;
 }
 
 a
@@ -495,7 +501,7 @@ menu.dynamic .l_i
 	opacity: 0.7;
 	background-color: rgba(255,255,255,0.4);
 	color:#000;
-	font-weight: bolder;
+	/*font-weight: bolder;*/
 	text-shadow: #ccc, 1px,1px,1px;
 	
 }
