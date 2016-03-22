@@ -12,7 +12,7 @@ if (count($_POST) > 0)//--Если были приняты данные из HTM
 		$nws = $_POST['nws'];
 
 		$content = file_get_contents("nws/nws$nws.html");
-		echo (cropStr($content, 800));
+		echo ($content);
 	}
 	if ($name == "ful_nw") {
 		$nws = $_POST['nws'];

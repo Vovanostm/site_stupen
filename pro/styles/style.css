@@ -182,6 +182,7 @@ canvas
 .n_w, .prjs
 {
 	margin: 0% 10% 0% 10%;
+	vertical-align: top;
 	white-space: normal;
 }
 
@@ -235,7 +236,7 @@ canvas
 	width: 55%;
 	height: 80%;
 	left: 0;
-	vertical-align: top;
+
 
 }
 .n_w .imgs img
