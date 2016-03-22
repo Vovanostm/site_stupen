@@ -92,7 +92,7 @@ canvas
 
 #a_n H1
 {
-	margin: 0;	
+	margin: 0;
 	margin-bottom: -30px;
 	padding:0;
 }
@@ -118,9 +118,9 @@ canvas
 
 
 
-#all_news:hover 
+#all_news:hover
 {
-	
+
 	border-color: rgba(0,0,0,1);
 }
 
@@ -135,7 +135,7 @@ canvas
 
 
 .n_block .news
-{	
+{
 	position: relative;
 	display: inline-block;
 	white-space: normal;
@@ -160,19 +160,19 @@ canvas
 .date
 {
 	display: block;
-	
+
 	font-size: 110%;
 	margin-top: 3%;
 	height: 4%;
 	margin-bottom: 3%;
 }
 
-.date::before { 
+.date::before {
 	content:"       ";
 	position: relative;
 	top:-2px;
 	font-size: 90%;
-	background-image:url("../calendar.png"); 
+	background-image:url("../calendar.png");
 	background-repeat: no-repeat;
 	background-size:contain;
 
@@ -219,11 +219,11 @@ canvas
 
 .l_str
 {
-	
+
 }
 .r_str
 {
-	
+
 }
 
 /*.n_w {position: relative;  height: 100%}*/
@@ -235,6 +235,7 @@ canvas
 	width: 55%;
 	height: 80%;
 	left: 0;
+	vertical-align: top;
 
 }
 .n_w .imgs img
@@ -401,7 +402,7 @@ canvas
 .cl_hided
 {
 	visibility: hidden;
-	
+
 	width: 0%;
 	height: 0%;
 	right: 45%;
@@ -439,7 +440,7 @@ canvas
 	background-size:110%;
   	background-position: center top; /* Положение фона */
   	background-repeat: no-repeat;
-} 
+}
 menu.static, menu.dynamic
 {
 	white-space: nowrap;
@@ -492,7 +493,7 @@ menu.dynamic .l_i
 	margin: 0;
 	width: 18%;
 	cursor: pointer;
-	transition:all .5s ;	
+	transition:all .5s ;
 }
 
 
@@ -503,7 +504,7 @@ menu.dynamic .l_i
 	color:#000;
 	/*font-weight: bolder;*/
 	text-shadow: #ccc, 1px,1px,1px;
-	
+
 }
 .m_menu menu.static LI:hover, .m_menu menu.dynamic LI:hover
 {
@@ -568,10 +569,10 @@ menu.dynamic .l_i
 
 
 H1
-{ 
-  display: inline-block; 
-  width: auto; 
-  font-size: 25pt; 
+{
+  display: inline-block;
+  width: auto;
+  font-size: 25pt;
   text-decoration: none;
   margin-top: 35px;
   position: relative;
@@ -602,7 +603,7 @@ H1:hover  hr{width: 100%;}
 {
 	background-color: #f9f9f9;
 }
- 
+
 
 
 .person
@@ -612,7 +613,7 @@ H1:hover  hr{width: 100%;}
 }
 .p_prj
 {
-	margin: 2%;	
+	margin: 2%;
 	display: inline-block;
 	font-size: 120%;
 }
@@ -689,7 +690,7 @@ footer a:hover
 svg {
   position: absolute;
   top:-90px;
-  
+
   display: block;
   margin:0 0 0 -5px;
 
@@ -713,19 +714,3 @@ menu.static, menu.dynamic
 
 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
