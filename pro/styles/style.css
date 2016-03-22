@@ -243,7 +243,7 @@ canvas
 {
 	/*border:solid 1px black;*/
 	/*box-shadow: 0px 0px 5px black;*/
-	margin: 1%;
+	margin: 1% 0 1% 0;
 }
 .n_block .n_w .sText
 {
@@ -300,10 +300,15 @@ canvas
 	display: block;
 	position: relative;
 	width: 90%;
+
 	/*max-height: 90%;*/
 	margin: 30px auto;
 	padding:0 5%;
 }
+#full_nws p{
+text-align: justify;
+}
+
 
 .fl_img
 {
@@ -311,7 +316,8 @@ canvas
 
 #full_nws img
 {
-	width: 26%;
+	width: 30%;
+	margin: 1% 1.4%;
 }
 
 .img_ovf_hid

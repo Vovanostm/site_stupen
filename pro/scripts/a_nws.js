@@ -19,7 +19,7 @@ $(".n_w").each(function(index, el) {
 	else if ($(this).children(".imgs").children("img").length > 1)
 		$(this).children(".imgs").children("img").each(function(index, el) {
 	 	$(this).css({height:"45%"});});
-	else 
+	else
 		$(this).children(".imgs").children("img").each(function(index, el) {
 	 	$(this).css({height:"75%"});});
 });
@@ -38,11 +38,11 @@ $('#a_n')
 			// alert($('#b_n').height());
 				$('#a_n I').append('Cвернуть');
 				$("#all_news").animate({top: '50px'},100 );
-				
+
 				$("#all_news").css({height: "100%"});
 
 				$('#a_n I').css({visibility: 'visible'});
-				
+
 				// $("#all_news").addClass("hide");
 				$("#t_a_n").animate({opacity: 1}, 500 );
 				$("#t_a_n").css({display:"block"});
@@ -66,7 +66,7 @@ $('#a_n')
 	// .mouseleave(function(event) {
 	// 	if (!pst) $(".ar").removeClass("ar_up");
 	// });
-	
+
 
 
 
@@ -78,14 +78,14 @@ var opened = false;
 function get_all_nws()
 {
 	if (!opened)
-	$.ajax({ 
-    type: "POST", 
-    url: "work.php", 
-    data: "name=" + "all_news", 
-    dataType: "html", 
-    success: function(data){ 
+	$.ajax({
+    type: "POST",
+    url: "work.php",
+    data: "name=" + "all_news",
+    dataType: "html",
+    success: function(data){
 
-    	
+
     //alert(data);
 
 	var news_dates = data.match(/<time .*?>.*?<\/time>/ig),
@@ -119,12 +119,12 @@ function show_nws(new_number)
 	$("#close_nws").addClass("cl_visbl").removeClass("cl_hided");
 	var out_nw;
 	out_nw=num_news-x;
-	$.ajax({ 
-	    type: "POST", 
-	    url: "work.php", 
-	    data: "name=" + "ful_nw"+"&nws="+new_number, 
-	    dataType: "html", 
-	    success: function(data){ 
+	$.ajax({
+	    type: "POST",
+	    url: "work.php",
+	    data: "name=" + "ful_nw"+"&nws="+new_number,
+	    dataType: "html",
+	    success: function(data){
 
 
 	    	var _url = "?name=news&num="+new_number;
@@ -147,10 +147,10 @@ function show_nws(new_number)
     		$('#full_nws').append(data);
     		// $('#full_nws').append("<P>Cсылка на статью: http://192.168.0.107/site_stup/pro/?name=news&num="+new_number+"</P>");
     		// window.location.search = "name=news&num="+out_nw;
-    		
+
     		var src_images = new Array();
 	    	var k = 0;
-	    	$("#full_nws").find("img").each(function() { 
+	    	$("#full_nws").find("img").each(function() {
 	    		src_images[k++] = $(this).attr("src");
 	    	});
 	    	k--;
@@ -163,7 +163,10 @@ function show_nws(new_number)
 			$("#fl_nw").css({overflow:"hidden"});
 			// $("#fl_nw_img").append("<img width=100% ");
 			$("#fl_nw_img").addClass("transit_5");
-			$("#fl_nw_img").css({'background-image':'url('+img_src+')'});
+			$("#fl_nw_img").css({'background-image':'url("'+img_src+'")'});
+			// fl_nw_img.style.backgroundColor= "#448899";
+			// fl_nw_img.style.backgroundImage= "url("+img_src+")";
+			// alert(img_src);
 			$("#close_imgs").addClass("cl_visbl").removeClass("cl_hided");
 			// alert("work");
 			$("#fl_nw_img").click(function(event) {
@@ -176,7 +179,7 @@ function show_nws(new_number)
 				}
 				if (n == k) n = 0; else n++;
 				img_src=src_images[n];
-				$(this).css({'background-image':'url('+src_images[n]+')'});
+				$(this).css({'background-image':'url("'+src_images[n]+'")'});
 			});
     	});
 
@@ -236,8 +239,3 @@ if(get != '') {
 
 	}
 }
-
-
-
-
-
