@@ -1,0 +1,342 @@
+<!DOCTYpE html>
+<html>
+
+
+<head>
+	<link rel="stylesheet" href="styles/style.css">
+	<!-- Различные метаданные -->
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<meta name="yandex-verification" content="68325a946a55b6d2" />
+	<!-- Здесь вводятся ключевые слова -->
+	<meta name="Keywords" content="Ступень" />
+	<meta name="Description" content="Сайт медиакомпании Ступень production" />
+	<meta name="robots" content="all" />
+	<title>production</title>
+	<link rel="stylesheet" href="./styles/svg_but.css">
+	<style>
+		/* Box colors */
+
+		.bg-1 {
+			background: #ECEFF1;
+			color: #37474f;
+		}
+
+		.bg-2 {
+			background: #7986cb;
+			color: #ECEFF1;
+		}
+
+		.bg-3 {
+			background: #37474f;
+			color: #fff;
+		}
+		/* Common button styles */
+
+		.button {
+			font-size: 0.7em;
+			float: left;
+			width: 100px;
+			height: 54px;
+			display: block;
+			/*margin: 0.4em;*/
+			padding: 0.5em 2em;
+			border: none;
+			background: none;
+			color: inherit;
+			vertical-align: middle;
+			position: relative;
+			z-index: 1;
+			-webkit-backface-visibility: hidden;
+			-moz-osx-font-smoothing: grayscale;
+			background-color: #f4f4f4;
+		}
+
+		.button:focus {
+			outline: none;
+		}
+
+		.button > span {
+			vertical-align: middle;
+		}
+
+		.button > b {
+			font-weight: 300;
+		}
+		/* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari) */
+
+		.bg-1 .button {
+			color: #37474f;
+			border-color: #37474f;
+		}
+
+		.bg-2 .button {
+			color: #ECEFF1;
+			border-color: #ECEFF1;
+		}
+
+		.bg-3 .button {
+			color: #fff;
+			border-color: #fff;
+		}
+		/* Typography and Roundedness */
+
+		.button--text-upper {
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+		/* Itzel */
+
+		.button--itzel {
+			border: none;
+			padding: 0px;
+			overflow: hidden;
+			width: 290px;
+		}
+
+		.button--itzel::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 280px;
+			height: 50px;
+			border: 2px solid;
+			border-radius: inherit;
+			-webkit-clip-path: polygon(0% 0%, 0% 100%, 35% 100%, 35% 60%, 65% 60%, 65% 100%, 100% 100%, 100% 0%);
+			clip-path: url(../index.html#clipBox);
+			-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+			transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+			-webkit-transform-origin: 50% 100%;
+			transform-origin: 50% 100%;
+		}
+
+		.button--itzel.button--border-thin::before {
+			border: 1px solid;
+			-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -1px, 0);
+			transform: translate3d(0, 100%, 0) translate3d(0, -1px, 0);
+		}
+
+		.button--itzel.button--border-thick::before {
+			border: 3px solid;
+			-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+			transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+		}
+
+		.button--itzel::before,
+		.button--itzel .button__icon {
+			-webkit-transition: -webkit-transform 0.3s;
+			transition: transform 0.3s;
+			-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+			transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+		}
+
+		.button--itzel .button__icon {
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			padding: 20px;
+			/*font-size: 20px;*/
+			-webkit-transform: translate3d(-50%, 0, 0);
+			transform: translate3d(-50%, 0, 0);
+		}
+
+		.button--itzel > span {
+			display: block;
+			padding: 20px;
+			-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+			transition: transform 0.3s, opacity 0.3s;
+			-webkit-transition-delay: 0.3s;
+			transition-delay: 0.3s;
+		}
+
+		.button--itzel:hover::before {
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+
+		.button--itzel:hover .button__icon {
+			-webkit-transition-delay: 0.1s;
+			transition-delay: 0.1s;
+			-webkit-transform: translate3d(-50%, -95%, 0);
+			transform: translate3d(-50%, -95%, 0);
+		}
+
+		.button--itzel:hover > span {
+			opacity: 0;
+			-webkit-transform: translate3d(0, -50%, 0);
+			transform: translate3d(0, -50%, 0);
+			-webkit-transition-delay: 0s;
+			transition-delay: 0s;
+		}
+	</style>
+</head>
+
+<body id="mns">
+
+	<nav class="m_menu block">
+		<div id="bg_2"></div>
+		<div id="bg_3">
+			<div id="logo"></div>
+		</div>
+		<menu class="static">
+			<li class="l_i" onclick="navTo( '#newss')">Новости</li>
+			<li class="l_i" onclick="navTo( '#about')">О нас</li>
+			<li class="l_i" onclick="navTo( '#proje')">Проекты</li>
+			<li class="l_i" onclick="navTo( '#atten')">Услуги</li>
+			<li class="l_i" onclick="navTo( '#contc')">Контакты</li>
+		</menu>
+	</nav>
+
+	<!-- Блок новостей -->
+	<section id="newss" class="even c_nws block none_ov">
+		<h1>Последние новости</h1>
+		<div class="n_block" id="b_n">
+
+		</div>
+
+
+		<div id="all_news" class="al_nw">
+
+			<div id="a_n" onclick="get_all_nws()">
+
+				<h1>
+						<button class="button button--itzel"><b class="button__icon icon icon-envelope">Показать</b><span>Все новости</span></button>
+					</h1>
+
+				<br>
+				<i></i>
+			</div>
+
+			<div id="t_a_n"></div>
+		</div>
+		<div onclick="scroll_left('b_n')" class="n_left">
+			<div class="l_str">
+				&lt;
+			</div>
+		</div>
+		<div onclick="scroll_right('b_n')" class="n_right">
+			<div class="r_str">
+				&gt;
+			</div>
+		</div>
+	</section>
+	<section id="about" class="odd block">
+		<h1>Коротко о нас</h1>
+		<div>
+
+			<canvas id="draw" width="200" height="200">Вы видите это сообщение, потому что Ваш браузер не поддерживает canvas.</canvas>
+			<div class="person">
+				<div class="ih-item sqr colored effect13 from_left_and_right leader">
+					<a href=" ">
+						<div class="img">
+							<img src="../soc/img/our_photos/ava_mav.jpg" height="301" width="300" alt="Тошка"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Антон Муравьёв</h3>
+								<p>
+									Руководитель, двигатель прогресса, лентяй !
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="proje" class="even block">
+		<h1>Наши проекты</h1>
+		<div class="n_block" id="b_p">
+			<div class="prjs">
+				<div class="p_prj">
+					<img src="img/big/nw3(1).jpg" alt="Yula img">
+					<h3>
+						 Я не здесь
+					</h3>
+					<p>
+						Это короткометражный игоровой фильм. Съёмки проекта стартовали в ноябре этого года в лесах мытищинского района, и вот сейчас мы продолжаем начатое в гостепреимных стенах ТД "Домовой" в ТЦ "ИЮНЬ МЫТИЩИ"
+					</p>
+					<div class = "button">Подробнее</div>
+				</div>
+			</div>
+		</div>
+		<div onclick="scroll_left('b_p')" class="n_left">
+			<div class="l_str">
+				&lt;
+			</div>
+		</div>
+		<div onclick="scroll_right('b_p')" class="n_right">
+			<div class="r_str">
+				&gt;
+			</div>
+		</div>
+	</section>
+	<section id="atten" class="odd block">
+		<h1>Наши услуги</h1>
+		<menu class="a_ns">
+			<li class="a_ns" onclick="scrollAt('at_1')"><span>Видеосъёмка</span></li>
+			<li class="a_ns" onclick="scrollAt('at_2')"><span>Фотосъёмка</span></li>
+			<li class="a_ns" onclick="scrollAt('at_3')"><span>Веб-разработка</span></li>
+			<li class="a_ns" onclick="scrollAt('at_4')"><span>Кинотеатр</span></li>
+		</menu>
+		<hr id="a_t_hr" class="a_ns">
+		<div id="a_ns_block">
+			<section id="at_1" class="a_ns">
+				Мы оказываем услуги по съёмке различных мероприятий. У нас есть профессиональная техника. Мы знаем программы по видеомонтажу, которых не знаете вы. Вообще, мы молодцы Adobe Premier Pro (пиратка) - это вам не хрмы-хухры В общем, заказывайте и не пожалеете!
+
+			</section>
+			<section id="at_2" class="a_ns">
+				Мы оказываем услуги по съёмке различных мероприятий. У нас есть профессиональная техника. Мы знаем программы по фотомонтажу, которых не знаете вы. Вообще, мы молодцы Adobe Photoshop (пиратка) - это вам не хрмы-хухры В общем, заказывайте и не пожалеете!
+			</section>
+			<section id="at_3" class="a_ns">
+				Я каждый день себе говорю. что умею делать сайты и поэтому у меня начинают получаться сайты. Конечно, пока что это ещё не до сайты, но скоро, я надеюсь, будут суперсайты!
+			</section>
+			<section id="at_4" class="a_ns">
+				Мы на халяву получили кинотеарт - реально! Надувной экран, проектор, генератор, стульчики!! Да - да! У нас есть стульчики и даже с подлокотниками! Мы очень хотим денег, потому что кушать хотим. Закажите нас!
+			</section>
+		</div>
+	</section>
+	<section id="contc" class="even block">
+		<h1> Контакты </h1>
+		<div class="cont_block">
+			<p>Контактный телефон: <a href="tel:+79296760477">+7 (929)676-04-77</a></p>
+			<p>E-mail: <a href="mailTo:admin@арт-ступень.рф">admin@арт-ступень.рф</a></p>
+			<p>Социальные сети:
+				<br>
+				<a href="vk.com/art.stupen">ВКонтакте</a>
+				<br>
+				<a href="youtube.com/user/ArtStupen">YouTube</a>
+				<br>
+				<a href="twitter.com/art_stupen">Twitter</a>
+				<br>
+				<a href="plus.google.com/u/0/+ArtStupen">Google+</a>
+				<br>
+			</p>
+		</div>
+		<div>
+
+		</div>
+	</section>
+
+
+	<div id="fl_nw" class="ovf ovf_hid">
+		<div id="close_nws" class="cl_hided"></div>
+		<div id="full_nws">
+		</div>
+	</div>
+
+
+
+	<footer>
+		<a href="mailTo:admin@арт-ступень.рф">© Ступень production</a>
+	</footer>
+	<!-- Cкрипты -->
+	<script type="text/javascript" src="scripts/jQ1_8_3.js"></script>
+	<script type="text/javascript" src="scripts/jQ_scrollTo.js"></script>
+	<script type="text/javascript" src="scripts/scroll_news.js"></script>
+	<script type="text/javascript" src="scripts/a_nws.js"></script>
+	<script async type="text/javascript" src="scripts/attens.js"></script>
+	<script async type="text/javascript" src="scripts/parallax.js"></script>
+</body>
+
+</html>
