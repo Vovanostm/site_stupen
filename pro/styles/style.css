@@ -35,13 +35,13 @@ canvas
 	text-align: center;
 	display: block;
 }
-iframe{
+.full_scr iframe{
 	position: absolute;
-	width: 90%;
-	height: 90%;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
-	left:5%;
-	top:5%;
+	left: 0;
+	top: 0;
 	border:none;
 	z-index: 2;
 }
@@ -52,12 +52,12 @@ iframe{
 	width: 50px;
 	height: 50px;
 	cursor: pointer;
-	-webkit-background-size: contain;
-	background-size: contain;
-	/*background-color: #000;*/
-	background-image:url(../buttons/png/krestik.png);
-
+	opacity: 0.5;
+	transition: 0.2s;
 	z-index: 3;
+}
+.close_btn:hover{
+	opacity: 1;
 }
 .full_scr{
 	top: 0;
@@ -66,7 +66,7 @@ iframe{
 	height: 100%;
 	position: fixed;
 	z-index: 800;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 .even{
 	color:black;
@@ -192,14 +192,14 @@ iframe{
 	position:absolute;
 	height: 100%;
 	width:10%;
-	top: 0%;
+	top: 0;
 	transition:all .5s ;
 	z-index: 4;
 	cursor: pointer;
 }
 .n_left:hover, .n_right:hover
 {
-	background-color: #000;
+	color:#222;
 	background-color: rgba(0,0,0,0.4);
 	transition:all .5s ;
 }
@@ -251,8 +251,6 @@ iframe{
 	right: 0;
 	text-align: justify;
 	overflow: hidden;
-    -ms-text-overflow: ellipsis;
-    text-overflow: ellipsis;
 }
 
 #t_a_n
@@ -265,6 +263,7 @@ iframe{
 .ovf
 {
 	position: fixed;
+	color:#222;
 	background-color: #f4f4f4;
 	z-index: 200;
 	transition: all .4s;
@@ -314,6 +313,7 @@ text-align: justify;
 {
 	width: 100%;
 	height: 100%;
+	color:#f4f4f4;
 	background-color: rgb(0,0,0);
 	visibility: hidden;
 	display: none;
@@ -327,6 +327,7 @@ text-align: justify;
 	background-position: 50% 50%;
 	top: 0;
 	left:0;
+	color:#f4f4f4;
 	background-color: rgba(0,0,0,0.7);
 	visibility: visible;
 	display: block;
@@ -335,6 +336,7 @@ text-align: justify;
 
 #full_new_img
 {
+	color:#f4f4f4;
 	background-color: rgba(0, 0, 0, 0.68);
 }
 
@@ -342,6 +344,7 @@ text-align: justify;
 {
 	/*background-image:url("../calendar.png");*/
 	position: absolute;
+	color:#000;
 	background-color: #fff;
 	width: 400px;
 	height: 400px;
@@ -378,8 +381,6 @@ text-align: justify;
 	background-image:url(../buttons/png/krestik.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	-webkit-transition: width .5s;
-	-o-transition: width .5s;
 	transition: width .5s;
 
 	z-index: 120;
@@ -417,7 +418,6 @@ text-align: justify;
 	margin: 0;
 	width: 100%;
 	height: 100%;
-	height: 100%;
 	text-align: center;
 	overflow: hidden;
 	/*background-color: #4B688B;*/
@@ -431,22 +431,20 @@ menu.static, menu.dynamic
 	margin: 0 auto;
 	transition: all 1s;
 	z-index: 100;
-	background-color: rgba(20, 20, 20, 0.8);
-
+	color:#f4f4f4;
 }
 menu.static
 {
 	position: absolute;
 	bottom: 0;
 	left:0;
+	background-color: rgba(20, 20, 20, 0.8);
 }
 menu.dynamic
 {
 	position: fixed;
 	top:0;
-	background-color: rgb(54, 54, 54);
 	background-color: rgba(54, 54, 54, 0.39);
-	color:rgb(254, 254, 254);
 	color:rgba(254, 254, 254, 0.68);
 
 	height: 35px;
@@ -462,6 +460,7 @@ menu.static .l_i
 	font-size:140%;
 	padding: 10px 0;
 	margin: 20px 0;
+	background-color: #000;
 }
 
 menu.dynamic .l_i
@@ -473,7 +472,9 @@ menu.dynamic .l_i
 }
 
 .dynamic:hover{
+	background-color: rgb(54, 54, 54);
 	background-color: rgba(54, 54, 54, 0.8);
+	color:rgb(254, 254, 254);
 	color:rgba(254, 254, 254, 0.9);
  }
 
@@ -565,7 +566,7 @@ menu.dynamic .l_i
 }
 
 
-H1
+h1
 {
   display: inline-block;
   width: auto;
@@ -575,18 +576,25 @@ H1
   position: relative;
 }
 
-H1 hr
-{
-  margin-top:4px;
-  height:3px;
-  width:60%;
-  border-width: 0;
-  transition: all .4s ease-out;
-  position: relative;
-  background-color: black;
+h1::after{
+	content: "";
+	display: block;
+	width: 80%;
+	height: 2px;
+	transition: .5s;
+	margin: auto;
+}
+h1:hover::after{
+	width:100%;
 }
 
-H1:hover  hr{width: 100%;}
+.even h1::after{
+	background-color: #222;
+}
+
+.odd h1::after{
+	background-color: #f4f4f4;
+}
 
 .hid{
 	display: none;
@@ -779,6 +787,7 @@ svg {
 	color:#f4f4f4;
 }
 .prj .button:hover{
+	color:#222;
 	background-color: #4270b5 ;
 }
 

@@ -7,40 +7,55 @@
     <title>Я не здесь</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../styles/prj_style.css" />
+    <script async src="../scripts/prj_script.js"></script>
 </head>
-
 <body>
-
-    <h1>Я не здесь
-
-    </h1>
+    <header>
+        <h1>Я не здесь</h1>
+    </header>
     <section>
-      <hr />
-
-    <p>
-        <img src="../img/projects/im_not_here/big/poster.jpg" alt=""> Однажды в студёную зимнюю пору я из лесу вышел, был сильный мороз, залез на кобылу, скачу по просторам, как сладко промёрз у меня красный нос. Дровишек срубил я и в печку засунул и треск на всю избу доносится
-        вух
-    </p>
+        <p>
+            <img src="../img/projects/im_not_here/big/poster.jpg" alt=""> Однажды в студёную зимнюю пору я из лесу вышел, был сильный мороз, залез на кобылу, скачу по просторам, как сладко промёрз у меня красный нос. Дровишек срубил я и в печку засунул
+            и треск на всю избу доносится вух
+        </p>
+    </section>
+    <div class="ovf hided" id="ovf_gallery">
+        <div class="bg_img" id="gallery"></div>
+        <svg class="close_btn" id="cls_gallery" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100">
+            <style>
+              svg{
+                transition: .2s;
+                opacity: 0.5;
+              }
+              svg:hover{
+                opacity: 1;
+              }
+            </style>
+            <line stroke="#eee" stroke-width="3" x1="0" y1="0" x2="100" y2="100" >
+            </line>
+            <line stroke="#eee" stroke-width="3" x1="0" y1="100" x2="100" y2="0">
+            </line>
+        </svg>
+    </div>
+    <section>
+        <header>
+            <h2>Фото</h2>
+            <div class="imgs">
+                <div>
+                    <img src="../img/projects/im_not_here/big/nw3(1).jpg" alt="">
+                    <img src="../img/projects/im_not_here/big/nw3(2).jpg" alt="">
+                    <img src="../img/projects/im_not_here/big/nw3(3).jpg" alt="">
+                </div>
+                <div>
+                    <img src="../img/projects/im_not_here/big/nw3(4).jpg" alt="">
+                    <img src="../img/projects/im_not_here/big/nw3(5).jpg" alt="">
+                    <img src="../img/projects/im_not_here/big/nw3(6).jpg" alt="">
+                </div>
+            </div>
+        </header>
     </section>
     <section>
-      <header>
-        <h2>Фото</h2>
-          <div class="imgs">
-            <div>
-              <img src="../img/projects/im_not_here/big/nw3(1).jpg" alt="">
-              <img src="../img/projects/im_not_here/big/nw3(2).jpg" alt="">
-              <img src="../img/projects/im_not_here/big/nw3(3).jpg" alt="">
-            </div>
-            <div>
-              <img src="../img/projects/im_not_here/big/nw3(4).jpg" alt="">
-              <img src="../img/projects/im_not_here/big/nw3(5).jpg" alt="">
-              <img src="../img/projects/im_not_here/big/nw3(6).jpg" alt="">
-            </div>
-          </div>
-      </header>
-    </section>
-    <section>
-      <h2>Видео</h2>
+        <h2>Видео</h2>
     </section>
 
 
