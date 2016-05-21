@@ -17,163 +17,10 @@
 	<meta name="robots" content="all" />
 	<title>production</title>
 	<link rel="stylesheet" href="./styles/svg_but.css">
+	<link rel="stylesheet" href = "http://webfonts.ru/import/bebasneue.css"/>
+
 	<style>
-		/* Box colors */
 
-		.bg-1 {
-			background: #ECEFF1;
-			color: #37474f;
-		}
-
-		.bg-2 {
-			background: #7986cb;
-			color: #ECEFF1;
-		}
-
-		.bg-3 {
-			background: #37474f;
-			color: #fff;
-		}
-		/* Common button styles */
-
-		.button {
-			font-size: 0.7em;
-			float: left;
-			width: 100px;
-			height: 54px;
-			display: block;
-			/*margin: 0.4em;*/
-			padding: 0.5em 2em;
-			border: none;
-			background: none;
-			color: inherit;
-			vertical-align: middle;
-			position: relative;
-			z-index: 1;
-			-webkit-backface-visibility: hidden;
-			-moz-osx-font-smoothing: grayscale;
-			background-color: #f4f4f4;
-		}
-
-		.button:focus {
-			outline: none;
-		}
-
-		.button > span {
-			vertical-align: middle;
-		}
-
-		.button > b {
-			font-weight: 300;
-		}
-		/* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari) */
-
-		.bg-1 .button {
-			color: #37474f;
-			border-color: #37474f;
-		}
-
-		.bg-2 .button {
-			color: #ECEFF1;
-			border-color: #ECEFF1;
-		}
-
-		.bg-3 .button {
-			color: #fff;
-			border-color: #fff;
-		}
-		/* Typography and Roundedness */
-
-		.button--text-upper {
-			letter-spacing: 2px;
-			text-transform: uppercase;
-		}
-		/* Itzel */
-
-		.button--itzel {
-			border: none;
-			padding: 0px;
-			overflow: hidden;
-			width: 290px;
-		}
-
-		.button--itzel::before {
-			content: '';
-			position: absolute;
-			top: 0;
-			<<<<<<< HEAD left: 65px;
-			width: 150px;
-			=======left: 0;
-			width: 280px;
-			>>>>>>> 0693dd77aed09c0175527b881c285c00ed6f6c2d height: 50px;
-			border: 2px solid;
-			border-radius: inherit;
-			-webkit-clip-path: polygon(0% 0%, 0% 100%, 35% 100%, 35% 60%, 65% 60%, 65% 100%, 100% 100%, 100% 0%);
-			clip-path: url(../index.html#clipBox);
-			-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
-			transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
-			-webkit-transform-origin: 50% 100%;
-			transform-origin: 50% 100%;
-		}
-
-		.button--itzel.button--border-thin::before {
-			border: 1px solid;
-			-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -1px, 0);
-			transform: translate3d(0, 100%, 0) translate3d(0, -1px, 0);
-		}
-
-		.button--itzel.button--border-thick::before {
-			border: 3px solid;
-			-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
-			transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
-		}
-
-		.button--itzel::before,
-		.button--itzel .button__icon {
-			-webkit-transition: -webkit-transform 0.3s;
-			transition: transform 0.3s;
-			-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-			transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-		}
-
-		.button--itzel .button__icon {
-			position: absolute;
-			top: 100%;
-			left: 50%;
-			padding: 20px;
-			/*font-size: 20px;*/
-			-webkit-transform: translate3d(-50%, 0, 0);
-			transform: translate3d(-50%, 0, 0);
-		}
-
-		.button--itzel > span {
-			display: block;
-			padding: 20px;
-			-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-			transition: transform 0.3s, opacity 0.3s;
-			-webkit-transition-delay: 0.3s;
-			transition-delay: 0.3s;
-		}
-
-		.button--itzel:hover::before {
-			-webkit-transform: translate3d(0, 0, 0);
-			transform: translate3d(0, 0, 0);
-		}
-
-		.button--itzel:hover .button__icon {
-			-webkit-transition-delay: 0.1s;
-			transition-delay: 0.1s;
-			-webkit-transform: translate3d(-50%, -95%, 0);
-			transform: translate3d(-50%, -95%, 0);
-		}
-
-		.button--itzel:hover > span {
-			opacity: 0;
-			-webkit-transform: translate3d(0, -50%, 0);
-			transform: translate3d(0, -50%, 0);
-			-webkit-transition-delay: 0s;
-			transition-delay: 0s;
-		}
 	</style>
 </head>
 
@@ -184,13 +31,13 @@
 		<div id="bg_3">
 			<div id="logo"></div>
 		</div>
-		<menu class="static">
+		<ol id="main_nav" class="static">
 			<li class="l_i" onclick="navTo( '#newss')">Новости</li>
 			<li class="l_i" onclick="navTo( '#about')">О нас</li>
 			<li class="l_i" onclick="navTo( '#proje')">Проекты</li>
 			<li class="l_i" onclick="navTo( '#atten')">Услуги</li>
 			<li class="l_i" onclick="navTo( '#contc')">Контакты</li>
-		</menu>
+		</ol>
 	</nav>
 
 	<!-- Блок новостей -->
@@ -208,6 +55,7 @@
 			<div id="a_n" onclick="get_all_nws()">
 
 				<h1>
+
 						<button class="button button--itzel"><b class="button__icon icon icon-envelope">Показать</b><span>Все новости</span></button>
 					</h1>
 
@@ -232,25 +80,207 @@
 		<header>
 			<h1>Коротко о нас</h1>
 		</header>
-		<div>
+		<div class="about">
+			<svg   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1130" height="409" viewBox="0 0 1130 409">
+    <defs>
+      <style>
+        .cls-3 {
+          font-size: 83px;
+        }
 
-			<canvas id="draw" width="200" height="200">Вы видите это сообщение, потому что Ваш браузер не поддерживает canvas.</canvas>
-			<div class="person">
-				<div class="ih-item sqr colored effect13 from_left_and_right leader">
-					<a href=" ">
-						<div class="img">
-							<img src="../soc/img/our_photos/ava_mav.jpg" height="301" width="300" alt="Тошка"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>Антон Муравьёв</h3>
-								<p>
-									Руководитель, двигатель прогресса, лентяй !
-								</p>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
+        .cls-4 {
+          fill: #ffffff;
+          font-size: 83px;
+          font-family: "Bebas Neue"; font-weight: 100;
+
+        }
+				.cls-4, .cls-8, .cls-10, .cls-16, .cls-18, .cls-13{
+					font-style: italic;
+				}
+
+        .cls-7 {
+          font-size: 37px;
+        }
+
+        .cls-8 {
+          fill: #ffffff;
+          font-size: 37px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-9 {
+          font-size: 48px;
+        }
+
+        .cls-10 {
+          fill: #ffffff;
+          font-size: 48px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-13 {
+          fill: #ffffff;
+          font-family: "Bebas Neue"; font-weight: 100;
+          font-size: 24px;
+        }
+
+        .cls-14 {
+          fill: #ffffff;
+          font-family: "Bebas Neue"; font-weight: 100;
+          font-size: 48px;
+        }
+
+        .cls-15 {
+          font-size: 89px;
+        }
+
+        .cls-16 {
+          fill: #ffffff;
+          font-size: 89px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-17 {
+          font-size: 42px;
+        }
+
+        .cls-18 {
+          fill: #ffffff;
+          font-size: 42px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-19 {
+          filter: url(#drop-shadow-1);
+        }
+
+        .cls-20 {
+          font-size: 78px;
+        }
+
+        .cls-21 {
+          fill: #ffffff;
+          font-size: 78px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-22 {
+          font-size: 75px;
+        }
+
+        .cls-23 {
+          fill: #ffffff;
+          font-size: 75px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-24 {
+          font-size: 126px;
+        }
+
+        .cls-25 {
+          fill: #ffffff;
+          font-size: 126px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-26 {
+          font-size: 112px;
+        }
+
+        .cls-28 {
+          fill: #ffffff;
+          font-family: "Bebas Neue"; font-weight: 100;
+          font-size: 106px;
+        }
+
+        .cls-29 {
+          fill: #ffffff;
+          font-family: "Bebas Neue"; font-weight: 100;
+          font-size: 112px;
+        }
+
+        .cls-30 {
+          font-size: 135px;
+        }
+
+        .cls-31 {
+          fill: #ffffff;
+          font-size: 135px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-32 {
+          font-size: 213px;
+        }
+
+        .cls-33 {
+          fill: #ffffff;
+          font-size: 213px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-34 {
+          font-size: 66px;
+        }
+
+        .cls-35 {
+          fill: #ffffff;
+          font-size: 66px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-36 {
+          font-size: 74px;
+        }
+
+        .cls-37 {
+          fill: #ffffff;
+          font-size: 74px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+
+        .cls-38 {
+          font-size: 188px;
+        }
+
+        .cls-39 {
+          fill: #ffffff;
+          font-size: 188px;
+          font-family: "Bebas Neue"; font-weight: 100;
+        }
+      </style>
+
+      <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+        <feOffset in="SourceAlpha" dx="-2.598" dy="1.5"/>
+        <feGaussianBlur result="dropShadow" stdDeviation="2.236"/>
+        <feFlood flood-color="#000000" flood-opacity="0.35"/>
+        <feComposite operator="in" in2="dropShadow"/>
+        <feComposite in="SourceGraphic" result="dropShadow"/>
+      </filter>
+    </defs>
+    <g id="группа-2svg">
+      <text class="cls-3" x="7px" y="355px"><tspan class="cls-4">Кино</tspan></text>
+      <text class="cls-3" x="158px" y="388px"><tspan class="cls-4">дизайн</tspan></text>
+      <text class="cls-7" x="182px" y="320px"><tspan class="cls-8">Web</tspan></text>
+      <text class="cls-9" x="467px" y="330px"><tspan class="cls-10">МУЗЫКА</tspan></text>
+      <text class="cls-9" x="568px" y="402px"><tspan class="cls-9"><tspan class="cls-13">и т.д</tspan><tspan class="cls-14">.</tspan></tspan></text>
+      <text class="cls-15" x="394px" y="403px"><tspan class="cls-16">ФОТО</tspan></text>
+      <text class="cls-17" x="6px" y="404px"><tspan class="cls-18">реклама</tspan></text>
+      <g id="группа-1" class="cls-19">
+        <text class="cls-20" x="238px" y="66px"><tspan class="cls-21">это команда</tspan></text>
+        <text class="cls-22" x="235px" y="147px"><tspan class="cls-23">амбициозных</tspan></text>
+        <text class="cls-24" x="623px" y="93px"><tspan class="cls-25">ТВОРЧЕСКИХ</tspan></text>
+        <text class="cls-26" x="601px" y="191px"><tspan class="cls-26"><tspan class="cls-28">лююдей, и нас</tspan><tspan class="cls-29"> </tspan></tspan></text>
+        <text class="cls-30" x="4px" y="266px"><tspan class="cls-31">ИНЕТЕРЕСУЕТ</tspan></text>
+        <text class="cls-32" x="633px" y="396px"><tspan class="cls-33">ВСЁ</tspan></text>
+        <text class="cls-34" x="884px" y="313px"><tspan class="cls-35">что с этим</tspan></text>
+        <text class="cls-36" x="893px" y="404px"><tspan class="cls-37">Связанно</tspan></text>
+        <text class="cls-38" y="140px"><tspan class="cls-39">МЫ</tspan></text>
+      </g>
+    </g>
+  </svg>
+
 		</div>
 	</section>
 	<section id="proje" class="even block">
@@ -313,7 +343,7 @@
 			</article>
 		</div>
 	</section>
-	<section id="uslug" class="odd block">
+	<!-- <section id="uslug" class="odd block">
 		<header>
 			<h1>Наши услуги</h1>
 		</header>
@@ -340,8 +370,8 @@
 			</section>
 
 		</section>
-	</section>
-	<section id="contc" class="even block">
+	</section> -->
+	<section id="contc" class="odd block">
 		<header>
 			<h1> Контакты </h1>
 		</header>
@@ -374,8 +404,16 @@
 
 
 
-	<footer>
-		<a href="mailTo:admin@арт-ступень.рф">© Ступень production</a>
+	<footer class = "odd main_footer">
+		<div class="left">
+			2012-2016
+		</div>
+		<div class="right">
+			<a href="mailTo:admin@арт-ступень.рф">© Ступень production </a>
+		</div>
+
+
+
 	</footer>
 	<!-- Cкрипты -->
 	<script type="text/javascript" src="scripts/jQ1_8_3.js"></script>

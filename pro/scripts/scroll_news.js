@@ -125,10 +125,10 @@ var s_proj = 0;
 function change_menu() {
   if (($('nav')[0].getBoundingClientRect().bottom) < 50) {
     console.log("dynamic");
-    $("menu.static").addClass("dynamic").removeClass("static");
+    $("#main_nav").addClass("dynamic").removeClass("static");
   } else {
     console.log("static");
-    $("menu.dynamic").addClass("static").removeClass("dynamic");
+    $("#main_nav").addClass("static").removeClass("dynamic");
   }
 }
 $(window).scroll(function() {

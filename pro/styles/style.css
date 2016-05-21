@@ -44,6 +44,7 @@ canvas
 	top: 0;
 	border:none;
 	z-index: 2;
+	background-color: #f4f4f4;
 }
 .close_btn{
 	position: absolute;
@@ -96,7 +97,7 @@ canvas
 	position: absolute;
 	width: 100%;
 	height: 80%;
-	/*background-color: #f4f4f4;*/
+	background-color: #f4f4f4;
 	text-align: center;
 	z-index: 2;
 	margin: 0;
@@ -333,6 +334,19 @@ text-align: justify;
 	display: block;
 }
 
+.about{
+	/*width:100%;*/
+	position: relative;
+	margin: auto;
+	padding: 100px;
+}
+
+.about svg{
+	width:100%;
+	position: relative;
+	margin: 30px auto;
+	padding: 0;
+}
 
 #full_new_img
 {
@@ -409,7 +423,7 @@ text-align: justify;
 
 
 
-
+/*Меню сайта*/
 
 .m_menu
 {
@@ -423,7 +437,8 @@ text-align: justify;
 	/*background-color: #4B688B;*/
 	white-space: nowrap;
 }
-menu.static, menu.dynamic
+
+nav .static, nav .dynamic
 {
 	white-space: nowrap;
 	padding: 0;
@@ -433,37 +448,36 @@ menu.static, menu.dynamic
 	z-index: 100;
 	color:#f4f4f4;
 }
-menu.static
+
+nav .static
 {
 	position: absolute;
 	bottom: 0;
 	left:0;
 	background-color: rgba(20, 20, 20, 0.8);
 }
-menu.dynamic
+
+nav .dynamic
 {
 	position: fixed;
 	top:0;
 	background-color: rgba(54, 54, 54, 0.39);
 	color:rgba(254, 254, 254, 0.68);
-
 	height: 35px;
 	vertical-align: middle;
 	overflow: hidden;
-	/*-webkit-box-shadow: 0 2px 10px gray;
-	box-shadow: 0 2px 10px gray;*/
 }
-
-menu.static .l_i
+nav .static .l_i
 {
 	color:#ffffff;
 	font-size:140%;
 	padding: 10px 0;
-	margin: 20px 0;
+	margin: 20px -3px 20px -3px;
 	background-color: #000;
+	background-color: rgba(0, 0, 0, 0);
 }
 
-menu.dynamic .l_i
+nav .dynamic .l_i
 {
 	font-size: 100%;
 	height: 100%;
@@ -484,34 +498,56 @@ menu.dynamic .l_i
 	background-color: rgba(255,255,255,0.0);
 	position: relative;
 	color: rgba(162, 162, 162, 0.4);
-
+  margin-left: -30px;
 	min-width: 18%;
 	cursor: pointer;
 	transition:all .5s ;
+	/*border-left: 2px solid rgba(255,255,255,0.0);*/
 	border-left: 2px solid rgba(255,255,255,0.0);
 	border-right: 2px solid rgba(255,255,255,0.0);
-
-
+}
+.l_i:first-child{
 }
 
 
 
-.m_menu menu.static LI:hover
+.m_menu .static li:hover
 {
 	color:#ffffff;
 	border-color:rgb(255, 255, 255);
 	/*font-weight: bolder;*/
-	/*text-shadow: 1px 1px 1px #ccc;*/
+	text-shadow: 1px 1px 1px #ccc;
 }
 
-.m_menu menu.static LI:hover, .m_menu menu.dynamic LI:hover
+.m_menu .static li:hover, .m_menu .dynamic li:hover
 {
 	opacity: 1;
 	/*background-color: rgba(255,255,255,0.8);*/
 }
 
+section{
+	box-shadow: 0 0 10px rgb(46, 46, 46);
+}
 
+.main_footer{
+	margin: 0;
+	padding: 20px 0 5px;
+	background-color: #5b5b5b;
+	box-shadow: 0 20px 10px rgba(0,0,0,0.5);
+}
+.main_footer{
+	font: 300 0.8em/1.2 "Open Sans", sans-serif;
+}
+.main_footer div{
+	display: inline-block;
+	margin: 0 8px;
+}
+.main_footer .left{
+	margin: 0 0;
+}
 
+.main_footer .right{
+margin: 0 auto 0 0;}
 
 
 
