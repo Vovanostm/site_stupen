@@ -17,7 +17,9 @@
 	<meta name="robots" content="all" />
 	<title>production</title>
 	<link rel="stylesheet" href="./styles/svg_but.css">
-	<link rel="stylesheet" href = "http://webfonts.ru/import/bebasneue.css"/>
+	<link rel="stylesheet" href="./styles/footer.css">
+	<link rel="stylesheet" href="./styles/ovf_btn.css">
+	<link rel="stylesheet" href="http://webfonts.ru/import/bebasneue.css" />
 
 	<style>
 
@@ -48,19 +50,17 @@
 		<div class="n_block" id="b_n">
 
 		</div>
-
-
 		<div id="all_news" class="al_nw">
-
 			<div id="a_n" onclick="get_all_nws()">
-
-				<h1>
-
-						<button class="button button--itzel"><b class="button__icon icon icon-envelope">Показать</b><span>Все новости</span></button>
-					</h1>
-
-				<br>
-				<i></i>
+					<div class="btn_ovf">
+						<div class="btn_txt">Все новости</div>
+						<div class="btn_ico">
+							<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewport="0 0 40 40" version="1.1">
+								<polyline stroke="black" points="0,20 20,0 40,20"></polyline>
+							</svg>
+							^
+						</div>
+					</div>
 			</div>
 
 			<div id="t_a_n"></div>
@@ -81,205 +81,265 @@
 			<h1>Коротко о нас</h1>
 		</header>
 		<div class="about">
-			<svg   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1130" height="409" viewBox="0 0 1130 409">
-    <defs>
-      <style>
-        .cls-3 {
-          font-size: 83px;
-        }
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1130" height="409" viewBox="0 0 1130 409">
+				<defs>
+					<style>
+						.cls-3 {
+							font-size: 83px;
+						}
 
-        .cls-4 {
-          fill: #ffffff;
-          font-size: 83px;
-          font-family: "Bebas Neue"; font-weight: 100;
+						.cls-4 {
+							fill: #ffffff;
+							font-size: 83px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        }
-				.cls-4, .cls-8, .cls-10, .cls-16, .cls-18, .cls-13{
-					font-style: italic;
-				}
+						.cls-4,
+						.cls-8,
+						.cls-10,
+						.cls-16,
+						.cls-18,
+						.cls-13 {
+							font-style: italic;
+						}
 
-        .cls-7 {
-          font-size: 37px;
-        }
+						.cls-7 {
+							font-size: 37px;
+						}
 
-        .cls-8 {
-          fill: #ffffff;
-          font-size: 37px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-8 {
+							fill: #ffffff;
+							font-size: 37px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-9 {
-          font-size: 48px;
-        }
+						.cls-9 {
+							font-size: 48px;
+						}
 
-        .cls-10 {
-          fill: #ffffff;
-          font-size: 48px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-10 {
+							fill: #ffffff;
+							font-size: 48px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-13 {
-          fill: #ffffff;
-          font-family: "Bebas Neue"; font-weight: 100;
-          font-size: 24px;
-        }
+						.cls-13 {
+							fill: #ffffff;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+							font-size: 24px;
+						}
 
-        .cls-14 {
-          fill: #ffffff;
-          font-family: "Bebas Neue"; font-weight: 100;
-          font-size: 48px;
-        }
+						.cls-14 {
+							fill: #ffffff;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+							font-size: 48px;
+						}
 
-        .cls-15 {
-          font-size: 89px;
-        }
+						.cls-15 {
+							font-size: 89px;
+						}
 
-        .cls-16 {
-          fill: #ffffff;
-          font-size: 89px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-16 {
+							fill: #ffffff;
+							font-size: 89px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-17 {
-          font-size: 42px;
-        }
+						.cls-17 {
+							font-size: 42px;
+						}
 
-        .cls-18 {
-          fill: #ffffff;
-          font-size: 42px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-18 {
+							fill: #ffffff;
+							font-size: 42px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-19 {
-          filter: url(#drop-shadow-1);
-        }
+						.cls-19 {
+							filter: url(#drop-shadow-1);
+						}
 
-        .cls-20 {
-          font-size: 78px;
-        }
+						.cls-20 {
+							font-size: 78px;
+						}
 
-        .cls-21 {
-          fill: #ffffff;
-          font-size: 78px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-21 {
+							fill: #ffffff;
+							font-size: 78px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-22 {
-          font-size: 75px;
-        }
+						.cls-22 {
+							font-size: 75px;
+						}
 
-        .cls-23 {
-          fill: #ffffff;
-          font-size: 75px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-23 {
+							fill: #ffffff;
+							font-size: 75px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-24 {
-          font-size: 126px;
-        }
+						.cls-24 {
+							font-size: 126px;
+						}
 
-        .cls-25 {
-          fill: #ffffff;
-          font-size: 126px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-25 {
+							fill: #ffffff;
+							font-size: 126px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-26 {
-          font-size: 112px;
-        }
+						.cls-26 {
+							font-size: 112px;
+						}
 
-        .cls-28 {
-          fill: #ffffff;
-          font-family: "Bebas Neue"; font-weight: 100;
-          font-size: 106px;
-        }
+						.cls-28 {
+							fill: #ffffff;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+							font-size: 106px;
+						}
 
-        .cls-29 {
-          fill: #ffffff;
-          font-family: "Bebas Neue"; font-weight: 100;
-          font-size: 112px;
-        }
+						.cls-29 {
+							fill: #ffffff;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+							font-size: 112px;
+						}
 
-        .cls-30 {
-          font-size: 135px;
-        }
+						.cls-30 {
+							font-size: 135px;
+						}
 
-        .cls-31 {
-          fill: #ffffff;
-          font-size: 135px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-31 {
+							fill: #ffffff;
+							font-size: 135px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-32 {
-          font-size: 213px;
-        }
+						.cls-32 {
+							font-size: 213px;
+						}
 
-        .cls-33 {
-          fill: #ffffff;
-          font-size: 213px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-33 {
+							fill: #ffffff;
+							font-size: 213px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-34 {
-          font-size: 66px;
-        }
+						.cls-34 {
+							font-size: 66px;
+						}
 
-        .cls-35 {
-          fill: #ffffff;
-          font-size: 66px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-35 {
+							fill: #ffffff;
+							font-size: 66px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-36 {
-          font-size: 74px;
-        }
+						.cls-36 {
+							font-size: 74px;
+						}
 
-        .cls-37 {
-          fill: #ffffff;
-          font-size: 74px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
+						.cls-37 {
+							fill: #ffffff;
+							font-size: 74px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
 
-        .cls-38 {
-          font-size: 188px;
-        }
+						.cls-38 {
+							font-size: 188px;
+						}
 
-        .cls-39 {
-          fill: #ffffff;
-          font-size: 188px;
-          font-family: "Bebas Neue"; font-weight: 100;
-        }
-      </style>
+						.cls-39 {
+							fill: #ffffff;
+							font-size: 188px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+					</style>
 
-      <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
-        <feOffset in="SourceAlpha" dx="-2.598" dy="1.5"/>
-        <feGaussianBlur result="dropShadow" stdDeviation="2.236"/>
-        <feFlood flood-color="#000000" flood-opacity="0.35"/>
-        <feComposite operator="in" in2="dropShadow"/>
-        <feComposite in="SourceGraphic" result="dropShadow"/>
-      </filter>
-    </defs>
-    <g id="группа-2svg">
-      <text class="cls-3" x="7px" y="355px"><tspan class="cls-4">Кино</tspan></text>
-      <text class="cls-3" x="158px" y="388px"><tspan class="cls-4">дизайн</tspan></text>
-      <text class="cls-7" x="182px" y="320px"><tspan class="cls-8">Web</tspan></text>
-      <text class="cls-9" x="467px" y="330px"><tspan class="cls-10">МУЗЫКА</tspan></text>
-      <text class="cls-9" x="568px" y="402px"><tspan class="cls-9"><tspan class="cls-13">и т.д</tspan><tspan class="cls-14">.</tspan></tspan></text>
-      <text class="cls-15" x="394px" y="403px"><tspan class="cls-16">ФОТО</tspan></text>
-      <text class="cls-17" x="6px" y="404px"><tspan class="cls-18">реклама</tspan></text>
-      <g id="группа-1" class="cls-19">
-        <text class="cls-20" x="238px" y="66px"><tspan class="cls-21">это команда</tspan></text>
-        <text class="cls-22" x="235px" y="147px"><tspan class="cls-23">амбициозных</tspan></text>
-        <text class="cls-24" x="623px" y="93px"><tspan class="cls-25">ТВОРЧЕСКИХ</tspan></text>
-        <text class="cls-26" x="601px" y="191px"><tspan class="cls-26"><tspan class="cls-28">лююдей, и нас</tspan><tspan class="cls-29"> </tspan></tspan></text>
-        <text class="cls-30" x="4px" y="266px"><tspan class="cls-31">ИНЕТЕРЕСУЕТ</tspan></text>
-        <text class="cls-32" x="633px" y="396px"><tspan class="cls-33">ВСЁ</tspan></text>
-        <text class="cls-34" x="884px" y="313px"><tspan class="cls-35">что с этим</tspan></text>
-        <text class="cls-36" x="893px" y="404px"><tspan class="cls-37">Связанно</tspan></text>
-        <text class="cls-38" y="140px"><tspan class="cls-39">МЫ</tspan></text>
-      </g>
-    </g>
-  </svg>
+					<filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+						<feOffset in="SourceAlpha" dx="-2.598" dy="1.5" />
+						<feGaussianBlur result="dropShadow" stdDeviation="2.236" />
+						<feFlood flood-color="#000000" flood-opacity="0.35" />
+						<feComposite operator="in" in2="dropShadow" />
+						<feComposite in="SourceGraphic" result="dropShadow" />
+					</filter>
+				</defs>
+				<g id="группа-2svg">
+					<text class="cls-3" x="7px" y="355px">
+						<tspan class="cls-4">Кино</tspan>
+					</text>
+					<text class="cls-3" x="158px" y="388px">
+						<tspan class="cls-4">дизайн</tspan>
+					</text>
+					<text class="cls-7" x="182px" y="320px">
+						<tspan class="cls-8">Web</tspan>
+					</text>
+					<text class="cls-9" x="467px" y="330px">
+						<tspan class="cls-10">МУЗЫКА</tspan>
+					</text>
+					<text class="cls-9" x="568px" y="402px">
+						<tspan class="cls-9">
+							<tspan class="cls-13">и т.д</tspan>
+							<tspan class="cls-14">.</tspan>
+						</tspan>
+					</text>
+					<text class="cls-15" x="394px" y="403px">
+						<tspan class="cls-16">ФОТО</tspan>
+					</text>
+					<text class="cls-17" x="6px" y="404px">
+						<tspan class="cls-18">реклама</tspan>
+					</text>
+					<g id="группа-1" class="cls-19">
+						<text class="cls-20" x="238px" y="66px">
+							<tspan class="cls-21">это команда</tspan>
+						</text>
+						<text class="cls-22" x="235px" y="147px">
+							<tspan class="cls-23">амбициозных</tspan>
+						</text>
+						<text class="cls-24" x="623px" y="93px">
+							<tspan class="cls-25">ТВОРЧЕСКИХ</tspan>
+						</text>
+						<text class="cls-26" x="601px" y="191px">
+							<tspan class="cls-26">
+								<tspan class="cls-28">лююдей, и нас</tspan>
+								<tspan class="cls-29"> </tspan>
+							</tspan>
+						</text>
+						<text class="cls-30" x="4px" y="266px">
+							<tspan class="cls-31">ИНЕТЕРЕСУЕТ</tspan>
+						</text>
+						<text class="cls-32" x="633px" y="396px">
+							<tspan class="cls-33">ВСЁ</tspan>
+						</text>
+						<text class="cls-34" x="884px" y="313px">
+							<tspan class="cls-35">что с этим</tspan>
+						</text>
+						<text class="cls-36" x="893px" y="404px">
+							<tspan class="cls-37">Связанно</tspan>
+						</text>
+						<text class="cls-38" y="140px">
+							<tspan class="cls-39">МЫ</tspan>
+						</text>
+					</g>
+				</g>
+			</svg>
 
 		</div>
 	</section>
@@ -404,7 +464,7 @@
 
 
 
-	<footer class = "odd main_footer">
+	<footer class="odd main_footer">
 		<div class="left">
 			2012-2016
 		</div>
