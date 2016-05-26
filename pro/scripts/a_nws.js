@@ -35,6 +35,8 @@ $('#a_n')
 		var _top = $('#b_n').height()+150;
 		if (pst == 0)
 		{
+			a_n_b.innerHTML='<polyline stroke="black" fill="none" stroke-width="2" points="4,4 16,16 28,4"></polyline>'
+			a_n_t.innerHTML='Скрыть новости';
 			// alert($('#b_n').height());
 				$('#a_n I').append('Cвернуть');
 				$("#all_news").animate({top: '50px'},100 );
@@ -52,6 +54,8 @@ $('#a_n')
 		}
 		else
 		{
+			a_n_b.innerHTML='<polyline stroke="black" fill="none" stroke-width="2" points="4,16 16,4 28,16"></polyline>'
+			a_n_t.innerHTML='Все новости';
 			$('#a_n I').empty();
 			$("#all_news").animate({top: _top},100 );
 			$("#t_a_n").animate({opacity: 0}, 500 );
@@ -116,7 +120,8 @@ function show_nws(new_number)
 	$.scrollTo("#newss", 0, {axis:'y', margin:'false' });
 	$("#fl_nw").removeClass("ovf_hid").addClass("ovf_vis");
 	$("#mns").css({overflow:"hidden"});
-	$("#close_nws").addClass("cl_visbl").removeClass("cl_hided");
+	close_nws.classList.toggle("cl_hided");
+	close_nws.classList.toggle("cl_visbl");
 	var out_nw;
 	out_nw=num_news-x;
 	$.ajax({
@@ -141,13 +146,17 @@ function show_nws(new_number)
 				$("#fl_nw").css({overflow:"auto"});
 				$("#close_imgs").addClass("cl_hided").removeClass("cl_visbl");
 				$("#fl_nw_img").empty();
+				full_nws.classList.remove("blured");
+				close_nws.classList.remove("cl_hided");
+				close_nws.classList.add("cl_visbl");
+
+
 				// alert("work");
 
 			});
     		$('#full_nws').append(data);
     		// $('#full_nws').append("<P>Cсылка на статью: http://192.168.0.107/site_stup/pro/?name=news&num="+new_number+"</P>");
     		// window.location.search = "name=news&num="+out_nw;
-
     		var src_images = new Array();
 	    	var k = 0;
 	    	$("#full_nws").find("img").each(function() {
@@ -158,6 +167,10 @@ function show_nws(new_number)
     		$("#full_nws img").click(function(event) {
    //  			/* Act on the event */
    			//$op_img=$("#full_nws img");
+				full_nws.classList.add("blured");
+				close_nws.classList.add("cl_hided");
+				close_nws.classList.remove("cl_visbl");
+
    			var img_src = $(this).attr('src');
     		$("#full_new_img").removeClass("img_ovf_hid").addClass("img_ovf_vis");
 			$("#fl_nw").css({overflow:"hidden"});
@@ -191,10 +204,12 @@ function show_nws(new_number)
 
 $("#b_n").click(function(event)
 {
+
 	var out_nw;
 	out_nw=num_news-x;
 	// window.location.replace("http://127.0.0.1/site_stup/pro/?name=news&num="+out_nw);
 	show_nws(out_nw);
+
 });
 
 $("#close_nws").click(function(event)
@@ -203,7 +218,8 @@ $("#close_nws").click(function(event)
 
 	$("#fl_nw").removeClass("ovf_vis").addClass("ovf_hid");
 	$("#mns").css({overflow:"auto"});
-	$("#close_nws").addClass("cl_hided").removeClass("cl_visbl");
+	close_nws.classList.toggle("cl_hided");
+  close_nws.classList.toggle("cl_visbl");
 	var _url = "?#newss";
 	if(_url != window.location.hash){
             window.history.pushState(null, null, _url);

@@ -26,10 +26,6 @@ margin:0;
 padding:0;
 }
 
-canvas {
-position:absolute;
-z-index:0;
-}
 
 .block {
 height:100%;
@@ -38,9 +34,10 @@ text-align:center;
 display:block;
 margin:0;
 padding:2% 0;
+box-shadow:0 0 10px #2e2e2e;
 }
 
-.full_scr iframe {
+.full_scr .an_site {
 position:absolute;
 width:100%;
 height:100%;
@@ -147,7 +144,8 @@ padding:0;
 }
 
 .n_n {
-margin-bottom:0;
+  margin-top: 0;
+  margin-bottom:0;
 }
 
 .date {
@@ -202,9 +200,15 @@ left:0;
 right:0;
 }
 
-.l_str,.r_str {
-font-size:2em;
+.n_left svg, .n_right svg{
+  position: absolute;
+  width:30%;
+  left:35%;
+  top: 40%;
+  transition: .5s;
 }
+
+
 
 .n_block .n_w .imgs {
 display:block;
@@ -254,19 +258,11 @@ left:0;
 visibility:visible;
 }
 
-#full_nws {
-display:block;
-position:relative;
-min-width:90%;
-margin:30px auto;
-padding:0 5%;
-}
 
-#full_nws p {
+.container p {
 text-align:justify;
 }
-
-#full_nws img {
+.container img {
 width:30%;
 margin:1% 1.4%;
 }
@@ -292,19 +288,6 @@ color:#f4f4f4;
 background-color:rgba(0,0,0,0.7);
 visibility:visible;
 display:block;
-}
-
-.about {
-position:relative;
-margin:auto;
-padding:100px;
-}
-
-.about svg {
-width:100%;
-position:relative;
-margin:30px auto;
-padding:0;
 }
 
 #full_new_img {
@@ -340,7 +323,7 @@ background-repeat:no-repeat;
 background-size:contain;
 }
 
-#close_nws,#close_imgs {
+#close_imgs {
 position:fixed;
 cursor:pointer;
 background-image:url(../buttons/png/krestik.png);
@@ -412,6 +395,10 @@ margin:20px -3px;
 padding:10px 0;
 }
 
+.container{
+  padding:30px 0;
+}
+
 nav .dynamic .l_i {
 font-size:100%;
 height:100%;
@@ -443,9 +430,6 @@ text-shadow:1px 1px 1px #ccc;
 border-color:#fff;
 }
 
-section {
-box-shadow:0 0 10px #2e2e2e;
-}
 
 #bg_2 {
 width:100%;
@@ -612,12 +596,6 @@ text-align:center;
 padding:30px;
 }
 
-svg {
-position:absolute;
-top:-90px;
-display:block;
-margin:0 0 0 -5px;
-}
 
 .prj {
 position:relative;
@@ -686,4 +664,10 @@ text-decoration:underline;
 .p_prj img,.prj aside img {
 width:100%;
 transition:.5s;
+}
+
+.blured{
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  filter: blur(5px);
 }

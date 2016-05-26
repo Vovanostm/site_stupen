@@ -10,8 +10,9 @@
 .btn_ovf .btn_txt, .btn_ovf .btn_ico{
   font-size: 1em;
   padding: 9px 0;
-  margin: 10px 0;
+  margin: 10px auto;
   transition:.5s;
+  text-align: center;
 }
 
 .btn_ico{
@@ -19,7 +20,10 @@
   border-bottom: 0;
 }
 .btn_ico svg{
-  height: 100px;
+  width: 32px;
+  /*height: 100px;*/
+  margin: 0 auto;
+  /*display: inline-block;*/
 }
 
 

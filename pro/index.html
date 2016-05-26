@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="./styles/svg_but.css">
 	<link rel="stylesheet" href="./styles/footer.css">
 	<link rel="stylesheet" href="./styles/ovf_btn.css">
+	<link rel="stylesheet" href="./styles/about.css">
 	<link rel="stylesheet" href="http://webfonts.ru/import/bebasneue.css" />
 
 	<style>
@@ -53,12 +54,11 @@
 		<div id="all_news" class="al_nw">
 			<div id="a_n" onclick="get_all_nws()">
 					<div class="btn_ovf">
-						<div class="btn_txt">Все новости</div>
+						<div id="a_n_t" class="btn_txt">Все новости</div>
 						<div class="btn_ico">
-							<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewport="0 0 40 40" version="1.1">
-								<polyline stroke="black" points="0,20 20,0 40,20"></polyline>
+							<svg id="a_n_b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 20" version="1.1">
+								<polyline stroke="black" fill="none" stroke-width="2" points="4,16 16,4 28,16"></polyline>
 							</svg>
-							^
 						</div>
 					</div>
 			</div>
@@ -66,14 +66,14 @@
 			<div id="t_a_n"></div>
 		</div>
 		<div onclick="scroll_left('b_n')" class="n_left">
-			<div class="l_str">
-				&lt;
-			</div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
+					<polyline stroke="black" fill="none" stroke-width="2" points="16,4 4,16 16,28"></polyline>
+				</svg>
 		</div>
 		<div onclick="scroll_right('b_n')" class="n_right">
-			<div class="r_str">
-				&gt;
-			</div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
+					<polyline stroke="black" fill="none" stroke-width="2" points="4,4 16,16 4,28"></polyline>
+				</svg>
 		</div>
 	</section>
 	<section id="about" class="odd block">
@@ -349,14 +349,12 @@
 		</header>
 		<div id="prj_div" class="full_scr hid">
 			<svg id="prj_close" class="close_btn" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100">
-				<line stroke="#222" stroke-width="3" x1="5" y1="5" x2="95" y2="95">
-				</line>
-				<line stroke="#222" stroke-width="3" x1="5" y1="95" x2="95" y2="5">
-				</line>
+				<line stroke="#222" stroke-width="3" x1="5" y1="5" x2="95" y2="95"></line>
+				<line stroke="#222" stroke-width="3" x1="5" y1="95" x2="95" y2="5"></line>
 			</svg>
 
 
-			<iframe id="prj_frame" src="no">
+			<iframe id="prj_frame" class="an_site" src="no">
 
 			</iframe>
 		</div>
@@ -456,9 +454,14 @@
 	</section>
 
 
-	<div id="fl_nw" class="ovf ovf_hid">
-		<div id="close_nws" class="cl_hided"></div>
-		<div id="full_nws">
+	<div id="fl_nw" class="full_scr ovf ovf_hid">
+		<svg id="close_nws"  class="close_btn cl_hided" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100">
+			<line stroke="#222" stroke-width="3" x1="5" y1="5" x2="95" y2="95"></line>
+			<line stroke="#222" stroke-width="3" x1="5" y1="95" x2="95" y2="5"></line>
+		</svg>
+
+		<div  ></div>
+		<div id="full_nws" class="container">
 		</div>
 	</div>
 
