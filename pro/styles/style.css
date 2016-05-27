@@ -292,7 +292,7 @@ display:block;
 
 #full_new_img {
 color:#f4f4f4;
-background-color:rgba(0,0,0,0.68);
+background-color:rgba(0,0,0,0.8);
 }
 
 #i_img {
@@ -323,15 +323,7 @@ background-repeat:no-repeat;
 background-size:contain;
 }
 
-#close_imgs {
-position:fixed;
-cursor:pointer;
-background-image:url(../buttons/png/krestik.png);
-background-repeat:no-repeat;
-background-size:contain;
-transition:width .5s;
-z-index:120;
-}
+
 
 .cl_hided {
 visibility:hidden;
@@ -343,10 +335,6 @@ top:45%;
 
 .cl_visbl {
 visibility:visible;
-width:5%;
-height:5%;
-right:3%;
-top:5%;
 }
 
 .m_menu {
@@ -532,13 +520,14 @@ padding:0 5px;
 }
 
 .prj_button {
-height:auto;
+/*width: 150px;*/
+/*height: 50px;*/
 display:inline-block;
 background:#4270a5;
-border-radius:10px;
+/*border-radius:10px;*/
 color:#FFF;
 transition:.5s;
-margin:15px;
+margin:15px auto;
 padding:10px;
 }
 
@@ -599,7 +588,7 @@ padding:30px;
 
 .prj {
 position:relative;
-text-align:left;
+text-align:center;
 display:inline-block;
 vertical-align:top;
 width:22%;
@@ -610,7 +599,7 @@ margin:20px;
 position:relative;
 }
 
-.prj aside img:hover {
+.prj header img:hover {
 transform:scale(1.05);
 }
 
@@ -661,7 +650,7 @@ opacity:1;
 text-decoration:underline;
 }
 
-.p_prj img,.prj aside img {
+.p_prj img,.prj header img {
 width:100%;
 transition:.5s;
 }

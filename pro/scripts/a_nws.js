@@ -137,8 +137,9 @@ function show_nws(new_number)
             	window.history.pushState(null, null, _url);
         	}
 
-	    	$('#fl_nw').append('<DIV id = "full_new_img" class ="ovf img_ovf_hid"><div id="close_imgs" class="cl_hided"></div><div id="fl_nw_img" class="fl_img"></div></DIV>');
-    		$("#close_imgs").click(function(event)
+	    	$('#fl_nw').append('<DIV id = "full_new_img" class ="ovf img_ovf_hid"><div id="close_imgs" class="close_btn cl_hided"></div><div id="fl_nw_img" class="fl_img"></div></DIV>');
+        close_imgs.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100"><line stroke="#f4f4f4" stroke-width="3" x1="5" y1="5" x2="95" y2="95"></line><line stroke="#f4f4f4" stroke-width="3" x1="5" y1="95" x2="95" y2="5"></line></svg>'
+				$("#close_imgs").click(function(event)
 			{
 				$("#full_new_img").removeClass("img_ovf_vis").addClass("img_ovf_hid");
 				$('#fl_nw_img').empty();

@@ -49,7 +49,6 @@
 			<h1>Последние новости</h1>
 		</header>
 		<div class="n_block" id="b_n">
-
 		</div>
 		<div id="all_news" class="al_nw">
 			<div id="a_n" onclick="get_all_nws()">
@@ -62,17 +61,16 @@
 						</div>
 					</div>
 			</div>
-
 			<div id="t_a_n"></div>
 		</div>
 		<div onclick="scroll_left('b_n')" class="n_left">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
-					<polyline stroke="black" fill="none" stroke-width="2" points="16,4 4,16 16,28"></polyline>
+					<polyline stroke="black" fill="none" stroke-width="1" points="16,4 4,16 16,28"></polyline>
 				</svg>
 		</div>
 		<div onclick="scroll_right('b_n')" class="n_right">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
-					<polyline stroke="black" fill="none" stroke-width="2" points="4,4 16,16 4,28"></polyline>
+					<polyline stroke="black" fill="none" stroke-width="1" points="4,4 16,16 4,28"></polyline>
 				</svg>
 		</div>
 	</section>
@@ -278,7 +276,7 @@
 						<feGaussianBlur result="dropShadow" stdDeviation="2.236" />
 						<feFlood flood-color="#000000" flood-opacity="0.35" />
 						<feComposite operator="in" in2="dropShadow" />
-						<feComposite in="SourceGraphic" result="dropShadow" />
+						<feComposite in="SourceGraphic" in2="SourceAlpha" result="dropShadow" />
 					</filter>
 				</defs>
 				<g id="группа-2svg">
@@ -359,26 +357,29 @@
 			</iframe>
 		</div>
 		<div id="all_prj" class="vis">
-
-
 			<article class="prj">
-				<aside>
-					<img src="img/big/nw3(2).jpg" alt="Красивая картинка">
-				</aside>
 				<header>
+					<img src="img/big/nw3(2).jpg" alt="Красивая картинка">
 					<h2>Я не здесь</h2>
 				</header>
 				<p>
-					Описание проекта
+					Проект поддержало и приняло в нем участие уже внушительное число людей, среди которых, актёры театра и кино Елена Захарова, известная многим например по сериалу "Кадетство"
 				</p>
-				<a class="button">Подробнее</a>
+				<a class="prj_button" href="projects/im_not_here.html">Подробнее</a>
 			</article>
-
 			<article class="prj">
-				<aside>
-					<img src="img/big/nw3(2).jpg" alt="Красивая картинка">
-				</aside>
 				<header>
+					<img src="img/big/nw3(2).jpg" alt="Красивая картинка">
+					<h2>Я не здесь</h2>
+				</header>
+				<p>
+					Проект поддержало и приняло в нем участие уже внушительное число людей, среди которых, актёры театра и кино Елена Захарова, известная многим например по сериалу "Кадетство"
+				</p>
+				<a class="prj_button" href="projects/im_not_here.html">Подробнее</a>
+			</article>
+			<article class="prj">
+				<header>
+					<img src="img/big/nw3(2).jpg" alt="Красивая картинка">
 					<h2>Я не здесь</h2>
 				</header>
 				<p>
@@ -387,18 +388,6 @@
 				<a class="prj_button" href="projects/im_not_here.html">Подробнее</a>
 			</article>
 
-			<article class="prj">
-				<aside>
-					<img src="img/big/nw3(2).jpg" alt="Красивая картинка">
-				</aside>
-				<header>
-					<h2>Я не здесь</h2>
-				</header>
-				<p>
-					Описание проекта
-				</p>
-				<a class="button">Подробнее</a>
-			</article>
 		</div>
 	</section>
 	<!-- <section id="uslug" class="odd block">
