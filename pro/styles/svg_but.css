@@ -1,9 +1,13 @@
 .box {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 100px;
 =======
 	width: 300px;
 >>>>>>> 0693dd77aed09c0175527b881c285c00ed6f6c2d
+=======
+	width: 300px;
+>>>>>>> stup/master
 	height: 100px;
 	position: relative;
 	background: rgba(255,255,255,1);
