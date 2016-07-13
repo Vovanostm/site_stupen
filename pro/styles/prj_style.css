@@ -30,10 +30,18 @@ h2 {
     font-weight: 400;
     text-align: center;
 }
-p img {
+img {
     width: 30%;
-    float: left;
+    /*float: left;*/
+    display: inline-block;
     margin: 0 40px 0 0;
+    vertical-align: top;
+}
+section p{
+ width: 60%;
+ margin: 0 auto 0 0;
+ display: inline-block;
+ vertical-align: top;
 }
 section {
     margin: 30px auto 100px;

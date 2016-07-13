@@ -443,20 +443,25 @@ z-index:20;
 
 #logo {
 position:absolute;
-width:30%;
-height:40%;
-top:30%;
+width:25%;
+height:60%;
+top:15%;
 left:35%;
-background-image:url(../Stupen-Production-BELYJ.png);
+background-image:url("../Stupen-Production-BELYJ.png");
 background-size:contain;
 background-position:center center;
 background-repeat:no-repeat;
-transition:background-image 1s;
+/*transition:background-image 1s;*/
+border-radius: 20px;
+transition: .5s;
+/*background-color: rgba(0,0,0,.5);*/
 
 }
 
 #logo:hover {
-background-image:url(../logo_prod_color.png);
+background-image:url("../logo_prod_color.png");
+transition: .5s;
+
 }
 
 h1 {
@@ -599,8 +604,10 @@ position:relative;
 text-align:center;
 display:inline-block;
 vertical-align:top;
-width:22%;
+width:25%;
 margin:20px;
+box-shadow: 0 5px 6px 0 rgba(0, 0, 0, .3);
+overflow: hidden;
 }
 
 .prj aside {
@@ -625,9 +632,10 @@ margin:auto;
 
 .prj p {
 font-size:.8em;
-text-align:justify;
+text-align:left;
 margin:0;
 padding:0 10px;
+
 }
 
 .prj button {

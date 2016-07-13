@@ -44,4 +44,13 @@ for (var i = 0; i < imgs.length; i++){
   array_img.push(imgs[i].getAttribute("src"));
 }
 
+var paragrpahs = querySelector(".prj p")
+for (var i = 0; i<paragrpahs.length; i++){
+ var tmp = paragrpahs[i].innerHTML;
+ if (tmp.length>255){
+   tmp.substr(0, (255 - 3)) + '...';
+   paragrpahs[i].innerHTML = tmp;
+ }
+}
+
 //галлерея
