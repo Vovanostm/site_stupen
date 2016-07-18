@@ -34,3 +34,25 @@ var prj_buttons = document.getElementsByClassName("prj_button");
 for (var i=0; i<prj_buttons.length; i++){
 	prj_buttons[i].addEventListener("click",show_project);
 }
+
+var prjs = document.querySelectorAll('.prj');
+for (var i = 0; i<prjs.length; i++){
+	var blockWidth = prjs[i].clientWidth;
+	prjs[i].style.height = blockWidth * 1.3 + "px";
+}
+var pr_names = document.querySelectorAll('.prj h2');
+for (var i = 0; i<pr_names.length; i++){
+	console.log(pr_names[i].innerHTML.length);
+	pr_names[i].style.top=(pr_names[i].innerHTML.length>18?30:40)+"%";
+	console.log(pr_names[i].style.top);
+
+	// pr_names[i].style.fontSize = 400/pr_names[i].innerHTML.length + "px";
+}
+var paragrpahs = document.querySelectorAll(".prj p")
+for (var i = 0; i<paragrpahs.length; i++){
+ var tmp = paragrpahs[i].innerHTML;
+ if (tmp.length>200){
+   tmp = tmp.substr(0, (200 - 3)) + '...';
+   paragrpahs[i].innerHTML = tmp;
+ }
+}

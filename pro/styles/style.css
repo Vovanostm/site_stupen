@@ -543,21 +543,6 @@ margin:10px auto;
 padding:0 5px;
 }
 
-.prj_button {
-/*width: 150px;*/
-/*height: 50px;*/
-display:inline-block;
-background:#4270a5;
-border-radius:10px;
-color:#FFF;
-transition:.5s;
-margin:15px auto;
-padding:10px;
-}
-
-.prj_button:hover {
-background:#4270e5;
-}
 
 menu.a_ns {
 display:block;
@@ -609,18 +594,19 @@ text-align:center;
 padding:30px;
 }
 
-
+.prj_cont{
+ height: 100%;
+}
 .prj {
 position:relative;
 text-align:center;
 display:inline-block;
 vertical-align:top;
 width: 300px;
-height: 450px;
-
 margin:20px;
 box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
 overflow: hidden;
+cursor: pointer;
 }
 
 .prj aside {
@@ -632,39 +618,66 @@ transform:scale(1.05);
 }
 
 .prj header {
-display:inline-block;
 position:relative;
-vertical-align:top;
-margin-top:10px;
-padding:10px;
+}
+
+
+.prj_header_ovf{
+ margin:auto;
+ position: absolute;
+ top: 0;
+ left:0;
+ color: white;
+ height: 98%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ background: rgba(0, 0, 0, 0.2);
+ text-align: center;
 }
 
 .prj h2 {
-margin:auto;
+ top:40%;
+ position: relative;
+ text-align: center;
+ margin: 0 20px;
 }
 
 .prj p {
 font-size:.8em;
 text-align:left;
-margin:0;
-padding:0 10px;
+margin:15px 0;
+padding:0 20px;
 
 }
 
-.prj button {
-border:0;
-width:auto;
-font-size:.8em;
-text-align:center;
-height:auto;
-display:block;
-border-radius:5px;
-background-color:#4270a5;
+
+.prj_button_cont{
+ position: absolute;
+ left: 30%;
+ bottom: 5px;
+}
+.prj > .vydel{
+position: absolute;
+bottom:-50px;
+height: 8px;
+width: 100%;
+background: #4270a5;
+transition: .5s;
+}
+.prj:hover > .vydel{
+ bottom: 0;
+}
+/*.prj_button {
+
+display:inline-block;
+background:#4270a5;
+border-radius:10px;
+color:#FFF;
 transition:.5s;
-color:#f4f4f4;
-margin:20px 10px;
+margin:15px auto;
 padding:10px;
-}
+}*/
 
 .prj .button:hover {
 color:#222;
@@ -680,8 +693,16 @@ text-decoration:underline;
 }
 
 .p_prj img,.prj header img {
-width:100%;
-transition:.5s;
+ /*margin: -20px;*/
+ margin: 0;
+ width:100%;
+ transition:.5s;
+}
+
+.prj header{
+ margin: 0;
+ padding: 0;
+ position: relative;
 }
 
 .blured{
