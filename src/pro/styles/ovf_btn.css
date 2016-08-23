@@ -1,0 +1,33 @@
+.btn_ovf{
+  width: 170px;
+  height: 56px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+}
+
+.btn_ovf .btn_txt, .btn_ovf .btn_ico{
+  font-size: 1em;
+  padding: 9px 0;
+  margin: 10px auto;
+  transition:.5s;
+  text-align: center;
+}
+
+.btn_ico{
+  border:2px solid black;
+  border-bottom: 0;
+}
+.btn_ico svg{
+  width: 32px;
+  /*height: 100px;*/
+  margin: 0 auto;
+  /*display: inline-block;*/
+}
+
+
+.btn_ovf:hover .btn_txt, .btn_ovf:hover .btn_ico{
+  transform:translateY(-50px);
+
+}

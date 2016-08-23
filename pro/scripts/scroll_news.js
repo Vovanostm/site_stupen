@@ -2,30 +2,6 @@ var
   num_news = 0,
   max_x = 0;
 
-function update_news() {
-  $(".n_w").each(function(index, el) {
-    // alert("work");
-    if ($(this).children(".imgs").children("img").length > 6)
-      $(this).children(".imgs").children("img").each(
-        function(index, el) {
-          $(this).css({
-            height: "25%"
-          });
-        });
-    else if ($(this).children(".imgs").children("img").length > 1)
-      $(this).children(".imgs").children("img").each(function(index, el) {
-        $(this).css({
-          height: "40%"
-        });
-      });
-    else
-      $(this).children(".imgs").children("img").each(function(index, el) {
-        $(this).css({
-          height: "75%"
-        });
-      });
-  });
-}
 
 $.ajax({
   type: "POST",
@@ -73,7 +49,7 @@ function scroll_left(area) {
 }
 
 function scroll_right(area) {
-  console.log("clicked");
+  // console.log("clicked");
   now_news = now_news - 1;
   $.ajax({
     type: "POST",
@@ -124,10 +100,10 @@ var s_proj = 0;
 
 function change_menu() {
   if (($('nav')[0].getBoundingClientRect().bottom) < 50) {
-    console.log("dynamic");
+    // console.log("dynamic");
     $("#main_nav").addClass("dynamic").removeClass("static");
   } else {
-    console.log("static");
+    // console.log("static");
     $("#main_nav").addClass("static").removeClass("dynamic");
   }
 }

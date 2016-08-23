@@ -1,0 +1,622 @@
+<!DOCTYpE html>
+<html>
+
+
+<head>
+	<meta charset="utf-8">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="styles/style.css">
+	<!-- Различные метаданные -->
+	<meta name="viewport" content="width=device-width">
+	<meta name="yandex-verification" content="68325a946a55b6d2" />
+	<!-- Здесь вводятся ключевые слова -->
+	<meta name="Keywords" content="Ступень" />
+	<meta name="Description" content="Сайт медиакомпании Ступень production" />
+	<meta name="robots" content="all" />
+	<title>production</title>
+	<link rel="stylesheet" href="./styles/svg_but.css">
+	<link rel="stylesheet" href="./styles/footer.css">
+	<link rel="stylesheet" href="./styles/ovf_btn.css">
+	<link rel="stylesheet" href="./styles/about.css">
+	<link rel="stylesheet" href="./styles/news.css">
+
+	<link rel="stylesheet" href="http://webfonts.ru/import/bebasneue.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&subset=cyrillic" rel="stylesheet">
+	<style>
+
+	</style>
+</head>
+
+<body id="mns">
+
+	<nav class="m_menu block">
+		<div id="bg_2"></div>
+		<div id="bg_3">
+			<div id="logo"></div>
+		</div>
+		<ol id="main_nav" class="static">
+			<li class="l_i" onclick="navTo( '#newss')">Новости</li>
+			<li class="l_i" onclick="navTo( '#about')">О нас</li>
+			<li class="l_i" onclick="navTo( '#proje')">Проекты</li>
+			<!-- <li class="l_i" onclick="navTo( '#atten')">Услуги</li> -->
+			<li class="l_i" onclick="navTo( '#contc')">Контакты</li>
+		</ol>
+	</nav>
+
+	<!-- Блок новостей -->
+	<section id="newss" class="even c_nws block none_ov">
+		<header>
+			<h1>НОВОСТИ</h1>
+		</header>
+		<div class="n_block" id="b_n">
+		</div>
+		<div id="all_news" class="al_nw">
+			<div id="a_n" onclick="get_all_nws()">
+				<div class="btn_ovf">
+					<div id="a_n_t" class="btn_txt">ВСЕ НОВОСТИ</div>
+					<div class="btn_ico">
+						<svg id="a_n_b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 20" version="1.1">
+							<polyline stroke="black" fill="none" stroke-width="2" points="4,16 16,4 28,16"></polyline>
+						</svg>
+					</div>
+				</div>
+			</div>
+			<div id="t_a_n"></div>
+		</div>
+		<div onclick="scroll_left('b_n')" class="n_left">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
+				<polyline stroke="black" fill="none" stroke-width="1" points="16,4 4,16 16,28"></polyline>
+			</svg>
+		</div>
+		<div onclick="scroll_right('b_n')" class="n_right">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
+				<polyline stroke="black" fill="none" stroke-width="1" points="4,4 16,16 4,28"></polyline>
+			</svg>
+		</div>
+	</section>
+	<section id="about" class="odd block">
+		<header>
+			<h1>Коротко о нас</h1>
+		</header>
+		<div class="about">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1130" height="409" viewBox="0 0 1130 409">
+				<defs>
+					<style>
+						.cls-3 {
+							font-size: 83px;
+						}
+
+						.cls-4 {
+							fill: #ffffff;
+							font-size: 83px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-4,
+						.cls-8,
+						.cls-10,
+						.cls-16,
+						.cls-18,
+						.cls-13 {
+							font-style: italic;
+						}
+
+						.cls-7 {
+							font-size: 37px;
+						}
+
+						.cls-8 {
+							fill: #ffffff;
+							font-size: 37px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-9 {
+							font-size: 48px;
+						}
+
+						.cls-10 {
+							fill: #ffffff;
+							font-size: 48px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-13 {
+							fill: #ffffff;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+							font-size: 24px;
+						}
+
+						.cls-14 {
+							fill: #ffffff;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+							font-size: 48px;
+						}
+
+						.cls-15 {
+							font-size: 89px;
+						}
+
+						.cls-16 {
+							fill: #ffffff;
+							font-size: 89px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-17 {
+							font-size: 42px;
+						}
+
+						.cls-18 {
+							fill: #ffffff;
+							font-size: 42px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-19 {
+							filter: url(#drop-shadow-1);
+						}
+
+						.cls-20 {
+							font-size: 78px;
+						}
+
+						.cls-21 {
+							fill: #ffffff;
+							font-size: 78px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-22 {
+							font-size: 75px;
+						}
+
+						.cls-23 {
+							fill: #ffffff;
+							font-size: 75px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-24 {
+							font-size: 126px;
+						}
+
+						.cls-25 {
+							fill: #ffffff;
+							font-size: 126px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-26 {
+							font-size: 112px;
+						}
+
+						.cls-28 {
+							fill: #ffffff;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+							font-size: 106px;
+						}
+
+						.cls-29 {
+							fill: #ffffff;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+							font-size: 112px;
+						}
+
+						.cls-30 {
+							font-size: 135px;
+						}
+
+						.cls-31 {
+							fill: #ffffff;
+							font-size: 135px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-32 {
+							font-size: 213px;
+						}
+
+						.cls-33 {
+							fill: #ffffff;
+							font-size: 213px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-34 {
+							font-size: 66px;
+						}
+
+						.cls-35 {
+							fill: #ffffff;
+							font-size: 66px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-36 {
+							font-size: 74px;
+						}
+
+						.cls-37 {
+							fill: #ffffff;
+							font-size: 74px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+
+						.cls-38 {
+							font-size: 188px;
+						}
+
+						.cls-39 {
+							fill: #ffffff;
+							font-size: 188px;
+							font-family: "Bebas Neue";
+							font-weight: 100;
+						}
+					</style>
+
+					<filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+						<feOffset in="SourceAlpha" dx="-2.598" dy="1.5" />
+						<feGaussianBlur result="dropShadow" stdDeviation="2.236" />
+						<feFlood flood-color="#000000" flood-opacity="0.35" />
+						<feComposite operator="in" in2="dropShadow" />
+						<feComposite in="SourceGraphic" in2="SourceAlpha" result="dropShadow" />
+					</filter>
+				</defs>
+				<g id="группа-2svg">
+					<text class="cls-3" x="7px" y="355px">
+						<tspan class="cls-4">Кино</tspan>
+					</text>
+					<text class="cls-3" x="158px" y="388px">
+						<tspan class="cls-4">дизайн</tspan>
+					</text>
+					<text class="cls-7" x="182px" y="320px">
+						<tspan class="cls-8">Web</tspan>
+					</text>
+					<text class="cls-9" x="467px" y="330px">
+						<tspan class="cls-10">МУЗЫКА</tspan>
+					</text>
+					<text class="cls-9" x="568px" y="402px">
+						<tspan class="cls-9">
+							<tspan class="cls-13">и т.д</tspan>
+							<tspan class="cls-14">.</tspan>
+						</tspan>
+					</text>
+					<text class="cls-15" x="394px" y="403px">
+						<tspan class="cls-16">ФОТО</tspan>
+					</text>
+					<text class="cls-17" x="6px" y="404px">
+						<tspan class="cls-18">реклама</tspan>
+					</text>
+					<g id="группа-1" class="cls-19">
+						<text class="cls-20" x="238px" y="66px">
+							<tspan class="cls-21">это команда</tspan>
+						</text>
+						<text class="cls-22" x="235px" y="147px">
+							<tspan class="cls-23">амбициозных</tspan>
+						</text>
+						<text class="cls-24" x="623px" y="93px">
+							<tspan class="cls-25">ТВОРЧЕСКИХ</tspan>
+						</text>
+						<text class="cls-26" x="601px" y="191px">
+							<tspan class="cls-26">
+								<tspan class="cls-28">лююдей, и нас</tspan>
+								<tspan class="cls-29"> </tspan>
+							</tspan>
+						</text>
+						<text class="cls-30" x="4px" y="266px">
+							<tspan class="cls-31">ИНЕТЕРЕСУЕТ</tspan>
+						</text>
+						<text class="cls-32" x="633px" y="396px">
+							<tspan class="cls-33">ВСЁ</tspan>
+						</text>
+						<text class="cls-34" x="884px" y="313px">
+							<tspan class="cls-35">что с этим</tspan>
+						</text>
+						<text class="cls-36" x="893px" y="404px">
+							<tspan class="cls-37">Связанно</tspan>
+						</text>
+						<text class="cls-38" y="140px">
+							<tspan class="cls-39">МЫ</tspan>
+						</text>
+					</g>
+				</g>
+			</svg>
+
+		</div>
+	</section>
+	<section id="proje" class="even block">
+		<header>
+			<h1>Наши проекты</h1>
+		</header>
+		<div id="prj_div" class="full_scr hid">
+			<svg id="prj_close" class="close_btn" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100">
+				<line stroke="#222" stroke-width="3" x1="5" y1="5" x2="95" y2="95"></line>
+				<line stroke="#222" stroke-width="3" x1="5" y1="95" x2="95" y2="5"></line>
+			</svg>
+
+
+			<iframe id="prj_frame" class="an_site" src="no">
+
+			</iframe>
+		</div>
+		<div id="all_prj" class="prj_cont vis">
+			<article class="prj">
+				<header>
+					<div class="prj_header_ovf">
+						<h2>По ту сторону</h2>
+					</div>
+					<img src="img/projects/oos/poster_preview.jpg" alt="Красивая картинка">
+				</header>
+				<p>
+					Короткометражный игровой фильм. Сюжет фильма основан на фрагменте из новеллы Рэя Брэдбери "Вино из одуванчиков".
+					<br>
+					<br> Главные роли в фильме исполнят Владимир Захаров, Никита Осипов, Джордан Фрай...
+				</p>
+				<div class="vydel"></div>
+			</article>
+			<a class="prj_button" href="./projects/im_not_here.html">
+				<article class="prj">
+					<header>
+						<img src="img/projects/im_not_here/poster_preview.jpg" alt="Я не здесь - poster_preview">
+						<div class="prj_header_ovf">
+							<h2>Я НЕ ЗДЕСЬ</h2>
+						</div>
+					</header>
+					<p>
+						Короткометражный игровой фильм, в котором рассказывается история самой обычной семьи с необычным ребёнком...
+						<br>
+						<br> В главных ролях: Елена Захарова, Виктор Добронравов, Миша Васильев...
+					</p>
+					<div class="vydel"></div>
+				</article>
+			</a>
+			<article class="prj">
+				<header>
+					<img src="img/projects/kyat/poster_preview.jpg" alt="">
+					<div class="prj_header_ovf">
+						<h2>Как я встретил театр</h2>
+					</div>
+				</header>
+				<p>
+					Цикл из пяти документальных фильмов, снятых пятью режиссёрами вгиковцами, рассказывающий о закулисьи театрального фестиваля "Я НЕ ОДИН"...
+				</p>
+				<!-- <a class="prj_button" href="projects/kyat.html">Подробнее</a> -->
+				<div class="vydel"></div>
+			</article>
+
+		</div>
+	</section>
+	<!-- <section id="uslug" class="odd block">
+		<header>
+			<h1>Наши услуги</h1>
+		</header>
+=======
+		<h1>Последние новости</h1>
+		<div class="n_block" id="b_n">
+
+		</div>
+
+
+		<div id="all_news" class="al_nw">
+
+			<div id="a_n" onclick="get_all_nws()">
+
+				<h1>
+						<button class="button button--itzel"><b class="button__icon icon icon-envelope">Показать</b><span>Все новости</span></button>
+					</h1>
+
+				<br>
+				<i></i>
+			</div>
+
+			<div id="t_a_n"></div>
+		</div>
+		<div onclick="scroll_left('b_n')" class="n_left">
+			<div class="l_str">
+				&lt;
+			</div>
+		</div>
+		<div onclick="scroll_right('b_n')" class="n_right">
+			<div class="r_str">
+				&gt;
+			</div>
+		</div>
+	</section>
+	<section id="about" class="odd block">
+		<h1>Коротко о нас</h1>
+		<div>
+
+			<canvas id="draw" width="200" height="200">Вы видите это сообщение, потому что Ваш браузер не поддерживает canvas.</canvas>
+			<div class="person">
+				<div class="ih-item sqr colored effect13 from_left_and_right leader">
+					<a href=" ">
+						<div class="img">
+							<img src="../soc/img/our_photos/ava_mav.jpg" height="301" width="300" alt="Тошка"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Антон Муравьёв</h3>
+								<p>
+									Руководитель, двигатель прогресса, лентяй !
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="proje" class="even block">
+		<h1>Наши проекты</h1>
+		<div class="n_block" id="b_p">
+			<div class="prjs">
+				<div class="p_prj">
+					<img src="img/oleg.jpg" alt="Yula img"> Фильм Юла
+				</div>
+				<div class="p_prj">
+					<img src="img/oleg.jpg" alt="Yula img"> Фильм Юла
+				</div>
+				<div class="p_prj">
+					<img src="img/oleg.jpg" alt="Yula img"> Фильм Юла
+				</div>
+				<div class="p_prj">
+					<img src="img/oleg.jpg" alt="Yula img"> Фильм Юла
+				</div>
+			</div>
+		</div>
+		<div onclick="scroll_left('b_p')" class="n_left">
+			<div class="l_str">
+				&lt;
+			</div>
+		</div>
+		<div onclick="scroll_right('b_p')" class="n_right">
+			<div class="r_str">
+				&gt;
+			</div>
+		</div>
+	</section>
+	<section id="atten" class="odd block">
+		<h1>Наши услуги</h1>
+>>>>>>> stup/master
+		<menu class="a_ns">
+			<li class="a_ns" onclick="scrollAt('at_1')"><span>Видеосъёмка</span></li>
+			<li class="a_ns" onclick="scrollAt('at_2')"><span>Фотосъёмка</span></li>
+			<li class="a_ns" onclick="scrollAt('at_3')"><span>Веб-разработка</span></li>
+			<li class="a_ns" onclick="scrollAt('at_4')"><span>Кинотеатр</span></li>
+		</menu>
+		<hr id="a_t_hr" class="a_ns">
+<<<<<<< HEAD
+		<section id="a_ns_block">
+=======
+		<div id="a_ns_block">
+>>>>>>> stup/master
+			<section id="at_1" class="a_ns">
+				Мы оказываем услуги по съёмке различных мероприятий. У нас есть профессиональная техника. Мы знаем программы по видеомонтажу, которых не знаете вы. Вообще, мы молодцы Adobe Premier Pro (пиратка) - это вам не хрмы-хухры В общем, заказывайте и не пожалеете!
+
+			</section>
+			<section id="at_2" class="a_ns">
+				Мы оказываем услуги по съёмке различных мероприятий. У нас есть профессиональная техника. Мы знаем программы по фотомонтажу, которых не знаете вы. Вообще, мы молодцы Adobe Photoshop (пиратка) - это вам не хрмы-хухры В общем, заказывайте и не пожалеете!
+			</section>
+			<section id="at_3" class="a_ns">
+				Я каждый день себе говорю. что умею делать сайты и поэтому у меня начинают получаться сайты. Конечно, пока что это ещё не до сайты, но скоро, я надеюсь, будут суперсайты!
+			</section>
+			<section id="at_4" class="a_ns">
+				Мы на халяву получили кинотеарт - реально! Надувной экран, проектор, генератор, стульчики!! Да - да! У нас есть стульчики и даже с подлокотниками! Мы очень хотим денег, потому что кушать хотим. Закажите нас!
+			</section>
+<<<<<<< HEAD
+
+		</section>
+	</section> -->
+	<section id="contc" class="odd block">
+		<header>
+			<h1> КОНТАКТЫ </h1>
+		</header>
+		<div class="fixed_width">
+			<div class="cont_block cont-block-left">
+				<div>
+					<h3>КОНТАКТНЫЙ ТЕЛЕФОН</h3>
+					<p><a href="tel:+79296760477">+7 (929)676-04-77</a></p>
+					<h3>E-MAIL:</h3>
+					<p><a href="mailTo:admin@арт-ступень.рф">admin@арт-ступень.рф</a></p>
+				</div>
+			</div>
+			<div class="peregorodka"></div>
+			<div class="cont_block cont-block-right">
+				<div>
+					<h3 style="font-weight:normal;">СОЦИАЛЬНЫЕ СЕТИ:</h3>
+					<p><a class="soc-set" href="tel:+79296760477">Вконтакте</a></p>
+					<p><a class="soc-set" href="youtube.com/user/ArtStupen">YouTube</a></p>
+					<p><a class="soc-set" href="twitter.com/art_stupen">Twitter</a></p>
+					<p><a class="soc-set" href="plus.google.com/u/0/+ArtStupen">Google+</a></p>
+				</div>
+			</div>
+		</div>
+			<h2>ОБРАТНАЯ СВЯЗЬ</h2>
+			<div class="contact_form fixed_width">
+				<div class="form_field firts_line cell_left">
+					<label>ФАМИЛИЯ</label>
+					<input type="text" />
+				</div>
+				<div class="form_field firts_line cell_middle">
+					<label>ИМЯ</label>
+					<input type="text" />
+				</div>
+				<div class="form_field firts_line cell_right">
+					<label>ОТЧЕСТВО</label>
+					<input type="text" />
+				</div>
+				<div class="form_field second_line cell_left">
+					<label>E-MAIL</label>
+					<input type="text" />
+				</div>
+				<div class="form_field second_line cell_right">
+					<label>ТЕЛЕФОН</label>
+					<input type="text" />
+				</div>
+					<textarea class="third_line cell_middle"></textarea>
+					<div class="button_container">
+						<div class="button">отправить</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<div id="fl_nw" class="full_scr ovf ovf_hid">
+		<svg id="close_nws" class="close_btn cl_hided" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100">
+			<line stroke="#222" stroke-width="3" x1="5" y1="5" x2="95" y2="95"></line>
+			<line stroke="#222" stroke-width="3" x1="5" y1="95" x2="95" y2="5"></line>
+		</svg>
+
+		<div></div>
+		<div id="full_nws" class="container">
+
+		</div>
+	</div>
+
+
+
+
+	<footer class="odd main_footer">
+		<div class="left">
+			2012-2016
+		</div>
+		<div class="right">
+			<a href="mailTo:admin@арт-ступень.рф">© Ступень production </a>
+		</div>
+
+
+
+
+	</footer>
+	<!-- Cкрипты -->
+	<script type="text/javascript" src="scripts/jQ1_8_3.js"></script>
+	<script type="text/javascript" src="scripts/jQ_scrollTo.js"></script>
+	<script type="text/javascript" src="scripts/scroll_news.js"></script>
+	<script type="text/javascript" src="scripts/a_nws.js"></script>
+
+	<script type="text/javascript" src="scripts/o_prj.js"></script>
+	<script async type="text/javascript" src="scripts/attens.js"></script>
+	<script async type="text/javascript" src="scripts/parallax.js"></script>
+</body>
+
+</html>

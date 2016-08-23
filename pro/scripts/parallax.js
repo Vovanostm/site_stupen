@@ -116,5 +116,5 @@ $(window).scroll(function() {
   $('.block').css({
     'background-position': '50%' + tx * 2 + '%'
   });
-  console.log(tx / 10);
+  // console.log(tx / 10);
 });

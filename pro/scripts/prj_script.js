@@ -5,7 +5,7 @@ var array_img = [];
 function ar_find(_array, _item){
   var _index = -1;
   for (var i = 0; i < _array.length; i++){
-    console.log(_item, _array[i]);
+    // console.log(_item, _array[i]);
     if (_item == 'url("'+_array[i]+'")') _index = i;
   }
   return(_index);
@@ -13,7 +13,7 @@ function ar_find(_array, _item){
 
 function next_img(){
   var _img = ar_find(array_img, gallery.style.backgroundImage);
-  console.log(_img);
+  // console.log(_img);
   _img++;
   if (_img >= array_img.length) _img=0;
   gallery.style.backgroundImage='url("'+array_img[_img]+'")';

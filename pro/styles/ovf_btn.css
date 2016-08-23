@@ -28,6 +28,6 @@
 
 
 .btn_ovf:hover .btn_txt, .btn_ovf:hover .btn_ico{
-  transform:translateY(-50px);
+  transform:translateY(-45px);
 
 }

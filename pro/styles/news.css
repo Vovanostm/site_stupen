@@ -1,0 +1,220 @@
+.n_block {
+    position: relative;
+    width: 80%;
+    height: 65%;
+    text-align: center;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+    margin: 40px auto;
+}
+.n_block img{
+ height: 50%;
+}
+.n_w h2{
+ font-size: 25pt;
+ text-align: left;
+ font-weight: lighter;
+}
+.n_w h3{
+ font-size: 14pt;
+ font-weight: bold;
+ font-family: "Roboto Slab";
+}
+.n_w p{
+ font-size: 14pt;
+ font-weight: 300;
+ font-family: "Roboto Slab";
+}
+.al_nw {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background-color: #f4f4f4;
+    text-align: center;
+    z-index: 2;
+    padding-top: 2%;
+    transition: all .3s;
+    overflow: hidden;
+    margin: 0;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+
+
+.ar {
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    transition: all 1s;
+    background-image: url(../buttons/png/none.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.n_block .news {
+    position: relative;
+    display: inline-block;
+    white-space: normal;
+    width: 100%;
+    height: 412px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#full_nws h2.n_n {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2.n_n{
+    margin-top:-8px;
+}
+.date {
+    display: block;
+    margin-top: 3%;
+    height: 4%;
+    margin-bottom: 3%;
+    margin-left: 30px;
+    font-family: 'Geometria';
+    font-weight: bold;
+    font-size: 11pt;
+    color:rgb(80, 80, 80);
+}
+.date::before {
+    content: "";
+    position: absolute;
+    background-image: url(/pro/img/calendear.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    width: 25px;
+    height: 25px;
+    left:0;
+    top:-5px;
+}
+#full_nws  .date::after {
+    content: "";
+    position: relative;
+    width: calc(100% + 30px);
+    botom:30px;
+    margin-top:20px;
+    left:-30px;
+    display: block;
+    border-bottom: 2px dashed grey;
+}
+.date_container{
+ position: relative;
+}
+.n_w, .prjs {
+    vertical-align: top;
+    white-space: normal;
+    margin: 0 10%;
+}
+.n_w p {
+    position: relative;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+.n_left, .n_right {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    top: 0;
+    transition: all .5s;
+    z-index: 4;
+    cursor: pointer;
+}
+.n_left:hover, .n_right:hover {
+    color: #222;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all .5s;
+}
+.n_left {
+    left: 0;
+}
+.n_right {
+    right: 0;
+}
+.n_left svg, .n_right svg {
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    top: 40%;
+    transition: .5s;
+}
+.n_block .n_w .imgs {
+    display: block;
+    position: absolute;
+    width: 55%;
+    height: 79%;
+    left: 0;
+}
+.n_w .imgs img {
+    margin: 0 0;
+}
+.n_block .n_w .sText {
+    display: block;
+    position: absolute;
+    width: 40%;
+    padding-right: 10px;
+    height: 80%;
+    right: 0;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#full_nws .imgs img{
+    width:calc(100% / 3 - 5px);
+}
+
+.news-container{
+    width:600px;
+    text-align: left;
+    margin:80px auto;
+}
+
+.news-list-item{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.news-list-item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.news-list-date{
+    color: grey;
+    font-size:1.2em;
+    font-style: italic;
+    font-weight: 500;
+    display:inline-block;
+    width:160px;
+    vert-align: top;
+    border-right: gray 2px dotted;
+    margin:0;
+    padding:1px;
+    text-decoration: inherit;
+}
+
+.news-list-text{
+    font-weight: bold;
+    color:black;
+    font-size:1.2em;
+    display:inline-block;
+    width:380px;
+    vert-align: top;
+    padding:2px;
+    margin-left:10px;
+    text-decoration: inherit;
+
+}

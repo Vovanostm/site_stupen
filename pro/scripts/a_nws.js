@@ -6,19 +6,24 @@ var pst = 0;
 
 
 function update_news(){
-
+var _imgs = b_n.getElementsByTagName("img");
+for (var i = 0; i<_imgs.length; i++){
+	if (i>3) _imgs[i].style.display="none";
+}
+var _text = b_n.getElementsByTagName("p")[0];
+if (_text.innerHTML.length>240) _text.innerHTML=_text.innerHTML.substr(0, (240 - 3)) + '...';
 $(".n_w").each(function(index, el) {
 	if ($(this).children(".imgs").children("img").length > 6)
 		$(this).children(".imgs").children("img").each(
 		function(index, el) {
 			if (document.body.clientWidth > document.body.clientHeight)
-	 			$(this).css({height:"45%"});
+	 			$(this).css({height:"50%"});
 	 		else
 	 			$(this).css({width:"80%"});
 		});
 	else if ($(this).children(".imgs").children("img").length > 1)
 		$(this).children(".imgs").children("img").each(function(index, el) {
-	 	$(this).css({height:"45%"});});
+	 	$(this).css({height:"50%"});});
 	else
 		$(this).children(".imgs").children("img").each(function(index, el) {
 	 	$(this).css({height:"75%"});});
@@ -89,26 +94,37 @@ function get_all_nws()
     dataType: "html",
     success: function(data){
 
+	var tmp = document.createElement('div');
+		tmp.innerHTML = data;
 
     //alert(data);
 
-	var news_dates = data.match(/<time .*?>.*?<\/time>/ig),
-		news_heads = data.match(/<H2 .*?>.*?<\/H2>/ig);
-	var gg="";
-	for(var i=0; i < news_dates.length; i++)
+	var news_dates = tmp.getElementsByTagName('time'),
+		news_heads = tmp.getElementsByTagName('h2');
+	var list_news = document.createElement('div');
+
+		for(var i=0; i < news_dates.length; i++)
 	{
-		//alert($(news_dates[i]).text());
-		// for(var i=0; i < news_heads.length; i++)
-		// 	alert($(news_heads[i]).text());
-		k = news_dates.length -i;
-		// gg +='<P><a class ="n_a" href ="http://127.0.0.1/site_stup/pro/?name=news&num='+k+'">';
-		gg +='<P><a class ="n_a" onClick="show_nws('+k+')">';
-		gg +=$(news_dates[i]).text();
-		gg +=". ";
-		gg +=$(news_heads[i]).text();
-		gg +='</a></P>';
+		k = news_dates.length - i;
+		// console.log(k);
+		var list_news_item = document.createElement('div');
+		list_news_item.setAttribute('data-news-number',k);
+		list_news_item.classList.add('news-list-item');
+		list_news_item.addEventListener('click', function () {
+			show_nws(this.getAttribute('data-news-number'));
+		});
+		var list_news_item_date = document.createElement('span');
+		var list_news_item_text = document.createElement('span');
+		list_news_item_date.innerHTML = news_dates[i].innerHTML;
+		list_news_item_text.innerHTML = news_heads[i].innerHTML;
+		list_news_item_date.classList.add('news-list-date');
+		list_news_item_text.classList.add('news-list-text');
+		list_news_item.appendChild(list_news_item_date);
+		list_news_item.appendChild(list_news_item_text);
+		list_news.appendChild(list_news_item);
 	};
-	$("#t_a_n").append(gg);
+	t_a_n.classList.add('news-container');
+	$("#t_a_n").append(list_news);
 	opened=true;
 }
 });

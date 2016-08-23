@@ -6,7 +6,7 @@ function show_project(event)
 {
 	event.preventDefault();
 	iframe.src=this.href;
-	console.log(iframe);
+	// console.log(iframe);
 	iframe.onload = function(){
 		prj_div.classList.remove("hid");
 		all_prj.classList.add("hid");
@@ -42,9 +42,9 @@ for (var i = 0; i<prjs.length; i++){
 }
 var pr_names = document.querySelectorAll('.prj h2');
 for (var i = 0; i<pr_names.length; i++){
-	console.log(pr_names[i].innerHTML.length);
+	// console.log(pr_names[i].innerHTML.length);
 	pr_names[i].style.top=(pr_names[i].innerHTML.length>18?30:40)+"%";
-	console.log(pr_names[i].style.top);
+	// console.log(pr_names[i].style.top);
 
 	// pr_names[i].style.fontSize = 400/pr_names[i].innerHTML.length + "px";
 }

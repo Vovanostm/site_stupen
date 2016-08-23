@@ -1,0 +1,12 @@
+.about {
+position:relative;
+margin:auto;
+padding:20px;
+}
+
+.about svg {
+width:100%;
+position:relative;
+margin:30px auto;
+padding:0;
+}
