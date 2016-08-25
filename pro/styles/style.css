@@ -510,6 +510,27 @@ footer {
     background-color: #4270b5;
 }
 
+.prj_button{
+ display: inline-block;
+}
+
+
+.hash-ovf{
+ left: 0;
+ top: 0;
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ display: none;
+ z-index: 30;
+ overflow: hidden;
+ background: rgba(62, 64, 64, 0.45);
+}
+
+
+
+
+
 .hashtag-item{
  color:rgb(78, 78, 78);
  font-size: 14px;
@@ -518,10 +539,65 @@ footer {
 .hashtag-item:hover{
  text-decoration: underline;
 }
+
 .hashtag-container{
  position: relative;
 }
 
+
+.is-visiable{
+ display: block;
+}
+
+.hash-nav{
+ position: absolute;
+ top:50%;
+ margin:-200px auto;
+ left:calc(50% - 250px);
+ width: 500px;
+ min-height: 400px;
+ overflow: auto;
+ background-color: #f4f4f4;
+ border-radius: 10px;
+}
+
+.hash-table{
+ padding: 40px;
+}
+.hash-table-item{
+ border-bottom: 2px solid black;
+ display: block;
+ text-align: center;
+ margin: 10px auto;
+ width: 50%;
+ transition: .2s;
+}
+
+.hash-table-item:hover{
+ width: 80%;
+}
+
+.hash-menu{
+ margin:10px auto 30px;
+ text-align: center;
+ border-bottom: 1px dashed black;
+
+}
+
+.hash-menu-item{
+ display: inline-block;
+ margin: 10px;
+ color:grey;
+ font-weight: 300;
+ cursor: pointer;
+}
+
+
+
+.is-active{
+ color:black;
+ font-weight: 700;
+}
 /*---------------Контакты----------------*/
 
 .fixed_width{

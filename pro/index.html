@@ -46,6 +46,14 @@
  </ol>
 </nav>
 
+<!-- Поиск по хеш-тегу -->
+<div id="hashes_table_body" class="hash-ovf">
+ <div class="hash-nav">
+  <div id="hashes_table" class="hash-table"></div>
+ </div>
+</div>
+
+
 <!-- Блок новостей -->
 <section id="newss" class="even c_nws block none_ov">
  <header>
@@ -363,7 +371,7 @@
   </iframe>
  </div>
  <div id="all_prj" class="prj_cont vis">
-
+<div class="prj_button" data-href="./projects/im_not_here.html">
   <article class="prj">
    <header class="prj-header_container">
     <img src="img/projects/oos/poster_preview.jpg" alt="Красивая картинка">
@@ -377,8 +385,8 @@
     </div>
    </header>
    <div class="hashtag-container">
-    <div class="hashtag-item">#производство</div>
-    <div class="hashtag-item">#дистрибьютер</div>
+    <div class="hashtag-item" data-project="По ту сторону" data-hash="производство">#производство</div>
+    <div class="hashtag-item" data-project="По ту сторону" data-hash="дистрибьютер">#дистрибьютер</div>
    </div>
    <p>
     Короткометражный игровой фильм. Сюжет фильма основан на фрагменте из новеллы Рэя Брэдбери "Вино из одуванчиков".
@@ -387,8 +395,9 @@
    </p>
    <div class="vydel"></div>
   </article>
+ </div>
 
-  <a class="prj_button" href="./projects/im_not_here.html">
+  <div class="prj_button" data-href="./projects/im_not_here.html">
    <article class="prj">
     <header class="prj-header_container">
      <img src="img/projects/im_not_here/poster_preview.jpg" alt="Я не здесь - poster_preview">
@@ -402,8 +411,8 @@
      </div>
     </header>
     <div class="hashtag-container">
-     <div class="hashtag-item">#производство</div>
-     <div class="hashtag-item">#дистрибьютер</div>
+     <div class="hashtag-item" data-project="Я не здесь" data-hash="производство">#производство</div>
+     <div class="hashtag-item" data-project="Я не здесь" data-hash="дистрибьютер">#дистрибьютер</div>
     </div>
     <p>
      Короткометражный игровой фильм, в котором рассказывается история самой обычной семьи с необычным ребёнком...
@@ -412,7 +421,8 @@
     </p>
     <div class="vydel"></div>
    </article>
-  </a>
+  </div>
+  <div class="prj_button" data-href="./projects/im_not_here.html">
   <article class="prj">
    <header class="prj-header_container">
     <img src="img/projects/kyat/poster_preview.jpg" alt="">
@@ -426,8 +436,8 @@
     </div>
    </header>
    <div class="hashtag-container">
-    <div class="hashtag-item">#производство</div>
-    <div class="hashtag-item">#дистрибьютер</div>
+    <div class="hashtag-item" data-project="Как я встретил театр" data-hash="производство">#производство</div>
+    <div class="hashtag-item" data-project="Как я встретил театр" data-hash="релиз">#релиз</div>
    </div>
    <p>
     Цикл из пяти документальных фильмов, снятых пятью режиссёрами вгиковцами, рассказывающий о закулисьи театрального
@@ -436,6 +446,7 @@
    <!-- <a class="prj_button" href="projects/kyat.html">Подробнее</a> -->
    <div class="vydel"></div>
   </article>
+ </div>
 
  </div>
 </section>
