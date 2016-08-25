@@ -15,7 +15,7 @@
 @font-face {
     font-family: Geometria;
     /* Имя шрифта */
-    font-weight: lighter;
+    font-weight: 300;
     src: url("/pro/fonts/Geometria-Light.woff");
     /* Путь к файлу со шрифтом */
 }
@@ -375,7 +375,7 @@ footer {
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    width: 300px;
+    width: 310px;
     margin: 20px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
     overflow: hidden;
@@ -508,6 +508,18 @@ footer {
 .prj .button:hover {
     color: #222;
     background-color: #4270b5;
+}
+
+.hashtag-item{
+ color:rgb(78, 78, 78);
+ font-size: 14px;
+ display: inline-block;
+}
+.hashtag-item:hover{
+ text-decoration: underline;
+}
+.hashtag-container{
+ position: relative;
 }
 
 /*---------------Контакты----------------*/

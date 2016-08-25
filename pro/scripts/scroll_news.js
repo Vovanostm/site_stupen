@@ -19,7 +19,6 @@ $.ajax({
       data: "name=" + "shr_nw" + "&nws=" + num_news,
       dataType: "html",
       success: function(data) {
-
         $('#b_n').append(data);
         update_news();
       }

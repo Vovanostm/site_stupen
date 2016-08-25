@@ -38,7 +38,7 @@ for (var i=0; i<prj_buttons.length; i++){
 var prjs = document.querySelectorAll('.prj');
 for (var i = 0; i<prjs.length; i++){
 	var blockWidth = prjs[i].clientWidth;
-	prjs[i].style.height = blockWidth * 1.3 + "px";
+	prjs[i].style.height = blockWidth * 1.4 + "px";
 }
 var pr_names = document.querySelectorAll('.prj h2');
 for (var i = 0; i<pr_names.length; i++){

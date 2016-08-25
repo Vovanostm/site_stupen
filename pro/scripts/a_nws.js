@@ -138,8 +138,7 @@ function show_nws(new_number)
 	$("#mns").css({overflow:"hidden"});
 	close_nws.classList.toggle("cl_hided");
 	close_nws.classList.toggle("cl_visbl");
-	var out_nw;
-	out_nw=num_news-x;
+	var out_nw=num_news-x;
 	$.ajax({
 	    type: "POST",
 	    url: "work.php",
