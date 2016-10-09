@@ -38,12 +38,13 @@ body {
     background-color: #f4f4f4;
     color: #000;
     overflow: visible;
-    background: fixed 50% 50% url(../bg1.jpg);
-    background-size: 100%;
     margin: 0;
     padding: 0;
 }
 
+.logo_ovf{
+ background: url("../bg1.jpg")
+}
 /*p{
  font-family: "Roboto Slab", serif;
 font-size: 14px;
