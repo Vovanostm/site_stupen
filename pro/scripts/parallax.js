@@ -116,5 +116,8 @@ $(window).scroll(function() {
   $('.block').css({
     'background-position': '50%' + tx * 2 + '%'
   });
+  about_overflow.style.backgroundPosition='40%' + String((tx*10)) + '%';
+
+  tx = -tx;
   // console.log(tx / 10);
 });

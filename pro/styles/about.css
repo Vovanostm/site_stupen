@@ -20,8 +20,9 @@ padding:0;
  top: 0;
 }
 .about_ovf{
- background: url("../src/about/overflow.jpg");
- background-size: cover;
+ background: 50% 50% url("../src/about/overflow.jpg");
+ background-size: 120%;
+
 }
 .overflow_gray{
   background: rgba(0,0,0,.5);
@@ -34,4 +35,26 @@ padding:0;
 
 .about-odd h1::after {
     background-color: #f4f4f4;
+}
+
+.grid{
+ text-align: center;
+}
+.grid__item{
+ display: inline-block;
+}
+.grid__item_gr4{
+ width: 300px;
+ vertical-align: top;
+}
+.about__info{
+ margin: 35px auto;
+ width:70%;
+ font-size: 18pt;
+ font-family: "Geometria";
+}
+.about__item-header{
+ margin: 20px auto;
+ font-size: 18pt;
+ font-family: "Geometria";
 }

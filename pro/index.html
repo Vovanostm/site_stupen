@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="./styles/ovf_btn.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/news.css">
-    <link rel="stylesheet" href="./styles/parallax.css">
 
 
     <link rel="stylesheet" href="http://webfonts.ru/import/bebasneue.css" />
@@ -32,182 +31,174 @@
 </head>
 
 <body id="mns">
+
+    <nav class="m_menu block">
+        <div id="bg_2"></div>
+        <div id="bg_3">
+            <div id="logo"></div>
+        </div>
+        <ol id="main_nav" class="static">
+            <li class="l_i" onclick="navTo( '#newss')">Новости</li>
+            <li class="l_i" onclick="navTo( '#about')">О нас</li>
+            <li class="l_i" onclick="navTo( '#proje')">Проекты</li>
+            <!-- <li class="l_i" onclick="navTo( '#atten')">Услуги</li> -->
+            <li class="l_i" onclick="navTo( '#contc')">Контакты</li>
+        </ol>
+    </nav>
+
     <!-- Поиск по хеш-тегу -->
     <div id="hashes_table_body" class="hash-ovf">
         <div class="hash-nav">
             <div id="hashes_table" class="hash-table"></div>
         </div>
     </div>
-    <div class="parallax">
-     <div class="parallax__group parallax__group_base">
-         <div class="parallax__layer parallax__layer_base ">
-             <nav class="m_menu block">
-                 <div id="bg_2"></div>
-                 <div id="bg_3">
-                     <div id="logo"></div>
-                 </div>
-                 <ol id="main_nav" class="static">
-                     <li class="l_i" onclick="navTo( '#newss')">Новости</li>
-                     <li class="l_i" onclick="navTo( '#about')">О нас</li>
-                     <li class="l_i" onclick="navTo( '#proje')">Проекты</li>
-                     <!-- <li class="l_i" onclick="navTo( '#atten')">Услуги</li> -->
-                     <li class="l_i" onclick="navTo( '#contc')">Контакты</li>
-                 </ol>
-             </nav>
-         </div>
-         <div class="parallax__layer parallax__layer_back">
-             <div class="overflow_img logo_ovf">
 
-             </div>
-         </div>
-     </div>
-     <!-- Блок новостей -->
-     <section id="newss" class= "even block parallax__group parallax__group_base" >
-         <div class="parallax__layer parallax__layer_base " style="overflow:hidden;">
-             <header>
-                 <h1>НОВОСТИ</h1>
-             </header>
-             <div class="n_block" id="b_n">
-             </div>
-             <div id="all_news" class="al_nw">
-                 <div id="a_n" onclick="get_all_nws()">
-                     <div class="btn_ovf">
-                         <div id="a_n_t" class="btn_txt">ВСЕ НОВОСТИ</div>
-                         <div class="btn_ico">
-                             <svg id="a_n_b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 20" version="1.1">
-                         <polyline stroke="black" fill="none" stroke-width="2" points="4,16 16,4 28,16"></polyline>
-                     </svg>
-                         </div>
-                     </div>
-                 </div>
-                 <div id="t_a_n"></div>
-             </div>
-             <div onclick="scroll_left('b_n')" class="n_left">
-                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
-             <polyline stroke="black" fill="none" stroke-width="1" points="16,4 4,16 16,28"></polyline>
-         </svg>
-             </div>
-             <div onclick="scroll_right('b_n')" class="n_right">
-                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
-             <polyline stroke="black" fill="none" stroke-width="1" points="4,4 16,16 4,28"></polyline>
-         </svg>
-             </div>
-</div>
-     </section>
-        <section id="about" class="block about-odd parallax__group parallax__group_back">
-            <div class="parallax__layer parallax__layer_base">
-                <header>
-                    <h1>О НАС</h1>
-                </header>
-                <div class="about">
 
+    <!-- Блок новостей -->
+    <section id="newss" class="even c_nws block none_ov">
+        <header>
+            <h1>НОВОСТИ</h1>
+        </header>
+        <div class="n_block" id="b_n">
+        </div>
+        <div id="all_news" class="al_nw">
+            <div id="a_n" onclick="get_all_nws()">
+                <div class="btn_ovf">
+                    <div id="a_n_t" class="btn_txt">ВСЕ НОВОСТИ</div>
+                    <div class="btn_ico">
+                        <svg id="a_n_b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 20" version="1.1">
+                            <polyline stroke="black" fill="none" stroke-width="2" points="4,16 16,4 28,16"></polyline>
+                        </svg>
+                    </div>
                 </div>
             </div>
-            <div class="parallax__layer parallax__layer_deep">
-                <div class="overflow_img about_ovf">
-                    <div class="overflow_img overflow_gray"></div>
-                </div>
-            </div>
+            <div id="t_a_n"></div>
+        </div>
+        <div onclick="scroll_left('b_n')" class="n_left">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
+                <polyline stroke="black" fill="none" stroke-width="1" points="16,4 4,16 16,28"></polyline>
+            </svg>
+        </div>
+        <div onclick="scroll_right('b_n')" class="n_right">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 32" version="1.1">
+                <polyline stroke="black" fill="none" stroke-width="1" points="4,4 16,16 4,28"></polyline>
+            </svg>
+        </div>
+    </section>
+    <section id="about" class="odd block">
+     <div id="about_overflow" class="overflow_img about_ovf block"><div class="overflow_img overflow_gray"></div></div>
+     <div style="position:relative;">
+        <header>
+            <h1>О НАС</h1>
+        </header>
+        <div class="about__info">Мы команда молодых полных энергии и вдохновения творческих людей работающих и активно самореализующихся в творческой сфере </div>
+        <div class="about__info">Мы рады представить ВАМ а этом сайте наше творчество, а также будем очень рады оказаться полезными в одно из направлений нашей деятельности</div>
+        <div class="grid">
+         <div class="grid__item grid__item_gr4"><img src="src/about/pfoto.png">
+          <h3 class="about__item-header">Фотосъёмка</h3></div>
+         <div class="grid__item grid__item_gr4"><h3 class="about__item-header">Фильмопроизводство и видеосъёмка</h3></div>
+         <div class="grid__item grid__item_gr4"><h3 class="about__item-header">Дизайнерские и веб решения</h3></div>
+         <div class="grid__item grid__item_gr4"><h3 class="about__item-header">Организация мероприятий</h3></div>
+        </div>
+        </div>
+    </section>
+    <section id="proje" class="even block">
+        <header>
+            <h1>НАШИ ПРОЕКТЫ</h1>
+        </header>
 
-        </section>
 
-        <section id="proje" class="even block parallax__group parallax__group_base">
-            <header>
-                <h1>НАШИ ПРОЕКТЫ</h1>
-            </header>
-
-
-            <div id="prj_div" class="full_scr hid">
-                <svg id="prj_close" class="close_btn" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100">
+        <div id="prj_div" class="full_scr hid">
+            <svg id="prj_close" class="close_btn" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100">
                 <line stroke="#222" stroke-width="3" x1="5" y1="5" x2="95" y2="95"></line>
                 <line stroke="#222" stroke-width="3" x1="5" y1="95" x2="95" y2="5"></line>
             </svg>
 
 
-                <iframe id="prj_frame" class="an_site" src="no">
+            <iframe id="prj_frame" class="an_site" src="no">
 
             </iframe>
+        </div>
+        <div id="all_prj" class="prj_cont vis">
+            <div class="prj_button" data-href="./projects/im_not_here.html">
+                <article class="prj">
+                    <header class="prj-header_container">
+                        <img src="img/projects/oos/poster_preview.jpg" alt="Красивая картинка">
+                        <div class="prj_header_img_ovf"></div>
+                        <div class="prj_header_ovf">
+                            <h2>По ту сторону</h2>
+                        </div>
+                        <div class="prj_header_ovf_line"></div>
+                        <div class="prj_header_nav">
+                            <div class="eye_ico"></div>
+                        </div>
+                    </header>
+                    <div class="hashtag-container">
+                        <div class="hashtag-item" data-project="По ту сторону" data-hash="производство">#производство</div>
+                        <div class="hashtag-item" data-project="По ту сторону" data-hash="дистрибьютер">#дистрибьютер</div>
+                    </div>
+                    <p>
+                        Короткометражный игровой фильм. Сюжет фильма основан на фрагменте из новеллы Рэя Брэдбери "Вино из одуванчиков".
+                        <br>
+                        <br> Главные роли в фильме исполнят Владимир Захаров, Никита Осипов, Джордан Фрай...
+                    </p>
+                    <div class="vydel"></div>
+                </article>
             </div>
-            <div id="all_prj" class="prj_cont vis">
-                <div class="prj_button" data-href="./projects/im_not_here.html">
-                    <article class="prj">
-                        <header class="prj-header_container">
-                            <img src="img/projects/oos/poster_preview.jpg" alt="Красивая картинка">
-                            <div class="prj_header_img_ovf"></div>
-                            <div class="prj_header_ovf">
-                                <h2>По ту сторону</h2>
-                            </div>
-                            <div class="prj_header_ovf_line"></div>
-                            <div class="prj_header_nav">
-                                <div class="eye_ico"></div>
-                            </div>
-                        </header>
-                        <div class="hashtag-container">
-                            <div class="hashtag-item" data-project="По ту сторону" data-hash="производство">#производство</div>
-                            <div class="hashtag-item" data-project="По ту сторону" data-hash="дистрибьютер">#дистрибьютер</div>
-                        </div>
-                        <p>
-                            Короткометражный игровой фильм. Сюжет фильма основан на фрагменте из новеллы Рэя Брэдбери "Вино из одуванчиков".
-                            <br>
-                            <br> Главные роли в фильме исполнят Владимир Захаров, Никита Осипов, Джордан Фрай...
-                        </p>
-                        <div class="vydel"></div>
-                    </article>
-                </div>
 
-                <div class="prj_button" data-href="./projects/im_not_here.html">
-                    <article class="prj">
-                        <header class="prj-header_container">
-                            <img src="img/projects/im_not_here/poster_preview.jpg" alt="Я не здесь - poster_preview">
-                            <div class="prj_header_img_ovf"></div>
-                            <div class="prj_header_ovf">
-                                <h2>Я НЕ ЗДЕСЬ</h2>
-                            </div>
-                            <div class="prj_header_ovf_line"></div>
-                            <div class="prj_header_nav">
-                                <div class="eye_ico"></div>
-                            </div>
-                        </header>
-                        <div class="hashtag-container">
-                            <div class="hashtag-item" data-project="Я не здесь" data-hash="производство">#производство</div>
-                            <div class="hashtag-item" data-project="Я не здесь" data-hash="дистрибьютер">#дистрибьютер</div>
+            <div class="prj_button" data-href="./projects/im_not_here.html">
+                <article class="prj">
+                    <header class="prj-header_container">
+                        <img src="img/projects/im_not_here/poster_preview.jpg" alt="Я не здесь - poster_preview">
+                        <div class="prj_header_img_ovf"></div>
+                        <div class="prj_header_ovf">
+                            <h2>Я НЕ ЗДЕСЬ</h2>
                         </div>
-                        <p>
-                            Короткометражный игровой фильм, в котором рассказывается история самой обычной семьи с необычным ребёнком...
-                            <br>
-                            <br> В главных ролях: Елена Захарова, Виктор Добронравов, Миша Васильев...
-                        </p>
-                        <div class="vydel"></div>
-                    </article>
-                </div>
-                <div class="prj_button" data-href="./projects/im_not_here.html">
-                    <article class="prj">
-                        <header class="prj-header_container">
-                            <img src="img/projects/kyat/poster_preview.jpg" alt="">
-                            <div class="prj_header_img_ovf"></div>
-                            <div class="prj_header_ovf">
-                                <h2>Как я встретил<br>театр</h2>
-                            </div>
-                            <div class="prj_header_ovf_line"></div>
-                            <div class="prj_header_nav">
-                                <div class="eye_ico"></div>
-                            </div>
-                        </header>
-                        <div class="hashtag-container">
-                            <div class="hashtag-item" data-project="Как я встретил театр" data-hash="производство">#производство</div>
-                            <div class="hashtag-item" data-project="Как я встретил театр" data-hash="релиз">#релиз</div>
+                        <div class="prj_header_ovf_line"></div>
+                        <div class="prj_header_nav">
+                            <div class="eye_ico"></div>
                         </div>
-                        <p>
-                            Цикл из пяти документальных фильмов, снятых пятью режиссёрами вгиковцами, рассказывающий о закулисьи театрального фестиваля "Я НЕ ОДИН"...
-                        </p>
-                        <!-- <a class="prj_button" href="projects/kyat.html">Подробнее</a> -->
-                        <div class="vydel"></div>
-                    </article>
-                </div>
-
+                    </header>
+                    <div class="hashtag-container">
+                        <div class="hashtag-item" data-project="Я не здесь" data-hash="производство">#производство</div>
+                        <div class="hashtag-item" data-project="Я не здесь" data-hash="дистрибьютер">#дистрибьютер</div>
+                    </div>
+                    <p>
+                        Короткометражный игровой фильм, в котором рассказывается история самой обычной семьи с необычным ребёнком...
+                        <br>
+                        <br> В главных ролях: Елена Захарова, Виктор Добронравов, Миша Васильев...
+                    </p>
+                    <div class="vydel"></div>
+                </article>
             </div>
-        </section>
-        <!-- <section id="uslug" class="odd block">
+            <div class="prj_button" data-href="./projects/im_not_here.html">
+                <article class="prj">
+                    <header class="prj-header_container">
+                        <img src="img/projects/kyat/poster_preview.jpg" alt="">
+                        <div class="prj_header_img_ovf"></div>
+                        <div class="prj_header_ovf">
+                            <h2>Как я встретил<br>театр</h2>
+                        </div>
+                        <div class="prj_header_ovf_line"></div>
+                        <div class="prj_header_nav">
+                            <div class="eye_ico"></div>
+                        </div>
+                    </header>
+                    <div class="hashtag-container">
+                        <div class="hashtag-item" data-project="Как я встретил театр" data-hash="производство">#производство</div>
+                        <div class="hashtag-item" data-project="Как я встретил театр" data-hash="релиз">#релиз</div>
+                    </div>
+                    <p>
+                        Цикл из пяти документальных фильмов, снятых пятью режиссёрами вгиковцами, рассказывающий о закулисьи театрального фестиваля "Я НЕ ОДИН"...
+                    </p>
+                    <!-- <a class="prj_button" href="projects/kyat.html">Подробнее</a> -->
+                    <div class="vydel"></div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+    <!-- <section id="uslug" class="odd block">
  <header>
   <h1>Наши услуги</h1>
  </header>
@@ -327,84 +318,83 @@
 
  </section>
 </section> -->
-        <section id="contc" class="odd block parallax__group parallax__group_base">
-            <header>
-                <h1> КОНТАКТЫ </h1>
-            </header>
-            <div class="fixed_width">
-                <div class="cont_block cont-block-left">
-                    <div>
-                        <h3>КОНТАКТНЫЙ ТЕЛЕФОН</h3>
-                        <p><a href="tel:+79296760477">+7 (929)676-04-77</a></p>
-                        <h3>E-MAIL:</h3>
-                        <p><a href="mailTo:admin@арт-ступень.рф">admin@арт-ступень.рф</a></p>
-                    </div>
-                </div>
-                <div class="peregorodka"></div>
-                <div class="cont_block cont-block-right">
-                    <div>
-                        <h3 style="font-weight:normal;">СОЦИАЛЬНЫЕ СЕТИ:</h3>
-                        <p><a class="soc-set" href="tel:+79296760477">Вконтакте</a></p>
-                        <p><a class="soc-set" href="youtube.com/user/ArtStupen">YouTube</a></p>
-                        <p><a class="soc-set" href="twitter.com/art_stupen">Twitter</a></p>
-                        <p><a class="soc-set" href="plus.google.com/u/0/+ArtStupen">Google+</a></p>
-                    </div>
+    <section id="contc" class="odd block">
+        <header>
+            <h1> КОНТАКТЫ </h1>
+        </header>
+        <div class="fixed_width">
+            <div class="cont_block cont-block-left">
+                <div>
+                    <h3>КОНТАКТНЫЙ ТЕЛЕФОН</h3>
+                    <p><a href="tel:+79296760477">+7 (929)676-04-77</a></p>
+                    <h3>E-MAIL:</h3>
+                    <p><a href="mailTo:admin@арт-ступень.рф">admin@арт-ступень.рф</a></p>
                 </div>
             </div>
-            <h2>ОБРАТНАЯ СВЯЗЬ</h2>
-            <div class="contact_form fixed_width">
-                <div class="form_field firts_line cell_left">
-                    <label>ФАМИЛИЯ</label>
-                    <input type="text" id="form_family" />
-                </div>
-                <div class="form_field firts_line cell_middle">
-                    <label>ИМЯ</label>
-                    <input type="text" id="form_name" />
-                </div>
-                <div class="form_field firts_line cell_right">
-                    <label>ОТЧЕСТВО</label>
-                    <input type="text" id="form_middle-name" />
-                </div>
-                <div class="form_field second_line cell_left">
-                    <label>E-MAIL</label>
-                    <input type="text" id="form_e-mail" />
-                </div>
-                <div class="form_field second_line cell_right">
-                    <label>ТЕЛЕФОН</label>
-                    <input type="text" id="form_phone" />
-                </div>
-                <textarea class="third_line cell_middle" id="form_message"></textarea>
-                <div class="button_container">
-                    <div class="button" id="form_send">отправить</div>
+            <div class="peregorodka"></div>
+            <div class="cont_block cont-block-right">
+                <div>
+                    <h3 style="font-weight:normal;">СОЦИАЛЬНЫЕ СЕТИ:</h3>
+                    <p><a class="soc-set" href="tel:+79296760477">Вконтакте</a></p>
+                    <p><a class="soc-set" href="youtube.com/user/ArtStupen">YouTube</a></p>
+                    <p><a class="soc-set" href="twitter.com/art_stupen">Twitter</a></p>
+                    <p><a class="soc-set" href="plus.google.com/u/0/+ArtStupen">Google+</a></p>
                 </div>
             </div>
-        </section>
+        </div>
+        <h2>ОБРАТНАЯ СВЯЗЬ</h2>
+        <div class="contact_form fixed_width">
+            <div class="form_field firts_line cell_left">
+                <label>ФАМИЛИЯ</label>
+                <input type="text" id="form_family" />
+            </div>
+            <div class="form_field firts_line cell_middle">
+                <label>ИМЯ</label>
+                <input type="text" id="form_name" />
+            </div>
+            <div class="form_field firts_line cell_right">
+                <label>ОТЧЕСТВО</label>
+                <input type="text" id="form_middle-name" />
+            </div>
+            <div class="form_field second_line cell_left">
+                <label>E-MAIL</label>
+                <input type="text" id="form_e-mail" />
+            </div>
+            <div class="form_field second_line cell_right">
+                <label>ТЕЛЕФОН</label>
+                <input type="text" id="form_phone" />
+            </div>
+            <textarea class="third_line cell_middle" id="form_message"></textarea>
+            <div class="button_container">
+                <div class="button" id="form_send">отправить</div>
+            </div>
+        </div>
+    </section>
 
 
-        <div id="fl_nw" class="full_scr ovf ovf_hid">
-            <svg id="close_nws" class="close_btn cl_hided" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100">
+    <div id="fl_nw" class="full_scr ovf ovf_hid">
+        <svg id="close_nws" class="close_btn cl_hided" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 100 100">
             <line stroke="#222" stroke-width="3" x1="5" y1="5" x2="95" y2="95"></line>
             <line stroke="#222" stroke-width="3" x1="5" y1="95" x2="95" y2="5"></line>
         </svg>
 
-            <div></div>
-            <div id="full_nws" class="container">
+        <div></div>
+        <div id="full_nws" class="container">
 
-            </div>
+        </div>
+    </div>
+
+
+    <footer class="odd main_footer">
+        <div class="left">
+            2012-2016
+        </div>
+        <div class="right">
+            <a href="mailTo:admin@арт-ступень.рф">© Ступень production </a>
         </div>
 
 
-        <footer class="odd main_footer parallax__group parallax__group_base">
-            <div class="left">
-                2012-2016
-            </div>
-            <div class="right">
-                <a href="mailTo:admin@арт-ступень.рф">© Ступень production </a>
-            </div>
-
-
-        </footer>
-    </div>
+    </footer>
     <!-- Cкрипты -->
     <script type="text/javascript" src="scripts/jQ1_8_3.js"></script>
     <script type="text/javascript" src="scripts/jQ_scrollTo.js"></script>
