@@ -93,7 +93,7 @@ padding:0;
  transition:.5s;
 }
 .about-button:hover{
- background: rgba(0,0,0,0.5);
+ /*background: rgba(0,0,0,0.5);*/
 }
 .about-button__text{
  margin: 20px auto 10px;
@@ -104,6 +104,7 @@ padding:0;
  background: url("../src/about/button-icon.png") no-repeat;
  margin: auto;
  background-size: contain;
+ margin-bottom: 5px;
 }
 .about-button__go-to
 {
