@@ -1,14 +1,26 @@
+
 .about {
-position:relative;
 margin:auto;
-padding:20px;
+padding:0;
+margin: 0;
+color: white;
 }
 
+.about h1::after {
+  background-color: white;
+}
 .about svg {
 width:100%;
 position:relative;
 margin:30px auto;
 padding:0;
+}
+.about-overflow{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ left: 0;
+ top: 0;
 }
 
 .overflow_img{
@@ -18,6 +30,9 @@ padding:0;
  height: 100%;
  left: 0;
  top: 0;
+}
+.overflow__img-black{
+ background: rgba(0,0,0,.5);
 }
 .about_ovf{
  background: 50% 50% url("../src/about/overflow.jpg");
@@ -38,6 +53,7 @@ padding:0;
 }
 
 .grid{
+ position: relative;
  text-align: center;
 }
 .grid__item{
@@ -48,13 +64,50 @@ padding:0;
  vertical-align: top;
 }
 .about__info{
- margin: 35px auto;
+ position:relative;
+ margin: 20px auto;
  width:70%;
  font-size: 18pt;
  font-family: "Geometria";
 }
 .about__item-header{
+ height: 40px;
  margin: 20px auto;
- font-size: 18pt;
+ font-size: 16pt;
+ font-weight: bold;
  font-family: "Geometria";
+
+}
+
+.about__item-img{
+ height: 80px;
+}
+
+.about-button{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+ /*margin: 30px auto;*/
+ cursor: pointer;
+ transition:.5s;
+}
+.about-button:hover{
+ background: rgba(0,0,0,0.5);
+}
+.about-button__text{
+ margin: 20px auto 10px;
+}
+.about-button__icon{
+ width: 50px;
+ height: 35px;
+ background: url("../src/about/button-icon.png") no-repeat;
+ margin: auto;
+ background-size: contain;
+}
+.about-button__go-to
+{
+ margin: 0;
+ font-weight: bold;
+ font-size: 1.3em;
 }

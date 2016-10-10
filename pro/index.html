@@ -33,7 +33,8 @@
 <body id="mns">
 
     <nav class="m_menu block">
-        <div id="bg_2"></div>
+     <div div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-natural-width="1920" data-natural-height="1080" data-image-src="bg1.jpg" style="min-height:100%">
+        <!-- <div id="bg_2"></div> -->
         <div id="bg_3">
             <div id="logo"></div>
         </div>
@@ -44,6 +45,7 @@
             <!-- <li class="l_i" onclick="navTo( '#atten')">Услуги</li> -->
             <li class="l_i" onclick="navTo( '#contc')">Контакты</li>
         </ol>
+        </div>
     </nav>
 
     <!-- Поиск по хеш-тегу -->
@@ -85,22 +87,46 @@
             </svg>
         </div>
     </section>
-    <section id="about" class="odd block">
-     <div id="about_overflow" class="overflow_img about_ovf block"><div class="overflow_img overflow_gray"></div></div>
-     <div style="position:relative;">
+    <section id="about" class="block about">
+           <div div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-natural-width="1920" data-natural-height="1080" data-image-src="src/about/overflow.jpg" style="position:absolute;
+           top:0; left:0;height:100%" >
+           <div class="about-overflow overflow__img-black"> </div>
+
         <header>
             <h1>О НАС</h1>
         </header>
         <div class="about__info">Мы команда молодых полных энергии и вдохновения творческих людей работающих и активно самореализующихся в творческой сфере </div>
         <div class="about__info">Мы рады представить ВАМ а этом сайте наше творчество, а также будем очень рады оказаться полезными в одно из направлений нашей деятельности</div>
         <div class="grid">
-         <div class="grid__item grid__item_gr4"><img src="src/about/pfoto.png">
-          <h3 class="about__item-header">Фотосъёмка</h3></div>
-         <div class="grid__item grid__item_gr4"><h3 class="about__item-header">Фильмопроизводство и видеосъёмка</h3></div>
-         <div class="grid__item grid__item_gr4"><h3 class="about__item-header">Дизайнерские и веб решения</h3></div>
-         <div class="grid__item grid__item_gr4"><h3 class="about__item-header">Организация мероприятий</h3></div>
+         <div class="grid__item grid__item_gr4">
+          <img class="about__item-img" src="src/about/pfoto.png">
+          <h3 class="about__item-header">Фотосъёмка</h3>
+          <p class="about__item-text">Съёмка фоторепортажей, мероприятий, продукции обработки фото и т.д.</p>
+         </div>
+         <div class="grid__item grid__item_gr4">
+          <img class="about__item-img" src="src/about/movi.png">
+          <h3 class="about__item-header">Фильмопроизводство и видеосъёмка</h3>
+          <p class="about__item-text">Разработка сценариев, съёмка и монтаж репортажей, реклманых и информационных роликов, музыкальных клипов и т.д.</p>
+         </div>
+         <div class="grid__item grid__item_gr4">
+          <img class="about__item-img" src="src/about/design.png">
+          <h3 class="about__item-header">Дизайнерские и веб решения</h3>
+          <p class="about__item-text">Разработка веб-сайтов, офромление рекламных флаеров, плакатов, логотипов, открыток, создание DVD-релиза продукции и т.д.</p>
+         </div>
+         <div class="grid__item grid__item_gr4">
+          <img class="about__item-img" src="src/about/event.png">
+          <h3 class="about__item-header">Организация мероприятий</h3>
+          <p class="about__item-text">Проведение уличных кинопоказов и представлений, организация концертных программ, развлекательных мероприятий и т.д.</p>
+         </div>
+
+        </div>
+        <div class="about-button">
+         <p class="about-button__text">Подробнее в разделе</p>
+         <h3 class="about-button__go-to">УСЛУГИ</h3>
+         <div class="about-button__icon"></div>
         </div>
         </div>
+
     </section>
     <section id="proje" class="even block">
         <header>
@@ -396,15 +422,19 @@
 
     </footer>
     <!-- Cкрипты -->
-    <script type="text/javascript" src="scripts/jQ1_8_3.js"></script>
-    <script type="text/javascript" src="scripts/jQ_scrollTo.js"></script>
-    <script type="text/javascript" src="scripts/scroll_news.js"></script>
-    <script type="text/javascript" src="scripts/a_nws.js"></script>
-    <script type="text/javascript" src="scripts/contact_form.js"></script>
 
-    <script type="text/javascript" src="scripts/o_prj.js"></script>
+    <!-- <script type="text/javascript" src="scripts/jQ1_8_3.js"></script> -->
+    <script defer trype="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script defer type="text/javascript" src="scripts/jQ_scrollTo.js"></script>
+    <script defer type="text/javascript" src="scripts/scroll_news.js"></script>
+    <script defer type="text/javascript" src="scripts/a_nws.js"></script>
+    <script defer type="text/javascript" src="scripts/contact_form.js"></script>
+
+    <script defer type="text/javascript" src="scripts/o_prj.js"></script>
     <script async type="text/javascript" src="scripts/attens.js"></script>
     <script async type="text/javascript" src="scripts/parallax.js"></script>
+
+    <script defer type="text/javascript" src="scripts/parallax.min.js"></script>
 </body>
 
 </html>
