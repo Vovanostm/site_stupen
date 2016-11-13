@@ -12,6 +12,9 @@
 .n_block img{
  height: 50%;
 }
+.n_block .hided_miniat{
+ display: none;
+}
 .n_w h2{
  font-size: 25pt;
  text-align: left;
