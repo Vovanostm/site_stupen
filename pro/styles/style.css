@@ -524,10 +524,8 @@ footer {
  display: none;
  z-index: 30;
  overflow: hidden;
- background: rgba(62, 64, 64, 0.45);
+ background: rgba(0, 0, 0, 0.8);
 }
-
-
 
 
 
@@ -592,6 +590,22 @@ footer {
  cursor: pointer;
 }
 
+.hashFilter__item{
+    display: inline-block;
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px 0 rgba(40,40,40,0.3);
+    position: relative;
+}
+
+.hashFilter__close{
+    position: relative;
+    padding: 5px;
+    top:-5px;
+    color:rgba(66, 112, 165, 0.5);
+    cursor: pointer;
+
+}
 
 
 .is-active{
