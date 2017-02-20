@@ -86,10 +86,10 @@ function addHashItemToFilter(e) {
     if (filterHashesList.indexOf(name) < 0) {
         var hashItem = document.createElement('div');
         hashItem.classList.add('hashFilter__item');
-        hashItem.innerHTML = name;
+        hashItem.innerHTML = '#'+name;
         hashItem.closeButton = document.createElement('span');
         hashItem.closeButton.classList.add('hashFilter__close');
-        hashItem.closeButton.innerHTML = "x";
+        hashItem.closeButton.innerHTML = "×";
         hashItem.closeButton.setAttribute('data-close', name);
         hashItem.appendChild(hashItem.closeButton);
         hashItem.closeButton.addEventListener('click', removeHashItemFromFilter);
@@ -106,7 +106,7 @@ function removeHashItemFromFilter(e) {
     var name = e.currentTarget.getAttribute('data-close');
     e.currentTarget.parentNode.remove();
     filterHashesList.splice(filterHashesList.indexOf(name), 1);
-    console.log(filterHashesList.indexOf(name));
+   
 
     filterByHashTag();
 
