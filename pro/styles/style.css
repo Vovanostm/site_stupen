@@ -276,7 +276,7 @@ nav .dynamic .l_i {
     top: 15%;
     left: 35%;
     background-image: url("../Stupen-Production-BELYJ.png");
-    background-size: contain;
+    background-size: 55%;
     background-position: center center;
     background-repeat: no-repeat;
     /*transition:background-image 1s;*/
